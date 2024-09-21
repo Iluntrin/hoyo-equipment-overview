@@ -29,25 +29,25 @@
     },
     "stats": {
       "Body": {
-        "CRIT Rate": 1000,
-        "CRIT DMG": 999
+        "CRIT Rate": 100,
+        "CRIT DMG": 99
       },
       "Feet": {
-        "ATK%": 1000,
-        "SPD": 990
+        "ATK%": 100,
+        "SPD": 90
       },
       "Planar Sphere": {
-        "ATK%": 1000,
-        "Lightning DMG": 990
+        "ATK%": 100,
+        "Lightning DMG": 90
       },
       "Link Rope": {
-        "ATK%": 1000
+        "ATK%": 100
       },
       "substats": {
-        "SPD": 1000,
-        "CRIT Rate": 990,
-        "CRIT DMG": 990,
-        "ATK%": 980
+        "SPD": 100,
+        "CRIT Rate": 90,
+        "CRIT DMG": 90,
+        "ATK%": 80
       }
     }
   },
@@ -73,25 +73,25 @@
     },
     "stats": {
       "Body": {
-        "CRIT Rate": 1000,
-        "CRIT DMG": 999
+        "CRIT Rate": 100,
+        "CRIT DMG": 99
       },
       "Feet": {
-        "ATK%": 1000,
-        "SPD": 999
+        "ATK%": 100,
+        "SPD": 99
       },
       "Planar Sphere": {
-        "Physical DMG": 1000,
-        "ATK%": 990
+        "Physical DMG": 100,
+        "ATK%": 90
       },
       "Link Rope": {
-        "ATK%": 1000
+        "ATK%": 100
       },
       "substats": {
-        "SPD": 1000,
-        "CRIT Rate": 990,
-        "CRIT DMG": 990,
-        "ATK%": 980
+        "SPD": 100,
+        "CRIT Rate": 90,
+        "CRIT DMG": 90,
+        "ATK%": 80
       }
     }
   },
@@ -129,25 +129,25 @@
     },
     "stats": {
       "Body": {
-        "CRIT Rate": 1000,
-        "CRIT DMG": 999
+        "CRIT Rate": 100,
+        "CRIT DMG": 99
       },
       "Feet": {
-        "SPD": 1000,
-        "ATK%": 999
+        "SPD": 100,
+        "ATK%": 99
       },
       "Planar Sphere": {
-        "Lightning DMG": 1000,
-        "ATK%": 990
+        "Lightning DMG": 100,
+        "ATK%": 90
       },
       "Link Rope": {
-        "ATK%": 1000
+        "ATK%": 100
       },
       "substats": {
-        "SPD": 1000,
-        "CRIT Rate": 990,
-        "CRIT DMG": 990,
-        "ATK%": 980
+        "SPD": 100,
+        "CRIT Rate": 90,
+        "CRIT DMG": 90,
+        "ATK%": 80
       }
     }
   },
@@ -189,24 +189,24 @@
     },
     "stats": {
       "Body": {
-        "HP%": 1000,
-        "DEF%": 990
+        "HP%": 100,
+        "DEF%": 90
       },
       "Feet": {
-        "SPD": 1000
+        "SPD": 100
       },
       "Planar Sphere": {
-        "Fire DMG": 1000,
-        "HP%": 999
+        "Fire DMG": 100,
+        "HP%": 99
       },
       "Link Rope": {
-        "Energy Regen": 1000
+        "Energy Regen": 100
       },
       "substats": {
-        "SPD": 1000,
-        "HP": 990,
-        "DEF": 990,
-        "Effect RES%": 980
+        "SPD": 100,
+        "HP": 90,
+        "DEF": 90,
+        "Effect RES%": 80
       }
     }
   },
@@ -248,26 +248,26 @@
     },
     "stats": {
       "Body": {
-        "DEF%": 1000,
-        "CRIT DMG": 1000
+        "DEF%": 100,
+        "CRIT DMG": 100
       },
       "Feet": {
-        "SPD": 1000,
-        "DEF%": 999
+        "SPD": 100,
+        "DEF%": 99
       },
       "Planar Sphere": {
-        "DEF%": 1000,
-        "Imaginary DMG": 1000
+        "DEF%": 100,
+        "Imaginary DMG": 100
       },
       "Link Rope": {
-        "DEF%": 1000
+        "DEF%": 100
       },
       "substats": {
-        "DEF%": 1000,
-        "SPD": 999,
-        "CRIT DMG": 989,
-        "CRIT Rate": 979,
-        "Effect RES%": 969
+        "DEF%": 100,
+        "SPD": 99,
+        "CRIT DMG": 89,
+        "CRIT Rate": 79,
+        "Effect RES%": 69
       }
     }
   },
@@ -301,23 +301,23 @@
     },
     "stats": {
       "Body": {
-        "Outgoing Healing": 1000,
-        "HP%": 990
+        "Outgoing Healing": 100,
+        "HP%": 90
       },
       "Feet": {
-        "SPD": 1000
+        "SPD": 100
       },
       "Planar Sphere": {
-        "HP%": 1000
+        "HP%": 100
       },
       "Link Rope": {
-        "Energy Regen": 1000
+        "Energy Regen": 100
       },
       "substats": {
-        "SPD": 1000,
-        "HP%": 990,
-        "Effect RES%": 980,
-        "DEF%": 980
+        "SPD": 100,
+        "HP%": 90,
+        "Effect RES%": 80,
+        "DEF%": 80
       }
     }
   },
@@ -355,24 +355,24 @@
     },
     "stats": {
       "Body": {
-        "EHR": 1000,
-        "ATK%": 990
+        "EHR": 100,
+        "ATK%": 90
       },
       "Feet": {
-        "SPD": 1000
+        "SPD": 100
       },
       "Planar Sphere": {
-        "Wind DMG": 1000,
-        "ATK%": 990
+        "Wind DMG": 100,
+        "ATK%": 90
       },
       "Link Rope": {
-        "ATK%": 1000
+        "ATK%": 100
       },
       "substats": {
-        "EHR": 1000,
-        "SPD": 990,
-        "ATK%": 980,
-        "Break Effect%": 970
+        "EHR": 100,
+        "SPD": 90,
+        "ATK%": 80,
+        "Break Effect%": 70
       }
     }
   },
@@ -406,25 +406,25 @@
     },
     "stats": {
       "Body": {
-        "CRIT DMG": 1000,
-        "CRIT Rate": 990
+        "CRIT DMG": 100,
+        "CRIT Rate": 90
       },
       "Feet": {
-        "SPD": 1000,
-        "HP%": 999
+        "SPD": 100,
+        "HP%": 99
       },
       "Planar Sphere": {
-        "Wind DMG": 1000,
-        "HP%": 999
+        "Wind DMG": 100,
+        "HP%": 99
       },
       "Link Rope": {
-        "HP%": 1000
+        "HP%": 100
       },
       "substats": {
-        "SPD": 1000,
-        "CRIT Rate": 990,
-        "CRIT DMG": 990,
-        "HP%": 980
+        "SPD": 100,
+        "CRIT Rate": 90,
+        "CRIT DMG": 90,
+        "HP%": 80
       }
     }
   },
@@ -471,15 +471,15 @@
     "stats": {
       "Body": {},
       "Feet": {
-        "SPD": 1000
+        "SPD": 100
       },
       "Planar Sphere": {},
       "Link Rope": {
-        "Break Effect%": 1000
+        "Break Effect%": 100
       },
       "substats": {
-        "SPD": 1000,
-        "Break Effect%": 999
+        "SPD": 100,
+        "Break Effect%": 99
       }
     }
   },
@@ -509,24 +509,24 @@
     },
     "stats": {
       "Body": {
-        "CRIT DMG": 1000
+        "CRIT DMG": 100
       },
       "Feet": {
-        "SPD": 1000
+        "SPD": 100
       },
       "Planar Sphere": {
-        "HP%": 1000,
-        "DEF%": 990
+        "HP%": 100,
+        "DEF%": 90
       },
       "Link Rope": {
-        "Energy Regen": 1000
+        "Energy Regen": 100
       },
       "substats": {
-        "SPD": 1000,
-        "CRIT DMG": 990,
-        "HP": 980,
-        "DEF": 980,
-        "Effect RES%": 970
+        "SPD": 100,
+        "CRIT DMG": 90,
+        "HP": 80,
+        "DEF": 80,
+        "Effect RES%": 70
       }
     }
   },
@@ -560,24 +560,24 @@
     },
     "stats": {
       "Body": {
-        "CRIT Rate": 1000,
-        "CRIT DMG": 999
+        "CRIT Rate": 100,
+        "CRIT DMG": 99
       },
       "Feet": {
-        "ATK%": 1000
+        "ATK%": 100
       },
       "Planar Sphere": {
-        "Physical DMG": 1000,
-        "ATK%": 990
+        "Physical DMG": 100,
+        "ATK%": 90
       },
       "Link Rope": {
-        "ATK%": 1000
+        "ATK%": 100
       },
       "substats": {
-        "SPD": 1000,
-        "CRIT Rate": 1000,
-        "CRIT DMG": 1000,
-        "ATK%": 990
+        "SPD": 100,
+        "CRIT Rate": 100,
+        "CRIT DMG": 100,
+        "ATK%": 90
       }
     }
   },
@@ -615,25 +615,25 @@
     },
     "stats": {
       "Body": {
-        "CRIT Rate": 1000,
-        "CRIT DMG": 999
+        "CRIT Rate": 100,
+        "CRIT DMG": 99
       },
       "Feet": {
-        "SPD": 1000,
-        "ATK%": 999
+        "SPD": 100,
+        "ATK%": 99
       },
       "Planar Sphere": {
-        "Wind DMG": 1000,
-        "ATK%": 999
+        "Wind DMG": 100,
+        "ATK%": 99
       },
       "Link Rope": {
-        "ATK%": 1000
+        "ATK%": 100
       },
       "substats": {
-        "SPD": 1000,
-        "CRIT Rate": 1000,
-        "CRIT DMG": 1000,
-        "ATK%": 990
+        "SPD": 100,
+        "CRIT Rate": 100,
+        "CRIT DMG": 100,
+        "ATK%": 90
       }
     }
   },
@@ -667,24 +667,24 @@
     },
     "stats": {
       "Body": {
-        "CRIT DMG": 1000,
-        "CRIT Rate": 999
+        "CRIT DMG": 100,
+        "CRIT Rate": 99
       },
       "Feet": {
-        "ATK%": 1000,
-        "SPD": 990
+        "ATK%": 100,
+        "SPD": 90
       },
       "Planar Sphere": {
-        "Imaginary DMG": 1000,
-        "ATK%": 990
+        "Imaginary DMG": 100,
+        "ATK%": 90
       },
       "Link Rope": {
-        "ATK%": 1000
+        "ATK%": 100
       },
       "substats": {
-        "CRIT Rate": 1000,
-        "CRIT DMG": 1000,
-        "ATK%": 990
+        "CRIT Rate": 100,
+        "CRIT DMG": 100,
+        "ATK%": 90
       }
     }
   },
@@ -726,25 +726,25 @@
     },
     "stats": {
       "Body": {
-        "CRIT Rate": 1000,
-        "CRIT DMG": 999
+        "CRIT Rate": 100,
+        "CRIT DMG": 99
       },
       "Feet": {
-        "SPD": 1000,
-        "ATK%": 990
+        "SPD": 100,
+        "ATK%": 90
       },
       "Planar Sphere": {
-        "Imaginary DMG": 1000,
-        "ATK%": 999
+        "Imaginary DMG": 100,
+        "ATK%": 99
       },
       "Link Rope": {
-        "ATK%": 1000
+        "ATK%": 100
       },
       "substats": {
-        "SPD": 1000,
-        "CRIT Rate": 990,
-        "CRIT DMG": 990,
-        "ATK%": 980
+        "SPD": 100,
+        "CRIT Rate": 90,
+        "CRIT DMG": 90,
+        "ATK%": 80
       }
     }
   },
@@ -782,25 +782,25 @@
     },
     "stats": {
       "Body": {
-        "CRIT Rate": 1000,
-        "CRIT DMG": 999
+        "CRIT Rate": 100,
+        "CRIT DMG": 99
       },
       "Feet": {
-        "ATK%": 1000,
-        "SPD": 999
+        "ATK%": 100,
+        "SPD": 99
       },
       "Planar Sphere": {
-        "Wind DMG": 1000,
-        "ATK%": 990
+        "Wind DMG": 100,
+        "ATK%": 90
       },
       "Link Rope": {
-        "ATK%": 1000
+        "ATK%": 100
       },
       "substats": {
-        "SPD": 1000,
-        "CRIT Rate": 1000,
-        "CRIT DMG": 1000,
-        "ATK%": 990
+        "SPD": 100,
+        "CRIT Rate": 100,
+        "CRIT DMG": 100,
+        "ATK%": 90
       }
     }
   },
@@ -834,21 +834,21 @@
     },
     "stats": {
       "Body": {
-        "ATK%": 1000
+        "ATK%": 100
       },
       "Feet": {
-        "SPD": 1000
+        "SPD": 100
       },
       "Planar Sphere": {
-        "ATK%": 1000
+        "ATK%": 100
       },
       "Link Rope": {
-        "Break Effect%": 1000
+        "Break Effect%": 100
       },
       "substats": {
-        "SPD": 1000,
-        "Break Effect%": 990,
-        "ATK%": 980
+        "SPD": 100,
+        "Break Effect%": 90,
+        "ATK%": 80
       }
     }
   },
@@ -878,25 +878,25 @@
     },
     "stats": {
       "Body": {
-        "HP%": 1000,
-        "DEF%": 990
+        "HP%": 100,
+        "DEF%": 90
       },
       "Feet": {
-        "SPD": 1000,
-        "HP%": 990
+        "SPD": 100,
+        "HP%": 90
       },
       "Planar Sphere": {
-        "HP%": 1000,
-        "DEF%": 990
+        "HP%": 100,
+        "DEF%": 90
       },
       "Link Rope": {
-        "Energy Regen": 1000
+        "Energy Regen": 100
       },
       "substats": {
-        "SPD": 1000,
-        "HP%": 1000,
-        "DEF%": 999,
-        "Effect RES%": 989
+        "SPD": 100,
+        "HP%": 100,
+        "DEF%": 99,
+        "Effect RES%": 89
       }
     }
   },
@@ -942,24 +942,24 @@
     },
     "stats": {
       "Body": {
-        "Outgoing Healing": 1000
+        "Outgoing Healing": 100
       },
       "Feet": {
-        "SPD": 1000
+        "SPD": 100
       },
       "Planar Sphere": {
-        "HP%": 1000,
-        "DEF%": 999
+        "HP%": 100,
+        "DEF%": 99
       },
       "Link Rope": {
-        "Energy Regen": 1000
+        "Energy Regen": 100
       },
       "substats": {
-        "SPD": 1000,
-        "Break Effect%": 990,
-        "Effect RES%": 980,
-        "HP%": 970,
-        "DEF%": 970
+        "SPD": 100,
+        "Break Effect%": 90,
+        "Effect RES%": 80,
+        "HP%": 70,
+        "DEF%": 70
       }
     }
   },
@@ -989,22 +989,22 @@
     },
     "stats": {
       "Body": {
-        "DEF%": 1000
+        "DEF%": 100
       },
       "Feet": {
-        "SPD": 1000
+        "SPD": 100
       },
       "Planar Sphere": {
-        "DEF%": 1000
+        "DEF%": 100
       },
       "Link Rope": {
-        "Energy Regen": 1000
+        "Energy Regen": 100
       },
       "substats": {
-        "SPD": 1000,
-        "DEF%": 1000,
-        "HP%": 990,
-        "Effect RES%": 990
+        "SPD": 100,
+        "DEF%": 100,
+        "HP%": 90,
+        "Effect RES%": 90
       }
     }
   },
@@ -1042,26 +1042,26 @@
     },
     "stats": {
       "Body": {
-        "ATK%": 1000,
-        "EHR": 990
+        "ATK%": 100,
+        "EHR": 90
       },
       "Feet": {
-        "SPD": 1000
+        "SPD": 100
       },
       "Planar Sphere": {
-        "Fire DMG": 1000,
-        "ATK%": 990
+        "Fire DMG": 100,
+        "ATK%": 90
       },
       "Link Rope": {
-        "ATK%": 1000
+        "ATK%": 100
       },
       "substats": {
-        "EHR": 1000,
-        "SPD": 990,
-        "ATK%": 980,
-        "HP%": 970,
-        "DEF%": 970,
-        "Break Effect%": 970
+        "EHR": 100,
+        "SPD": 90,
+        "ATK%": 80,
+        "HP%": 70,
+        "DEF%": 70,
+        "Break Effect%": 70
       }
     }
   },
@@ -1095,25 +1095,25 @@
     },
     "stats": {
       "Body": {
-        "HP%": 1000,
-        "DEF%": 990
+        "HP%": 100,
+        "DEF%": 90
       },
       "Feet": {
-        "SPD": 1000
+        "SPD": 100
       },
       "Planar Sphere": {
-        "HP%": 1000,
-        "DEF%": 990
+        "HP%": 100,
+        "DEF%": 90
       },
       "Link Rope": {
-        "Energy Regen": 1000
+        "Energy Regen": 100
       },
       "substats": {
-        "SPD": 1000,
-        "HP": 990,
-        "DEF": 990,
-        "Break Effect%": 980,
-        "Effect RES%": 980
+        "SPD": 100,
+        "HP": 90,
+        "DEF": 90,
+        "Break Effect%": 80,
+        "Effect RES%": 80
       }
     }
   },
@@ -1151,25 +1151,25 @@
     },
     "stats": {
       "Body": {
-        "CRIT Rate": 1000,
-        "CRIT DMG": 999
+        "CRIT Rate": 100,
+        "CRIT DMG": 99
       },
       "Feet": {
-        "ATK%": 1000,
-        "SPD": 990
+        "ATK%": 100,
+        "SPD": 90
       },
       "Planar Sphere": {
-        "Ice DMG": 1000,
-        "ATK%": 990
+        "Ice DMG": 100,
+        "ATK%": 90
       },
       "Link Rope": {
-        "ATK%": 1000
+        "ATK%": 100
       },
       "substats": {
-        "SPD": 1000,
-        "CRIT Rate": 1000,
-        "CRIT DMG": 1000,
-        "ATK%": 990
+        "SPD": 100,
+        "CRIT Rate": 100,
+        "CRIT DMG": 100,
+        "ATK%": 90
       }
     }
   },
@@ -1211,24 +1211,24 @@
     },
     "stats": {
       "Body": {
-        "CRIT Rate": 1000,
-        "CRIT DMG": 999
+        "CRIT Rate": 100,
+        "CRIT DMG": 99
       },
       "Feet": {
-        "ATK%": 1000
+        "ATK%": 100
       },
       "Planar Sphere": {
-        "Fire DMG": 1000,
-        "ATK%": 990
+        "Fire DMG": 100,
+        "ATK%": 90
       },
       "Link Rope": {
-        "ATK%": 1000
+        "ATK%": 100
       },
       "substats": {
-        "SPD": 1000,
-        "CRIT Rate": 1000,
-        "CRIT DMG": 1000,
-        "ATK%": 990
+        "SPD": 100,
+        "CRIT Rate": 100,
+        "CRIT DMG": 100,
+        "ATK%": 90
       }
     }
   },
@@ -1258,25 +1258,25 @@
     },
     "stats": {
       "Body": {
-        "CRIT Rate": 1000,
-        "CRIT DMG": 999
+        "CRIT Rate": 100,
+        "CRIT DMG": 99
       },
       "Feet": {
-        "SPD": 1000,
-        "ATK%": 999
+        "SPD": 100,
+        "ATK%": 99
       },
       "Planar Sphere": {
-        "Fire DMG": 1000,
-        "ATK%": 990
+        "Fire DMG": 100,
+        "ATK%": 90
       },
       "Link Rope": {
-        "ATK%": 1000
+        "ATK%": 100
       },
       "substats": {
-        "SPD": 1000,
-        "CRIT Rate": 990,
-        "CRIT DMG": 990,
-        "ATK%": 980
+        "SPD": 100,
+        "CRIT Rate": 90,
+        "CRIT DMG": 90,
+        "ATK%": 80
       }
     }
   },
@@ -1314,23 +1314,23 @@
     },
     "stats": {
       "Body": {
-        "Outgoing Healing": 1000,
-        "HP%": 990
+        "Outgoing Healing": 100,
+        "HP%": 90
       },
       "Feet": {
-        "SPD": 1000
+        "SPD": 100
       },
       "Planar Sphere": {
-        "HP%": 1000
+        "HP%": 100
       },
       "Link Rope": {
-        "Energy Regen": 1000
+        "Energy Regen": 100
       },
       "substats": {
-        "SPD": 1000,
-        "HP%": 990,
-        "Effect RES%": 980,
-        "DEF%": 980
+        "SPD": 100,
+        "HP%": 90,
+        "Effect RES%": 80,
+        "DEF%": 80
       }
     }
   },
@@ -1368,23 +1368,23 @@
     },
     "stats": {
       "Body": {
-        "CRIT Rate": 1000,
-        "CRIT DMG": 999
+        "CRIT Rate": 100,
+        "CRIT DMG": 99
       },
       "Feet": {
-        "ATK%": 1000
+        "ATK%": 100
       },
       "Planar Sphere": {
-        "Quantum DMG": 1000
+        "Quantum DMG": 100
       },
       "Link Rope": {
-        "ATK%": 1000
+        "ATK%": 100
       },
       "substats": {
-        "CRIT Rate": 1000,
-        "CRIT DMG": 999,
-        "ATK%": 989,
-        "SPD": 979
+        "CRIT Rate": 100,
+        "CRIT DMG": 99,
+        "ATK%": 89,
+        "SPD": 79
       }
     }
   },
@@ -1426,21 +1426,21 @@
     },
     "stats": {
       "Body": {
-        "EHR": 1000
+        "EHR": 100
       },
       "Feet": {
-        "SPD": 1000
+        "SPD": 100
       },
       "Planar Sphere": {
-        "Fire DMG": 1000
+        "Fire DMG": 100
       },
       "Link Rope": {
-        "Energy Regen": 1000
+        "Energy Regen": 100
       },
       "substats": {
-        "EHR": 1000,
-        "SPD": 990,
-        "ATK%": 980
+        "EHR": 100,
+        "SPD": 90,
+        "ATK%": 80
       }
     }
   },
@@ -1470,24 +1470,24 @@
     },
     "stats": {
       "Body": {
-        "CRIT Rate": 1000,
-        "CRIT DMG": 999
+        "CRIT Rate": 100,
+        "CRIT DMG": 99
       },
       "Feet": {
-        "ATK%": 1000
+        "ATK%": 100
       },
       "Planar Sphere": {
-        "Lightning DMG": 1000,
-        "ATK%": 990
+        "Lightning DMG": 100,
+        "ATK%": 90
       },
       "Link Rope": {
-        "ATK%": 1000
+        "ATK%": 100
       },
       "substats": {
-        "CRIT Rate": 1000,
-        "CRIT DMG": 1000,
-        "ATK%": 990,
-        "SPD": 980
+        "CRIT Rate": 100,
+        "CRIT DMG": 100,
+        "ATK%": 90,
+        "SPD": 80
       }
     }
   },
@@ -1529,24 +1529,24 @@
     },
     "stats": {
       "Body": {
-        "CRIT DMG": 1000
+        "CRIT DMG": 100
       },
       "Feet": {
-        "SPD": 1000,
-        "ATK%": 999
+        "SPD": 100,
+        "ATK%": 99
       },
       "Planar Sphere": {
-        "Ice DMG": 1000,
-        "ATK%": 990
+        "Ice DMG": 100,
+        "ATK%": 90
       },
       "Link Rope": {
-        "ATK%": 1000
+        "ATK%": 100
       },
       "substats": {
-        "SPD": 1000,
-        "CRIT Rate": 990,
-        "CRIT DMG": 990,
-        "ATK%": 980
+        "SPD": 100,
+        "CRIT Rate": 90,
+        "CRIT DMG": 90,
+        "ATK%": 80
       }
     }
   },
@@ -1576,23 +1576,23 @@
     },
     "stats": {
       "Body": {
-        "ATK%": 1000
+        "ATK%": 100
       },
       "Feet": {
-        "SPD": 1000
+        "SPD": 100
       },
       "Planar Sphere": {
-        "Lightning DMG": 1000,
-        "ATK%": 990
+        "Lightning DMG": 100,
+        "ATK%": 90
       },
       "Link Rope": {
-        "ATK%": 1000
+        "ATK%": 100
       },
       "substats": {
-        "SPD": 1000,
-        "EHR": 1000,
-        "ATK%": 990,
-        "Break Effect%": 980
+        "SPD": 100,
+        "EHR": 100,
+        "ATK%": 90,
+        "Break Effect%": 80
       }
     }
   },
@@ -1639,25 +1639,25 @@
     },
     "stats": {
       "Body": {
-        "EHR": 1000,
-        "ATK%": 990
+        "EHR": 100,
+        "ATK%": 90
       },
       "Feet": {
-        "SPD": 1000
+        "SPD": 100
       },
       "Planar Sphere": {
-        "Physical DMG": 1000,
-        "ATK%": 990
+        "Physical DMG": 100,
+        "ATK%": 90
       },
       "Link Rope": {
-        "Break Effect%": 1000,
-        "ATK%": 999
+        "Break Effect%": 100,
+        "ATK%": 99
       },
       "substats": {
-        "SPD": 1000,
-        "EHR": 1000,
-        "Break Effect%": 990,
-        "ATK%": 989
+        "SPD": 100,
+        "EHR": 100,
+        "Break Effect%": 90,
+        "ATK%": 89
       }
     }
   },
@@ -1695,23 +1695,23 @@
     },
     "stats": {
       "Body": {
-        "Outgoing Healing": 1000
+        "Outgoing Healing": 100
       },
       "Feet": {
-        "SPD": 1000
+        "SPD": 100
       },
       "Planar Sphere": {
-        "ATK%": 1000
+        "ATK%": 100
       },
       "Link Rope": {
-        "Energy Regen": 1000
+        "Energy Regen": 100
       },
       "substats": {
-        "SPD": 1000,
-        "ATK%": 990,
-        "DEF%": 980,
-        "HP%": 980,
-        "Effect RES%": 970
+        "SPD": 100,
+        "ATK%": 90,
+        "DEF%": 80,
+        "HP%": 80,
+        "Effect RES%": 70
       }
     }
   },
@@ -1749,23 +1749,23 @@
     },
     "stats": {
       "Body": {
-        "Outgoing Healing": 1000,
-        "HP%": 990
+        "Outgoing Healing": 100,
+        "HP%": 90
       },
       "Feet": {
-        "SPD": 1000
+        "SPD": 100
       },
       "Planar Sphere": {
-        "HP%": 1000
+        "HP%": 100
       },
       "Link Rope": {
-        "Energy Regen": 1000
+        "Energy Regen": 100
       },
       "substats": {
-        "SPD": 1000,
-        "HP%": 990,
-        "Effect RES%": 980,
-        "DEF%": 970
+        "SPD": 100,
+        "HP%": 90,
+        "Effect RES%": 80,
+        "DEF%": 70
       }
     }
   },
@@ -1795,25 +1795,25 @@
     },
     "stats": {
       "Body": {
-        "EHR": 1000,
-        "DEF%": 999
+        "EHR": 100,
+        "DEF%": 99
       },
       "Feet": {
-        "SPD": 1000
+        "SPD": 100
       },
       "Planar Sphere": {
-        "DEF%": 1000
+        "DEF%": 100
       },
       "Link Rope": {
-        "Energy Regen": 1000,
-        "DEF%": 999
+        "Energy Regen": 100,
+        "DEF%": 99
       },
       "substats": {
-        "EHR": 1000,
-        "SPD": 1000,
-        "DEF%": 990,
-        "HP%": 980,
-        "Effect RES%": 980
+        "EHR": 100,
+        "SPD": 100,
+        "DEF%": 90,
+        "HP%": 80,
+        "Effect RES%": 80
       }
     }
   },
@@ -1867,25 +1867,25 @@
     },
     "stats": {
       "Body": {
-        "CRIT Rate": 1000,
-        "CRIT DMG": 999
+        "CRIT Rate": 100,
+        "CRIT DMG": 99
       },
       "Feet": {
-        "SPD": 1000,
-        "ATK%": 999
+        "SPD": 100,
+        "ATK%": 99
       },
       "Planar Sphere": {
-        "Imaginary DMG": 1000,
-        "ATK%": 999
+        "Imaginary DMG": 100,
+        "ATK%": 99
       },
       "Link Rope": {
-        "ATK%": 1000
+        "ATK%": 100
       },
       "substats": {
-        "SPD": 1000,
-        "CRIT Rate": 990,
-        "CRIT DMG": 990,
-        "ATK%": 980
+        "SPD": 100,
+        "CRIT Rate": 90,
+        "CRIT DMG": 90,
+        "ATK%": 80
       }
     }
   },
@@ -1919,25 +1919,25 @@
     },
     "stats": {
       "Body": {
-        "CRIT Rate": 1000,
-        "CRIT DMG": 999
+        "CRIT Rate": 100,
+        "CRIT DMG": 99
       },
       "Feet": {
-        "SPD": 1000,
-        "ATK%": 999
+        "SPD": 100,
+        "ATK%": 99
       },
       "Planar Sphere": {
-        "Ice DMG": 1000,
-        "ATK%": 999
+        "Ice DMG": 100,
+        "ATK%": 99
       },
       "Link Rope": {
-        "ATK%": 1000
+        "ATK%": 100
       },
       "substats": {
-        "SPD": 1000,
-        "CRIT Rate": 990,
-        "CRIT DMG": 990,
-        "ATK%": 980
+        "SPD": 100,
+        "CRIT Rate": 90,
+        "CRIT DMG": 90,
+        "ATK%": 80
       }
     }
   },
@@ -1971,23 +1971,23 @@
     },
     "stats": {
       "Body": {
-        "CRIT Rate": 1000,
-        "CRIT DMG": 999
+        "CRIT Rate": 100,
+        "CRIT DMG": 99
       },
       "Feet": {
-        "ATK%": 1000
+        "ATK%": 100
       },
       "Planar Sphere": {
-        "Lightning DMG": 1000
+        "Lightning DMG": 100
       },
       "Link Rope": {
-        "ATK": 1000
+        "ATK": 100
       },
       "substats": {
-        "SPD": 1000,
-        "CRIT Rate": 1000,
-        "CRIT DMG": 999,
-        "ATK%": 989
+        "SPD": 100,
+        "CRIT Rate": 100,
+        "CRIT DMG": 99,
+        "ATK%": 89
       }
     }
   },
@@ -2025,23 +2025,23 @@
     },
     "stats": {
       "Body": {
-        "Outgoing Healing": 1000,
-        "HP%": 990
+        "Outgoing Healing": 100,
+        "HP%": 90
       },
       "Feet": {
-        "SPD": 1000
+        "SPD": 100
       },
       "Planar Sphere": {
-        "HP%": 1000
+        "HP%": 100
       },
       "Link Rope": {
-        "Energy Regen": 1000
+        "Energy Regen": 100
       },
       "substats": {
-        "SPD": 1000,
-        "HP%": 990,
-        "Effect RES%": 980,
-        "DEF%": 980
+        "SPD": 100,
+        "HP%": 90,
+        "Effect RES%": 80,
+        "DEF%": 80
       }
     }
   },
@@ -2083,25 +2083,25 @@
     },
     "stats": {
       "Body": {
-        "EHR": 1000,
-        "HP%": 990
+        "EHR": 100,
+        "HP%": 90
       },
       "Feet": {
-        "SPD": 1000
+        "SPD": 100
       },
       "Planar Sphere": {
-        "HP%": 1000,
-        "DEF%": 999
+        "HP%": 100,
+        "DEF%": 99
       },
       "Link Rope": {
-        "Energy Regen": 1000
+        "Energy Regen": 100
       },
       "substats": {
-        "EHR": 1000,
-        "SPD": 1000,
-        "HP": 990,
-        "DEF": 990,
-        "Effect RES%": 980
+        "EHR": 100,
+        "SPD": 100,
+        "HP": 90,
+        "DEF": 90,
+        "Effect RES%": 80
       }
     }
   },
@@ -2131,24 +2131,24 @@
     },
     "stats": {
       "Body": {
-        "CRIT Rate": 1000,
-        "CRIT DMG": 999
+        "CRIT Rate": 100,
+        "CRIT DMG": 99
       },
       "Feet": {
-        "ATK%": 1000,
-        "SPD": 990
+        "ATK%": 100,
+        "SPD": 90
       },
       "Planar Sphere": {
-        "Quantum DMG": 1000
+        "Quantum DMG": 100
       },
       "Link Rope": {
-        "ATK%": 1000
+        "ATK%": 100
       },
       "substats": {
-        "SPD": 1000,
-        "CRIT Rate": 990,
-        "CRIT DMG": 990,
-        "ATK%": 980
+        "SPD": 100,
+        "CRIT Rate": 90,
+        "CRIT DMG": 90,
+        "ATK%": 80
       }
     }
   },
@@ -2199,23 +2199,23 @@
     },
     "stats": {
       "Body": {
-        "ATK": 1000
+        "ATK": 100
       },
       "Feet": {
-        "ATK%": 1000
+        "ATK%": 100
       },
       "Planar Sphere": {
-        "ATK%": 1000,
-        "Physical DMG": 990
+        "ATK%": 100,
+        "Physical DMG": 90
       },
       "Link Rope": {
-        "Energy Regen": 1000
+        "Energy Regen": 100
       },
       "substats": {
-        "ATK%": 1000,
-        "SPD": 999,
-        "HP%": 989,
-        "DEF%": 989
+        "ATK%": 100,
+        "SPD": 99,
+        "HP%": 89,
+        "DEF%": 89
       }
     }
   },
@@ -2253,26 +2253,26 @@
     },
     "stats": {
       "Body": {
-        "HP%": 1000,
-        "DEF%": 990
+        "HP%": 100,
+        "DEF%": 90
       },
       "Feet": {
-        "SPD": 1000
+        "SPD": 100
       },
       "Planar Sphere": {
-        "HP%": 1000,
-        "DEF%": 990
+        "HP%": 100,
+        "DEF%": 90
       },
       "Link Rope": {
-        "Energy Regen": 1000,
-        "Break Effect%": 990
+        "Energy Regen": 100,
+        "Break Effect%": 90
       },
       "substats": {
-        "Break Effect%": 1000,
-        "SPD": 990,
-        "HP%": 980,
-        "DEF%": 980,
-        "Effect RES%": 970
+        "Break Effect%": 100,
+        "SPD": 90,
+        "HP%": 80,
+        "DEF%": 80,
+        "Effect RES%": 70
       }
     }
   },
@@ -2306,24 +2306,24 @@
     },
     "stats": {
       "Body": {
-        "EHR": 1000,
-        "ATK%": 999
+        "EHR": 100,
+        "ATK%": 99
       },
       "Feet": {
-        "SPD": 1000
+        "SPD": 100
       },
       "Planar Sphere": {
-        "Wind DMG": 1000,
-        "ATK%": 990
+        "Wind DMG": 100,
+        "ATK%": 90
       },
       "Link Rope": {
-        "ATK%": 1000
+        "ATK%": 100
       },
       "substats": {
-        "SPD": 1000,
-        "EHR": 1000,
-        "ATK%": 990,
-        "Break Effect%": 980
+        "SPD": 100,
+        "EHR": 100,
+        "ATK%": 90,
+        "Break Effect%": 80
       }
     }
   },
@@ -2357,23 +2357,23 @@
     },
     "stats": {
       "Body": {
-        "CRIT Rate": 1000,
-        "CRIT DMG": 999
+        "CRIT Rate": 100,
+        "CRIT DMG": 99
       },
       "Feet": {
-        "ATK%": 1000
+        "ATK%": 100
       },
       "Planar Sphere": {
-        "Quantum DMG": 1000,
-        "ATK%": 999
+        "Quantum DMG": 100,
+        "ATK%": 99
       },
       "Link Rope": {
-        "ATK%": 1000
+        "ATK%": 100
       },
       "substats": {
-        "CRIT Rate": 1000,
-        "CRIT DMG": 1000,
-        "ATK%": 990
+        "CRIT Rate": 100,
+        "CRIT DMG": 100,
+        "ATK%": 90
       }
     }
   },
@@ -2407,25 +2407,25 @@
     },
     "stats": {
       "Body": {
-        "CRIT Rate": 1000,
-        "CRIT DMG": 999
+        "CRIT Rate": 100,
+        "CRIT DMG": 99
       },
       "Feet": {
-        "SPD": 1000,
-        "ATK%": 999
+        "SPD": 100,
+        "ATK%": 99
       },
       "Planar Sphere": {
-        "Lightning DMG": 1000,
-        "ATK%": 999
+        "Lightning DMG": 100,
+        "ATK%": 99
       },
       "Link Rope": {
-        "ATK%": 1000
+        "ATK%": 100
       },
       "substats": {
-        "SPD": 1000,
-        "CRIT Rate": 990,
-        "CRIT DMG": 990,
-        "ATK%": 980
+        "SPD": 100,
+        "CRIT Rate": 90,
+        "CRIT DMG": 90,
+        "ATK%": 80
       }
     }
   },
@@ -2467,25 +2467,25 @@
     },
     "stats": {
       "Body": {
-        "EHR": 1000
+        "EHR": 100
       },
       "Feet": {
-        "SPD": 1000
+        "SPD": 100
       },
       "Planar Sphere": {
-        "Quantum DMG": 1000,
-        "HP%": 990
+        "Quantum DMG": 100,
+        "HP%": 90
       },
       "Link Rope": {
-        "Energy Regen": 1000
+        "Energy Regen": 100
       },
       "substats": {
-        "EHR": 1000,
-        "SPD": 1000,
-        "HP": 990,
-        "DEF": 990,
-        "Break Effect%": 990,
-        "Effect RES%": 980
+        "EHR": 100,
+        "SPD": 100,
+        "HP": 90,
+        "DEF": 90,
+        "Break Effect%": 90,
+        "Effect RES%": 80
       }
     }
   },
@@ -2523,24 +2523,24 @@
     },
     "stats": {
       "Body": {
-        "CRIT DMG": 1000
+        "CRIT DMG": 100
       },
       "Feet": {
-        "SPD": 1000
+        "SPD": 100
       },
       "Planar Sphere": {
-        "HP%": 1000,
-        "DEF%": 999
+        "HP%": 100,
+        "DEF%": 99
       },
       "Link Rope": {
-        "Energy Regen": 1000
+        "Energy Regen": 100
       },
       "substats": {
-        "SPD": 1000,
-        "CRIT DMG": 990,
-        "HP": 980,
-        "DEF": 980,
-        "Effect RES%": 980
+        "SPD": 100,
+        "CRIT DMG": 90,
+        "HP": 80,
+        "DEF": 80,
+        "Effect RES%": 80
       }
     }
   },
@@ -2578,27 +2578,27 @@
     },
     "stats": {
       "Body": {
-        "CRIT Rate": 1000,
-        "CRIT DMG": 999
+        "CRIT Rate": 100,
+        "CRIT DMG": 99
       },
       "Feet": {
-        "SPD": 1000,
-        "ATK%": 999
+        "SPD": 100,
+        "ATK%": 99
       },
       "Planar Sphere": {
-        "Physical DMG": 1000,
-        "ATK%": 999
+        "Physical DMG": 100,
+        "ATK%": 99
       },
       "Link Rope": {
-        "ATK%": 1000,
-        "Break Effect%": 1000
+        "ATK%": 100,
+        "Break Effect%": 100
       },
       "substats": {
-        "SPD": 1000,
-        "Break Effect%": 990,
-        "CRIT Rate": 989,
-        "CRIT DMG": 989,
-        "ATK%": 979
+        "SPD": 100,
+        "Break Effect%": 90,
+        "CRIT Rate": 89,
+        "CRIT DMG": 89,
+        "ATK%": 79
       }
     }
   },
@@ -2636,25 +2636,25 @@
     },
     "stats": {
       "Body": {
-        "ATK%": 1000,
-        "HP%": 990
+        "ATK%": 100,
+        "HP%": 90
       },
       "Feet": {
-        "SPD": 1000
+        "SPD": 100
       },
       "Planar Sphere": {
-        "ATK%": 1000,
-        "HP%": 990
+        "ATK%": 100,
+        "HP%": 90
       },
       "Link Rope": {
-        "Energy Regen": 1000
+        "Energy Regen": 100
       },
       "substats": {
-        "SPD": 1000,
-        "ATK%": 1000,
-        "HP": 990,
-        "DEF": 990,
-        "Effect RES%": 980
+        "SPD": 100,
+        "ATK%": 100,
+        "HP": 90,
+        "DEF": 90,
+        "Effect RES%": 80
       }
     }
   },
@@ -2696,25 +2696,25 @@
     },
     "stats": {
       "Body": {
-        "CRIT Rate": 1000,
-        "CRIT DMG": 999
+        "CRIT Rate": 100,
+        "CRIT DMG": 99
       },
       "Feet": {
-        "SPD": 1000,
-        "ATK%": 990
+        "SPD": 100,
+        "ATK%": 90
       },
       "Planar Sphere": {
-        "Fire DMG": 1000,
-        "ATK": 990
+        "Fire DMG": 100,
+        "ATK": 90
       },
       "Link Rope": {
-        "ATK": 1000
+        "ATK": 100
       },
       "substats": {
-        "SPD": 1000,
-        "CRIT Rate": 990,
-        "CRIT DMG": 990,
-        "ATK%": 980
+        "SPD": 100,
+        "CRIT Rate": 90,
+        "CRIT DMG": 90,
+        "ATK%": 80
       }
     }
   },
@@ -2740,26 +2740,26 @@
     },
     "stats": {
       "Body": {
-        "DEF%": 1000
+        "DEF%": 100
       },
       "Feet": {
-        "SPD": 1000,
-        "DEF%": 999
+        "SPD": 100,
+        "DEF%": 99
       },
       "Planar Sphere": {
-        "DEF%": 1000,
-        "Fire DMG": 999
+        "DEF%": 100,
+        "Fire DMG": 99
       },
       "Link Rope": {
-        "Energy Regen": 1000,
-        "DEF%": 999
+        "Energy Regen": 100,
+        "DEF%": 99
       },
       "substats": {
-        "Effect RES%": 1000,
-        "SPD": 990,
-        "DEF%": 980,
-        "HP%": 970,
-        "EHR": 960
+        "Effect RES%": 100,
+        "SPD": 90,
+        "DEF%": 80,
+        "HP%": 70,
+        "EHR": 60
       }
     }
   },
@@ -2797,25 +2797,25 @@
     },
     "stats": {
       "Body": {
-        "HP%": 1000,
-        "DEF%": 990
+        "HP%": 100,
+        "DEF%": 90
       },
       "Feet": {
-        "SPD": 1000
+        "SPD": 100
       },
       "Planar Sphere": {
-        "HP%": 1000,
-        "DEF%": 990
+        "HP%": 100,
+        "DEF%": 90
       },
       "Link Rope": {
-        "Break Effect%": 1000,
-        "Energy Regen": 990
+        "Break Effect%": 100,
+        "Energy Regen": 90
       },
       "substats": {
-        "SPD": 1000,
-        "Break Effect%": 1000,
-        "HP%": 990,
-        "DEF%": 990
+        "SPD": 100,
+        "Break Effect%": 100,
+        "HP%": 90,
+        "DEF%": 90
       }
     }
   },
@@ -2849,27 +2849,27 @@
     },
     "stats": {
       "Body": {
-        "CRIT Rate": 1000,
-        "CRIT DMG": 999
+        "CRIT Rate": 100,
+        "CRIT DMG": 99
       },
       "Feet": {
-        "SPD": 1000,
-        "ATK%": 999
+        "SPD": 100,
+        "ATK%": 99
       },
       "Planar Sphere": {
-        "Physical DMG": 1000,
-        "ATK%": 990
+        "Physical DMG": 100,
+        "ATK%": 90
       },
       "Link Rope": {
-        "ATK%": 1000,
-        "Break Effect%": 990
+        "ATK%": 100,
+        "Break Effect%": 90
       },
       "substats": {
-        "SPD": 1000,
-        "Break Effect%": 990,
-        "CRIT Rate": 989,
-        "CRIT DMG": 989,
-        "ATK%": 979
+        "SPD": 100,
+        "Break Effect%": 90,
+        "CRIT Rate": 89,
+        "CRIT DMG": 89,
+        "ATK%": 79
       }
     }
   },
@@ -2911,25 +2911,25 @@
     },
     "stats": {
       "Body": {
-        "CRIT Rate": 1000,
-        "EHR": 990
+        "CRIT Rate": 100,
+        "EHR": 90
       },
       "Feet": {
-        "SPD": 1000
+        "SPD": 100
       },
       "Planar Sphere": {
-        "Imaginary DMG": 1000,
-        "ATK%": 990
+        "Imaginary DMG": 100,
+        "ATK%": 90
       },
       "Link Rope": {
-        "ATK%": 1000
+        "ATK%": 100
       },
       "substats": {
-        "SPD": 1000,
-        "EHR": 1000,
-        "CRIT Rate": 990,
-        "CRIT DMG": 990,
-        "ATK%": 980
+        "SPD": 100,
+        "EHR": 100,
+        "CRIT Rate": 90,
+        "CRIT DMG": 90,
+        "ATK%": 80
       }
     }
   },
@@ -2975,26 +2975,26 @@
     },
     "stats": {
       "Body": {
-        "CRIT Rate": 1000,
-        "CRIT DMG": 999
+        "CRIT Rate": 100,
+        "CRIT DMG": 99
       },
       "Feet": {
-        "SPD": 1000,
-        "ATK%": 999
+        "SPD": 100,
+        "ATK%": 99
       },
       "Planar Sphere": {
-        "ATK%": 1000,
-        "Quantum DMG": 990
+        "ATK%": 100,
+        "Quantum DMG": 90
       },
       "Link Rope": {
-        "Break Effect%": 1000
+        "Break Effect%": 100
       },
       "substats": {
-        "SPD": 1000,
-        "Break Effect%": 990,
-        "CRIT Rate": 989,
-        "CRIT DMG": 989,
-        "ATK%": 979
+        "SPD": 100,
+        "Break Effect%": 90,
+        "CRIT Rate": 89,
+        "CRIT DMG": 89,
+        "ATK%": 79
       }
     }
   },
@@ -3032,24 +3032,24 @@
     },
     "stats": {
       "Body": {
-        "CRIT DMG": 1000
+        "CRIT DMG": 100
       },
       "Feet": {
-        "SPD": 1000,
-        "ATK%": 999
+        "SPD": 100,
+        "ATK%": 99
       },
       "Planar Sphere": {
-        "Ice DMG": 1000,
-        "ATK%": 999
+        "Ice DMG": 100,
+        "ATK%": 99
       },
       "Link Rope": {
-        "ATK%": 1000
+        "ATK%": 100
       },
       "substats": {
-        "SPD": 1000,
-        "CRIT Rate": 970,
-        "CRIT DMG": 990,
-        "ATK%": 980
+        "SPD": 100,
+        "CRIT Rate": 70,
+        "CRIT DMG": 90,
+        "ATK%": 80
       }
     }
   },
@@ -3083,26 +3083,26 @@
     },
     "stats": {
       "Body": {
-        "CRIT Rate": 1000,
-        "CRIT DMG": 999
+        "CRIT Rate": 100,
+        "CRIT DMG": 99
       },
       "Feet": {
-        "SPD": 1000,
-        "ATK%": 999
+        "SPD": 100,
+        "ATK%": 99
       },
       "Planar Sphere": {
-        "Imaginary DMG": 1000,
-        "ATK%": 990
+        "Imaginary DMG": 100,
+        "ATK%": 90
       },
       "Link Rope": {
-        "Energy Regen": 1000,
-        "ATK%": 999
+        "Energy Regen": 100,
+        "ATK%": 99
       },
       "substats": {
-        "SPD": 1000,
-        "HP": 990,
-        "DEF": 990,
-        "Effect RES%": 980
+        "SPD": 100,
+        "HP": 90,
+        "DEF": 90,
+        "Effect RES%": 80
       }
     }
   },
@@ -3136,24 +3136,24 @@
     },
     "stats": {
       "Body": {
-        "CRIT Rate": 1000,
-        "CRIT DMG": 990
+        "CRIT Rate": 100,
+        "CRIT DMG": 90
       },
       "Feet": {
-        "ATK%": 1000
+        "ATK%": 100
       },
       "Planar Sphere": {
-        "Physical DMG": 1000,
-        "ATK%": 990
+        "Physical DMG": 100,
+        "ATK%": 90
       },
       "Link Rope": {
-        "ATK%": 1000,
-        "Energy Regen": 990
+        "ATK%": 100,
+        "Energy Regen": 90
       },
       "substats": {
-        "CRIT Rate": 1000,
-        "CRIT DMG": 1000,
-        "ATK%": 990
+        "CRIT Rate": 100,
+        "CRIT DMG": 100,
+        "ATK%": 90
       }
     }
   }

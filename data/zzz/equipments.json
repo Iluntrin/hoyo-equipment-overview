@@ -1,1100 +1,883 @@
 [
-    {
-        "character": "Anby",
-        "equipment_set":
-        {
-            "Shockstar Disco":
-            {
-                "priority": 0,
-                "2piece": false
-            },
-            "Swing Jazz":
-            {
-                "priority": 0.1,
-                "2piece": true
-            },
-            "Freedom Blues":
-            {
-                "priority": 0.2,
-                "2piece": true
-            },
-            "Thunder Metal":
-            {
-                "priority": 0.30000000000000004,
-                "2piece": true
-            },
-            "Puffer Electro":
-            {
-                "priority": 0.4,
-                "2piece": true
-            },
-            "Hormone Punk":
-            {
-                "priority": 0.5,
-                "2piece": true
-            }
-        },
-        "stats":
-        {
-            "Disk 4":
-            {
-                "CRIT Rate": 1000,
-                "CRIT DMG": 999
-            },
-            "Disk 5":
-            {
-                "Electric DMG%": 1000
-            },
-            "Disk 6":
-            {
-                "Impact": 1000
-            },
-            "substats":
-            {
-                "CRIT Rate": 1000,
-                "CRIT DMG": 1000,
-                "ATK%": 990,
-                "PEN": 980,
-                "ATK": 980
-            }
-        }
+  {
+    "character": "Anby",
+    "equipment_set": {
+      "Shockstar Disco": {
+        "priority": 0,
+        "2piece": false
+      },
+      "Swing Jazz": {
+        "priority": 0.1,
+        "2piece": true
+      },
+      "Freedom Blues": {
+        "priority": 0.2,
+        "2piece": true
+      },
+      "Thunder Metal": {
+        "priority": 0.30000000000000004,
+        "2piece": true
+      },
+      "Puffer Electro": {
+        "priority": 0.4,
+        "2piece": true
+      },
+      "Hormone Punk": {
+        "priority": 0.5,
+        "2piece": true
+      }
     },
-    {
-        "character": "Anton",
-        "equipment_set":
-        {
-            "Thunder Metal":
-            {
-                "priority": 0,
-                "2piece": false
-            },
-            "Woodpecker Electro":
-            {
-                "priority": 0.1,
-                "2piece": true
-            },
-            "Hormone Punk":
-            {
-                "priority": 0.2,
-                "2piece": true
-            },
-            "Puffer Electro":
-            {
-                "priority": 0.30000000000000004,
-                "2piece": true
-            }
-        },
-        "stats":
-        {
-            "Disk 4":
-            {
-                "CRIT Rate": 1000,
-                "CRIT DMG": 999
-            },
-            "Disk 5":
-            {
-                "Electric DMG%": 1000
-            },
-            "Disk 6":
-            {
-                "ATK%": 1000
-            },
-            "substats":
-            {
-                "CRIT Rate": 1000,
-                "CRIT DMG": 1000,
-                "ATK%": 990,
-                "PEN": 980,
-                "ATK": 980
-            }
-        }
-    },
-    {
-        "character": "Ben",
-        "equipment_set":
-        {
-            "Swing Jazz":
-            {
-                "priority": 0,
-                "2piece": false
-            },
-            "Soul Rock":
-            {
-                "priority": 0.1,
-                "2piece": true
-            },
-            "Puffer Electro":
-            {
-                "priority": 0.2,
-                "2piece": true
-            },
-            "Inferno Metal":
-            {
-                "priority": 0.30000000000000004,
-                "2piece": true
-            },
-            "Shockstar Disco":
-            {
-                "priority": 1,
-                "2piece": false
-            },
-            "Freedom Blues":
-            {
-                "priority": 1.3000000000000003,
-                "2piece": true
-            },
-            "Hormone Punk":
-            {
-                "priority": 1.6000000000000005,
-                "2piece": true
-            }
-        },
-        "stats":
-        {
-            "Disk 4":
-            {
-                "DEF%": 1000,
-                "CRIT DMG": 990
-            },
-            "Disk 5":
-            {
-                "DEF%": 1000,
-                "Fire DMG%": 1000
-            },
-            "Disk 6":
-            {
-                "DEF%": 1000,
-                "Energy Regen": 1000
-            },
-            "substats":
-            {
-                "DEF%": 1000,
-                "CRIT Rate": 990,
-                "CRIT DMG": 990,
-                "DEF": 980,
-                "PEN": 970
-            }
-        }
-    },
-    {
-        "character": "Billy",
-        "equipment_set":
-        {
-            "Woodpecker Electro":
-            {
-                "priority": 0,
-                "2piece": false
-            },
-            "Puffer Electro":
-            {
-                "priority": 0.1,
-                "2piece": true
-            },
-            "Hormone Punk":
-            {
-                "priority": 0.2,
-                "2piece": true
-            },
-            "Fanged Metal":
-            {
-                "priority": 0.30000000000000004,
-                "2piece": true
-            },
-            "Polar Metal":
-            {
-                "priority": 1.3000000000000003,
-                "2piece": true
-            }
-        },
-        "stats":
-        {
-            "Disk 4":
-            {
-                "CRIT Rate": 1000,
-                "CRIT DMG": 1000
-            },
-            "Disk 5":
-            {
-                "Physical DMG%": 1000,
-                "ATK%": 999
-            },
-            "Disk 6":
-            {
-                "ATK%": 1000
-            },
-            "substats":
-            {
-                "CRIT Rate": 1000,
-                "CRIT DMG": 1000,
-                "ATK%": 990,
-                "PEN": 980,
-                "ATK": 980
-            }
-        }
-    },
-    {
-        "character": "Burnice",
-        "equipment_set":
-        {},
-        "stats":
-        {}
-    },
-    {
-        "character": "Caesar",
-        "equipment_set":
-        {},
-        "stats":
-        {}
-    },
-    {
-        "character": "Corin",
-        "equipment_set":
-        {
-            "Fanged Metal":
-            {
-                "priority": 0,
-                "2piece": false
-            },
-            "Woodpecker Electro":
-            {
-                "priority": 0.1,
-                "2piece": true
-            },
-            "Hormone Punk":
-            {
-                "priority": 0.2,
-                "2piece": true
-            },
-            "Puffer Electro":
-            {
-                "priority": 0.30000000000000004,
-                "2piece": true
-            }
-        },
-        "stats":
-        {
-            "Disk 4":
-            {
-                "CRIT Rate": 1000,
-                "CRIT DMG": 1000
-            },
-            "Disk 5":
-            {
-                "ATK%": 1000,
-                "Physical DMG%": 999
-            },
-            "Disk 6":
-            {
-                "ATK%": 1000
-            },
-            "substats":
-            {
-                "CRIT Rate": 1000,
-                "CRIT DMG": 1000,
-                "ATK%": 990,
-                "PEN": 980,
-                "ATK": 980
-            }
-        }
-    },
-    {
-        "character": "Ellen",
-        "equipment_set":
-        {
-            "Woodpecker Electro":
-            {
-                "priority": 0,
-                "2piece": false
-            },
-            "Puffer Electro":
-            {
-                "priority": 0.1,
-                "2piece": true
-            },
-            "Hormone Punk":
-            {
-                "priority": 0.2,
-                "2piece": true
-            },
-            "Polar Metal":
-            {
-                "priority": 0.30000000000000004,
-                "2piece": true
-            }
-        },
-        "stats":
-        {
-            "Disk 4":
-            {
-                "CRIT DMG": 1000,
-                "CRIT Rate": 1000
-            },
-            "Disk 5":
-            {
-                "Ice DMG%": 1000,
-                "ATK%": 990
-            },
-            "Disk 6":
-            {
-                "ATK%": 1000
-            },
-            "substats":
-            {
-                "CRIT Rate": 1000,
-                "CRIT DMG": 1000,
-                "ATK%": 990,
-                "PEN": 980,
-                "ATK": 980
-            }
-        }
-    },
-    {
-        "character": "Grace",
-        "equipment_set":
-        {
-            "Thunder Metal":
-            {
-                "priority": 0,
-                "2piece": false
-            },
-            "Freedom Blues":
-            {
-                "priority": 0.1,
-                "2piece": true
-            },
-            "Hormone Punk":
-            {
-                "priority": 0.2,
-                "2piece": true
-            },
-            "Puffer Electro":
-            {
-                "priority": 0.30000000000000004,
-                "2piece": true
-            }
-        },
-        "stats":
-        {
-            "Disk 4":
-            {
-                "Anomaly Proficiency": 1000,
-                "ATK%": 990
-            },
-            "Disk 5":
-            {
-                "Electric DMG%": 1000,
-                "PEN Ratio%": 990,
-                "ATK%": 990
-            },
-            "Disk 6":
-            {
-                "Anomaly Mastery": 1000,
-                "ATK%": 1000
-            },
-            "substats":
-            {
-                "Anomaly Proficiency": 1000,
-                "ATK%": 990,
-                "PEN": 980,
-                "ATK": 980
-            }
-        }
-    },
-    {
-        "character": "Jane Doe",
-        "equipment_set":
-        {
-            "Fanged Metal":
-            {
-                "priority": 0,
-                "2piece": false
-            },
-            "Freedom Blues":
-            {
-                "priority": 0.1,
-                "2piece": true
-            },
-            "Hormone Punk":
-            {
-                "priority": 0.2,
-                "2piece": true
-            },
-            "Puffer Electro":
-            {
-                "priority": 0.30000000000000004,
-                "2piece": true
-            }
-        },
-        "stats":
-        {
-            "Disk 4":
-            {
-                "Anomaly Proficiency": 1000
-            },
-            "Disk 5":
-            {
-                "Physical DMG%": 1000,
-                "PEN Ratio%": 990,
-                "ATK%": 989
-            },
-            "Disk 6":
-            {
-                "Anomaly Mastery": 1000,
-                "ATK%": 999
-            },
-            "substats":
-            {
-                "Anomaly Proficiency": 1000,
-                "ATK%": 990,
-                "PEN": 980,
-                "ATK": 980
-            }
-        }
-    },
-    {
-        "character": "Koleda",
-        "equipment_set":
-        {
-            "Shockstar Disco":
-            {
-                "priority": 0,
-                "2piece": false
-            },
-            "Swing Jazz":
-            {
-                "priority": 0.1,
-                "2piece": true
-            },
-            "Freedom Blues":
-            {
-                "priority": 0.2,
-                "2piece": true
-            },
-            "Thunder Metal":
-            {
-                "priority": 0.30000000000000004,
-                "2piece": true
-            },
-            "Puffer Electro":
-            {
-                "priority": 0.4,
-                "2piece": true
-            },
-            "Hormone Punk":
-            {
-                "priority": 0.5,
-                "2piece": true
-            }
-        },
-        "stats":
-        {
-            "Disk 4":
-            {
-                "CRIT Rate": 1000,
-                "CRIT DMG": 999
-            },
-            "Disk 5":
-            {
-                "Fire DMG%": 1000
-            },
-            "Disk 6":
-            {
-                "Impact": 1000
-            },
-            "substats":
-            {
-                "CRIT Rate": 1000,
-                "CRIT DMG": 1000,
-                "ATK%": 990,
-                "PEN": 980,
-                "ATK": 980
-            }
-        }
-    },
-    {
-        "character": "Lucy",
-        "equipment_set":
-        {
-            "Swing Jazz":
-            {
-                "priority": 0,
-                "2piece": false
-            },
-            "Hormone Punk":
-            {
-                "priority": 0.1,
-                "2piece": true
-            },
-            "Freedom Blues":
-            {
-                "priority": 0.2,
-                "2piece": true
-            },
-            "Puffer Electro":
-            {
-                "priority": 0.30000000000000004,
-                "2piece": true
-            }
-        },
-        "stats":
-        {
-            "Disk 4":
-            {
-                "ATK%": 1000,
-                "CRIT Rate": 990
-            },
-            "Disk 5":
-            {
-                "ATK%": 1000
-            },
-            "Disk 6":
-            {
-                "Energy Regen": 1000,
-                "ATK%": 1000
-            },
-            "substats":
-            {
-                "ATK%": 1000,
-                "CRIT Rate": 1000,
-                "CRIT DMG": 1000,
-                "PEN": 990,
-                "ATK": 990
-            }
-        }
-    },
-    {
-        "character": "Lycaon",
-        "equipment_set":
-        {
-            "Shockstar Disco":
-            {
-                "priority": 0,
-                "2piece": false
-            },
-            "Swing Jazz":
-            {
-                "priority": 0.1,
-                "2piece": true
-            },
-            "Freedom Blues":
-            {
-                "priority": 0.2,
-                "2piece": true
-            },
-            "Polar Metal":
-            {
-                "priority": 0.30000000000000004,
-                "2piece": true
-            },
-            "Puffer Electro":
-            {
-                "priority": 0.4,
-                "2piece": true
-            },
-            "Hormone Punk":
-            {
-                "priority": 0.5,
-                "2piece": true
-            }
-        },
-        "stats":
-        {
-            "Disk 4":
-            {
-                "CRIT Rate": 1000,
-                "CRIT DMG": 999
-            },
-            "Disk 5":
-            {
-                "Ice DMG%": 1000
-            },
-            "Disk 6":
-            {
-                "Impact": 1000
-            },
-            "substats":
-            {
-                "CRIT Rate": 1000,
-                "CRIT DMG": 1000,
-                "ATK%": 990,
-                "PEN": 980,
-                "ATK": 980
-            }
-        }
-    },
-    {
-        "character": "Nekomata",
-        "equipment_set":
-        {
-            "Fanged Metal":
-            {
-                "priority": 0,
-                "2piece": false
-            },
-            "Woodpecker Electro":
-            {
-                "priority": 0.1,
-                "2piece": true
-            },
-            "Hormone Punk":
-            {
-                "priority": 0.2,
-                "2piece": true
-            },
-            "Puffer Electro":
-            {
-                "priority": 0.30000000000000004,
-                "2piece": true
-            }
-        },
-        "stats":
-        {
-            "Disk 4":
-            {
-                "CRIT Rate": 1000,
-                "CRIT DMG": 1000
-            },
-            "Disk 5":
-            {
-                "ATK%": 1000,
-                "Physical DMG%": 999
-            },
-            "Disk 6":
-            {
-                "ATK%": 1000
-            },
-            "substats":
-            {
-                "CRIT Rate": 1000,
-                "CRIT DMG": 1000,
-                "ATK%": 990,
-                "PEN": 980,
-                "ATK": 980
-            }
-        }
-    },
-    {
-        "character": "Nicole",
-        "equipment_set":
-        {
-            "Swing Jazz":
-            {
-                "priority": 0,
-                "2piece": false
-            },
-            "Freedom Blues":
-            {
-                "priority": 0.1,
-                "2piece": true
-            },
-            "Hormone Punk":
-            {
-                "priority": 0.2,
-                "2piece": true
-            },
-            "Puffer Electro":
-            {
-                "priority": 0.30000000000000004,
-                "2piece": true
-            }
-        },
-        "stats":
-        {
-            "Disk 4":
-            {
-                "ATK%": 1000,
-                "Anomaly Proficiency": 1000
-            },
-            "Disk 5":
-            {
-                "Ether DMG%": 1000,
-                "ATK%": 990
-            },
-            "Disk 6":
-            {
-                "Energy Regen": 1000,
-                "ATK%": 1000
-            },
-            "substats":
-            {
-                "Anomaly Proficiency": 1000,
-                "ATK%": 1000,
-                "PEN": 990,
-                "ATK": 990
-            }
-        }
-    },
-    {
-        "character": "Piper",
-        "equipment_set":
-        {
-            "Fanged Metal":
-            {
-                "priority": 0,
-                "2piece": false
-            },
-            "Freedom Blues":
-            {
-                "priority": 0.1,
-                "2piece": true
-            },
-            "Hormone Punk":
-            {
-                "priority": 0.2,
-                "2piece": true
-            },
-            "Puffer Electro":
-            {
-                "priority": 0.30000000000000004,
-                "2piece": true
-            }
-        },
-        "stats":
-        {
-            "Disk 4":
-            {
-                "Anomaly Proficiency": 1000,
-                "ATK%": 990
-            },
-            "Disk 5":
-            {
-                "Physical DMG%": 1000,
-                "ATK%": 990,
-                "PEN Ratio%": 990
-            },
-            "Disk 6":
-            {
-                "Anomaly Mastery": 1000,
-                "ATK%": 1000
-            },
-            "substats":
-            {
-                "Anomaly Proficiency": 1000,
-                "ATK%": 990,
-                "PEN": 980,
-                "ATK": 980
-            }
-        }
-    },
-    {
-        "character": "Qingyi",
-        "equipment_set":
-        {
-            "Shockstar Disco":
-            {
-                "priority": 0,
-                "2piece": false
-            },
-            "Swing Jazz":
-            {
-                "priority": 0.1,
-                "2piece": true
-            },
-            "Thunder Metal":
-            {
-                "priority": 0.2,
-                "2piece": true
-            },
-            "Puffer Electro":
-            {
-                "priority": 0.30000000000000004,
-                "2piece": true
-            },
-            "Woodpecker Electro":
-            {
-                "priority": 0.4,
-                "2piece": true
-            }
-        },
-        "stats":
-        {
-            "Disk 4":
-            {
-                "CRIT Rate": 1000,
-                "CRIT DMG": 999
-            },
-            "Disk 5":
-            {
-                "Electric DMG%": 1000
-            },
-            "Disk 6":
-            {
-                "Impact": 1000
-            },
-            "substats":
-            {
-                "CRIT Rate": 1000,
-                "CRIT DMG": 1000,
-                "ATK%": 990,
-                "PEN": 980,
-                "ATK": 980
-            }
-        }
-    },
-    {
-        "character": "Rina",
-        "equipment_set":
-        {
-            "Swing Jazz":
-            {
-                "priority": 0,
-                "2piece": false
-            },
-            "Puffer Electro":
-            {
-                "priority": 0.1,
-                "2piece": true
-            },
-            "Freedom Blues":
-            {
-                "priority": 0.2,
-                "2piece": true
-            },
-            "Hormone Punk":
-            {
-                "priority": 0.30000000000000004,
-                "2piece": true
-            },
-            "Thunder Metal":
-            {
-                "priority": 0.4,
-                "2piece": true
-            }
-        },
-        "stats":
-        {
-            "Disk 4":
-            {
-                "ATK%": 1000,
-                "Anomaly Proficiency": 1000
-            },
-            "Disk 5":
-            {
-                "PEN Ratio%": 1000
-            },
-            "Disk 6":
-            {
-                "Energy Regen": 1000,
-                "ATK%": 999
-            },
-            "substats":
-            {
-                "Anomaly Proficiency": 1000,
-                "ATK%": 990,
-                "PEN": 980,
-                "ATK": 980
-            }
-        }
-    },
-    {
-        "character": "Seth",
-        "equipment_set":
-        {
-            "Swing Jazz":
-            {
-                "priority": 0,
-                "2piece": false
-            },
-            "Hormone Punk":
-            {
-                "priority": 0.1,
-                "2piece": true
-            },
-            "Shockstar Disco":
-            {
-                "priority": 0.2,
-                "2piece": true
-            },
-            "Freedom Blues":
-            {
-                "priority": 1,
-                "2piece": false
-            }
-        },
-        "stats":
-        {
-            "Disk 4":
-            {
-                "ATK%": 1000,
-                "Anomaly Proficiency": 999
-            },
-            "Disk 5":
-            {
-                "ATK%": 1000,
-                "Electric DMG%": 999
-            },
-            "Disk 6":
-            {
-                "Energy Regen": 1000,
-                "Anomaly Mastery": 1000
-            },
-            "substats":
-            {
-                "ATK%": 1000,
-                "Anomaly Proficiency": 990,
-                "ATK": 980,
-                "PEN": 970
-            }
-        }
-    },
-    {
-        "character": "Soldier 11",
-        "equipment_set":
-        {
-            "Inferno Metal":
-            {
-                "priority": 0,
-                "2piece": false
-            },
-            "Woodpecker Electro":
-            {
-                "priority": 0.1,
-                "2piece": true
-            },
-            "Hormone Punk":
-            {
-                "priority": 0.2,
-                "2piece": true
-            },
-            "Puffer Electro":
-            {
-                "priority": 0.30000000000000004,
-                "2piece": true
-            }
-        },
-        "stats":
-        {
-            "Disk 4":
-            {
-                "CRIT Rate": 1000,
-                "CRIT DMG": 1000
-            },
-            "Disk 5":
-            {
-                "Fire DMG%": 1000,
-                "ATK%": 990
-            },
-            "Disk 6":
-            {
-                "ATK%": 1000
-            },
-            "substats":
-            {
-                "CRIT Rate": 1000,
-                "CRIT DMG": 1000,
-                "ATK%": 990,
-                "PEN": 980,
-                "ATK": 980
-            }
-        }
-    },
-    {
-        "character": "Soukaku",
-        "equipment_set":
-        {
-            "Swing Jazz":
-            {
-                "priority": 0,
-                "2piece": false
-            },
-            "Hormone Punk":
-            {
-                "priority": 0.1,
-                "2piece": true
-            },
-            "Freedom Blues":
-            {
-                "priority": 0.2,
-                "2piece": true
-            },
-            "Puffer Electro":
-            {
-                "priority": 0.30000000000000004,
-                "2piece": true
-            },
-            "Polar Metal":
-            {
-                "priority": 0.4,
-                "2piece": true
-            }
-        },
-        "stats":
-        {
-            "Disk 4":
-            {
-                "ATK%": 1000,
-                "CRIT Rate": 990
-            },
-            "Disk 5":
-            {
-                "ATK%": 1000,
-                "Ice DMG%": 990
-            },
-            "Disk 6":
-            {
-                "Energy Regen": 1000,
-                "ATK%": 1000
-            },
-            "substats":
-            {
-                "ATK%": 1000,
-                "CRIT Rate": 1000,
-                "CRIT DMG": 1000,
-                "PEN": 990,
-                "ATK": 990
-            }
-        }
-    },
-    {
-        "character": "Zhu Yuan",
-        "equipment_set":
-        {
-            "Chaotic Metal":
-            {
-                "priority": 0,
-                "2piece": false
-            },
-            "Woodpecker Electro":
-            {
-                "priority": 0.1,
-                "2piece": true
-            },
-            "Hormone Punk":
-            {
-                "priority": 0.2,
-                "2piece": true
-            },
-            "Puffer Electro":
-            {
-                "priority": 0.30000000000000004,
-                "2piece": true
-            }
-        },
-        "stats":
-        {
-            "Disk 4":
-            {
-                "CRIT DMG": 1000,
-                "CRIT Rate": 1000
-            },
-            "Disk 5":
-            {
-                "Ether DMG%": 1000,
-                "ATK%": 990,
-                "PEN Ratio%": 990
-            },
-            "Disk 6":
-            {
-                "ATK%": 1000
-            },
-            "substats":
-            {
-                "CRIT Rate": 1000,
-                "CRIT DMG": 1000,
-                "ATK%": 990,
-                "PEN": 980,
-                "ATK": 980
-            }
-        }
+    "stats": {
+      "Disk 4": {
+        "CRIT Rate": 100,
+        "CRIT DMG": 99
+      },
+      "Disk 5": {
+        "Electric DMG%": 100
+      },
+      "Disk 6": {
+        "Impact": 100
+      },
+      "substats": {
+        "CRIT Rate": 100,
+        "CRIT DMG": 100,
+        "ATK%": 90,
+        "PEN": 80,
+        "ATK": 80
+      }
     }
+  },
+  {
+    "character": "Anton",
+    "equipment_set": {
+      "Thunder Metal": {
+        "priority": 0,
+        "2piece": false
+      },
+      "Woodpecker Electro": {
+        "priority": 0.1,
+        "2piece": true
+      },
+      "Hormone Punk": {
+        "priority": 0.2,
+        "2piece": true
+      },
+      "Puffer Electro": {
+        "priority": 0.30000000000000004,
+        "2piece": true
+      }
+    },
+    "stats": {
+      "Disk 4": {
+        "CRIT Rate": 100,
+        "CRIT DMG": 99
+      },
+      "Disk 5": {
+        "Electric DMG%": 100
+      },
+      "Disk 6": {
+        "ATK%": 100
+      },
+      "substats": {
+        "CRIT Rate": 100,
+        "CRIT DMG": 100,
+        "ATK%": 90,
+        "PEN": 80,
+        "ATK": 80
+      }
+    }
+  },
+  {
+    "character": "Ben",
+    "equipment_set": {
+      "Swing Jazz": {
+        "priority": 0,
+        "2piece": false
+      },
+      "Soul Rock": {
+        "priority": 0.1,
+        "2piece": true
+      },
+      "Puffer Electro": {
+        "priority": 0.2,
+        "2piece": true
+      },
+      "Inferno Metal": {
+        "priority": 0.30000000000000004,
+        "2piece": true
+      },
+      "Shockstar Disco": {
+        "priority": 1,
+        "2piece": false
+      },
+      "Freedom Blues": {
+        "priority": 1.3000000000000003,
+        "2piece": true
+      },
+      "Hormone Punk": {
+        "priority": 1.6000000000000005,
+        "2piece": true
+      }
+    },
+    "stats": {
+      "Disk 4": {
+        "DEF%": 100,
+        "CRIT DMG": 90
+      },
+      "Disk 5": {
+        "DEF%": 100,
+        "Fire DMG%": 100
+      },
+      "Disk 6": {
+        "DEF%": 100,
+        "Energy Regen": 100
+      },
+      "substats": {
+        "DEF%": 100,
+        "CRIT Rate": 90,
+        "CRIT DMG": 90,
+        "DEF": 80,
+        "PEN": 70
+      }
+    }
+  },
+  {
+    "character": "Billy",
+    "equipment_set": {
+      "Woodpecker Electro": {
+        "priority": 0,
+        "2piece": false
+      },
+      "Puffer Electro": {
+        "priority": 0.1,
+        "2piece": true
+      },
+      "Hormone Punk": {
+        "priority": 0.2,
+        "2piece": true
+      },
+      "Fanged Metal": {
+        "priority": 0.30000000000000004,
+        "2piece": true
+      },
+      "Polar Metal": {
+        "priority": 1.3000000000000003,
+        "2piece": true
+      }
+    },
+    "stats": {
+      "Disk 4": {
+        "CRIT Rate": 100,
+        "CRIT DMG": 100
+      },
+      "Disk 5": {
+        "Physical DMG%": 100,
+        "ATK%": 99
+      },
+      "Disk 6": {
+        "ATK%": 100
+      },
+      "substats": {
+        "CRIT Rate": 100,
+        "CRIT DMG": 100,
+        "ATK%": 90,
+        "PEN": 80,
+        "ATK": 80
+      }
+    }
+  },
+  {
+    "character": "Burnice",
+    "equipment_set": {},
+    "stats": {}
+  },
+  {
+    "character": "Caesar",
+    "equipment_set": {},
+    "stats": {}
+  },
+  {
+    "character": "Corin",
+    "equipment_set": {
+      "Fanged Metal": {
+        "priority": 0,
+        "2piece": false
+      },
+      "Woodpecker Electro": {
+        "priority": 0.1,
+        "2piece": true
+      },
+      "Hormone Punk": {
+        "priority": 0.2,
+        "2piece": true
+      },
+      "Puffer Electro": {
+        "priority": 0.30000000000000004,
+        "2piece": true
+      }
+    },
+    "stats": {
+      "Disk 4": {
+        "CRIT Rate": 100,
+        "CRIT DMG": 100
+      },
+      "Disk 5": {
+        "ATK%": 100,
+        "Physical DMG%": 99
+      },
+      "Disk 6": {
+        "ATK%": 100
+      },
+      "substats": {
+        "CRIT Rate": 100,
+        "CRIT DMG": 100,
+        "ATK%": 90,
+        "PEN": 80,
+        "ATK": 80
+      }
+    }
+  },
+  {
+    "character": "Ellen",
+    "equipment_set": {
+      "Woodpecker Electro": {
+        "priority": 0,
+        "2piece": false
+      },
+      "Puffer Electro": {
+        "priority": 0.1,
+        "2piece": true
+      },
+      "Hormone Punk": {
+        "priority": 0.2,
+        "2piece": true
+      },
+      "Polar Metal": {
+        "priority": 0.30000000000000004,
+        "2piece": true
+      }
+    },
+    "stats": {
+      "Disk 4": {
+        "CRIT DMG": 100,
+        "CRIT Rate": 100
+      },
+      "Disk 5": {
+        "Ice DMG%": 100,
+        "ATK%": 90
+      },
+      "Disk 6": {
+        "ATK%": 100
+      },
+      "substats": {
+        "CRIT Rate": 100,
+        "CRIT DMG": 100,
+        "ATK%": 90,
+        "PEN": 80,
+        "ATK": 80
+      }
+    }
+  },
+  {
+    "character": "Grace",
+    "equipment_set": {
+      "Thunder Metal": {
+        "priority": 0,
+        "2piece": false
+      },
+      "Freedom Blues": {
+        "priority": 0.1,
+        "2piece": true
+      },
+      "Hormone Punk": {
+        "priority": 0.2,
+        "2piece": true
+      },
+      "Puffer Electro": {
+        "priority": 0.30000000000000004,
+        "2piece": true
+      }
+    },
+    "stats": {
+      "Disk 4": {
+        "Anomaly Proficiency": 100,
+        "ATK%": 90
+      },
+      "Disk 5": {
+        "Electric DMG%": 100,
+        "PEN Ratio%": 90,
+        "ATK%": 90
+      },
+      "Disk 6": {
+        "Anomaly Mastery": 100,
+        "ATK%": 100
+      },
+      "substats": {
+        "Anomaly Proficiency": 100,
+        "ATK%": 90,
+        "PEN": 80,
+        "ATK": 80
+      }
+    }
+  },
+  {
+    "character": "Jane Doe",
+    "equipment_set": {
+      "Fanged Metal": {
+        "priority": 0,
+        "2piece": false
+      },
+      "Freedom Blues": {
+        "priority": 0.1,
+        "2piece": true
+      },
+      "Hormone Punk": {
+        "priority": 0.2,
+        "2piece": true
+      },
+      "Puffer Electro": {
+        "priority": 0.30000000000000004,
+        "2piece": true
+      }
+    },
+    "stats": {
+      "Disk 4": {
+        "Anomaly Proficiency": 100
+      },
+      "Disk 5": {
+        "Physical DMG%": 100,
+        "PEN Ratio%": 90,
+        "ATK%": 89
+      },
+      "Disk 6": {
+        "Anomaly Mastery": 100,
+        "ATK%": 99
+      },
+      "substats": {
+        "Anomaly Proficiency": 100,
+        "ATK%": 90,
+        "PEN": 80,
+        "ATK": 80
+      }
+    }
+  },
+  {
+    "character": "Koleda",
+    "equipment_set": {
+      "Shockstar Disco": {
+        "priority": 0,
+        "2piece": false
+      },
+      "Swing Jazz": {
+        "priority": 0.1,
+        "2piece": true
+      },
+      "Freedom Blues": {
+        "priority": 0.2,
+        "2piece": true
+      },
+      "Thunder Metal": {
+        "priority": 0.30000000000000004,
+        "2piece": true
+      },
+      "Puffer Electro": {
+        "priority": 0.4,
+        "2piece": true
+      },
+      "Hormone Punk": {
+        "priority": 0.5,
+        "2piece": true
+      }
+    },
+    "stats": {
+      "Disk 4": {
+        "CRIT Rate": 100,
+        "CRIT DMG": 99
+      },
+      "Disk 5": {
+        "Fire DMG%": 100
+      },
+      "Disk 6": {
+        "Impact": 100
+      },
+      "substats": {
+        "CRIT Rate": 100,
+        "CRIT DMG": 100,
+        "ATK%": 90,
+        "PEN": 80,
+        "ATK": 80
+      }
+    }
+  },
+  {
+    "character": "Lucy",
+    "equipment_set": {
+      "Swing Jazz": {
+        "priority": 0,
+        "2piece": false
+      },
+      "Hormone Punk": {
+        "priority": 0.1,
+        "2piece": true
+      },
+      "Freedom Blues": {
+        "priority": 0.2,
+        "2piece": true
+      },
+      "Puffer Electro": {
+        "priority": 0.30000000000000004,
+        "2piece": true
+      }
+    },
+    "stats": {
+      "Disk 4": {
+        "ATK%": 100,
+        "CRIT Rate": 90
+      },
+      "Disk 5": {
+        "ATK%": 100
+      },
+      "Disk 6": {
+        "Energy Regen": 100,
+        "ATK%": 100
+      },
+      "substats": {
+        "ATK%": 100,
+        "CRIT Rate": 100,
+        "CRIT DMG": 100,
+        "PEN": 90,
+        "ATK": 90
+      }
+    }
+  },
+  {
+    "character": "Lycaon",
+    "equipment_set": {
+      "Shockstar Disco": {
+        "priority": 0,
+        "2piece": false
+      },
+      "Swing Jazz": {
+        "priority": 0.1,
+        "2piece": true
+      },
+      "Freedom Blues": {
+        "priority": 0.2,
+        "2piece": true
+      },
+      "Polar Metal": {
+        "priority": 0.30000000000000004,
+        "2piece": true
+      },
+      "Puffer Electro": {
+        "priority": 0.4,
+        "2piece": true
+      },
+      "Hormone Punk": {
+        "priority": 0.5,
+        "2piece": true
+      }
+    },
+    "stats": {
+      "Disk 4": {
+        "CRIT Rate": 100,
+        "CRIT DMG": 99
+      },
+      "Disk 5": {
+        "Ice DMG%": 100
+      },
+      "Disk 6": {
+        "Impact": 100
+      },
+      "substats": {
+        "CRIT Rate": 100,
+        "CRIT DMG": 100,
+        "ATK%": 90,
+        "PEN": 80,
+        "ATK": 80
+      }
+    }
+  },
+  {
+    "character": "Nekomata",
+    "equipment_set": {
+      "Fanged Metal": {
+        "priority": 0,
+        "2piece": false
+      },
+      "Woodpecker Electro": {
+        "priority": 0.1,
+        "2piece": true
+      },
+      "Hormone Punk": {
+        "priority": 0.2,
+        "2piece": true
+      },
+      "Puffer Electro": {
+        "priority": 0.30000000000000004,
+        "2piece": true
+      }
+    },
+    "stats": {
+      "Disk 4": {
+        "CRIT Rate": 100,
+        "CRIT DMG": 100
+      },
+      "Disk 5": {
+        "ATK%": 100,
+        "Physical DMG%": 99
+      },
+      "Disk 6": {
+        "ATK%": 100
+      },
+      "substats": {
+        "CRIT Rate": 100,
+        "CRIT DMG": 100,
+        "ATK%": 90,
+        "PEN": 80,
+        "ATK": 80
+      }
+    }
+  },
+  {
+    "character": "Nicole",
+    "equipment_set": {
+      "Swing Jazz": {
+        "priority": 0,
+        "2piece": false
+      },
+      "Freedom Blues": {
+        "priority": 0.1,
+        "2piece": true
+      },
+      "Hormone Punk": {
+        "priority": 0.2,
+        "2piece": true
+      },
+      "Puffer Electro": {
+        "priority": 0.30000000000000004,
+        "2piece": true
+      }
+    },
+    "stats": {
+      "Disk 4": {
+        "ATK%": 100,
+        "Anomaly Proficiency": 100
+      },
+      "Disk 5": {
+        "Ether DMG%": 100,
+        "ATK%": 90
+      },
+      "Disk 6": {
+        "Energy Regen": 100,
+        "ATK%": 100
+      },
+      "substats": {
+        "Anomaly Proficiency": 100,
+        "ATK%": 100,
+        "PEN": 90,
+        "ATK": 90
+      }
+    }
+  },
+  {
+    "character": "Piper",
+    "equipment_set": {
+      "Fanged Metal": {
+        "priority": 0,
+        "2piece": false
+      },
+      "Freedom Blues": {
+        "priority": 0.1,
+        "2piece": true
+      },
+      "Hormone Punk": {
+        "priority": 0.2,
+        "2piece": true
+      },
+      "Puffer Electro": {
+        "priority": 0.30000000000000004,
+        "2piece": true
+      }
+    },
+    "stats": {
+      "Disk 4": {
+        "Anomaly Proficiency": 100,
+        "ATK%": 90
+      },
+      "Disk 5": {
+        "Physical DMG%": 100,
+        "ATK%": 90,
+        "PEN Ratio%": 90
+      },
+      "Disk 6": {
+        "Anomaly Mastery": 100,
+        "ATK%": 100
+      },
+      "substats": {
+        "Anomaly Proficiency": 100,
+        "ATK%": 90,
+        "PEN": 80,
+        "ATK": 80
+      }
+    }
+  },
+  {
+    "character": "Qingyi",
+    "equipment_set": {
+      "Shockstar Disco": {
+        "priority": 0,
+        "2piece": false
+      },
+      "Swing Jazz": {
+        "priority": 0.1,
+        "2piece": true
+      },
+      "Thunder Metal": {
+        "priority": 0.2,
+        "2piece": true
+      },
+      "Puffer Electro": {
+        "priority": 0.30000000000000004,
+        "2piece": true
+      },
+      "Woodpecker Electro": {
+        "priority": 0.4,
+        "2piece": true
+      }
+    },
+    "stats": {
+      "Disk 4": {
+        "CRIT Rate": 100,
+        "CRIT DMG": 99
+      },
+      "Disk 5": {
+        "Electric DMG%": 100
+      },
+      "Disk 6": {
+        "Impact": 100
+      },
+      "substats": {
+        "CRIT Rate": 100,
+        "CRIT DMG": 100,
+        "ATK%": 90,
+        "PEN": 80,
+        "ATK": 80
+      }
+    }
+  },
+  {
+    "character": "Rina",
+    "equipment_set": {
+      "Swing Jazz": {
+        "priority": 0,
+        "2piece": false
+      },
+      "Puffer Electro": {
+        "priority": 0.1,
+        "2piece": true
+      },
+      "Freedom Blues": {
+        "priority": 0.2,
+        "2piece": true
+      },
+      "Hormone Punk": {
+        "priority": 0.30000000000000004,
+        "2piece": true
+      },
+      "Thunder Metal": {
+        "priority": 0.4,
+        "2piece": true
+      }
+    },
+    "stats": {
+      "Disk 4": {
+        "ATK%": 100,
+        "Anomaly Proficiency": 100
+      },
+      "Disk 5": {
+        "PEN Ratio%": 100
+      },
+      "Disk 6": {
+        "Energy Regen": 100,
+        "ATK%": 99
+      },
+      "substats": {
+        "Anomaly Proficiency": 100,
+        "ATK%": 90,
+        "PEN": 80,
+        "ATK": 80
+      }
+    }
+  },
+  {
+    "character": "Seth",
+    "equipment_set": {
+      "Swing Jazz": {
+        "priority": 0,
+        "2piece": false
+      },
+      "Hormone Punk": {
+        "priority": 0.1,
+        "2piece": true
+      },
+      "Shockstar Disco": {
+        "priority": 0.2,
+        "2piece": true
+      },
+      "Freedom Blues": {
+        "priority": 1,
+        "2piece": false
+      }
+    },
+    "stats": {
+      "Disk 4": {
+        "ATK%": 100,
+        "Anomaly Proficiency": 99
+      },
+      "Disk 5": {
+        "ATK%": 100,
+        "Electric DMG%": 99
+      },
+      "Disk 6": {
+        "Energy Regen": 100,
+        "Anomaly Mastery": 100
+      },
+      "substats": {
+        "ATK%": 100,
+        "Anomaly Proficiency": 90,
+        "ATK": 80,
+        "PEN": 70
+      }
+    }
+  },
+  {
+    "character": "Soldier 11",
+    "equipment_set": {
+      "Inferno Metal": {
+        "priority": 0,
+        "2piece": false
+      },
+      "Woodpecker Electro": {
+        "priority": 0.1,
+        "2piece": true
+      },
+      "Hormone Punk": {
+        "priority": 0.2,
+        "2piece": true
+      },
+      "Puffer Electro": {
+        "priority": 0.30000000000000004,
+        "2piece": true
+      }
+    },
+    "stats": {
+      "Disk 4": {
+        "CRIT Rate": 100,
+        "CRIT DMG": 100
+      },
+      "Disk 5": {
+        "Fire DMG%": 100,
+        "ATK%": 90
+      },
+      "Disk 6": {
+        "ATK%": 100
+      },
+      "substats": {
+        "CRIT Rate": 100,
+        "CRIT DMG": 100,
+        "ATK%": 90,
+        "PEN": 80,
+        "ATK": 80
+      }
+    }
+  },
+  {
+    "character": "Soukaku",
+    "equipment_set": {
+      "Swing Jazz": {
+        "priority": 0,
+        "2piece": false
+      },
+      "Hormone Punk": {
+        "priority": 0.1,
+        "2piece": true
+      },
+      "Freedom Blues": {
+        "priority": 0.2,
+        "2piece": true
+      },
+      "Puffer Electro": {
+        "priority": 0.30000000000000004,
+        "2piece": true
+      },
+      "Polar Metal": {
+        "priority": 0.4,
+        "2piece": true
+      }
+    },
+    "stats": {
+      "Disk 4": {
+        "ATK%": 100,
+        "CRIT Rate": 90
+      },
+      "Disk 5": {
+        "ATK%": 100,
+        "Ice DMG%": 90
+      },
+      "Disk 6": {
+        "Energy Regen": 100,
+        "ATK%": 100
+      },
+      "substats": {
+        "ATK%": 100,
+        "CRIT Rate": 100,
+        "CRIT DMG": 100,
+        "PEN": 90,
+        "ATK": 90
+      }
+    }
+  },
+  {
+    "character": "Zhu Yuan",
+    "equipment_set": {
+      "Chaotic Metal": {
+        "priority": 0,
+        "2piece": false
+      },
+      "Woodpecker Electro": {
+        "priority": 0.1,
+        "2piece": true
+      },
+      "Hormone Punk": {
+        "priority": 0.2,
+        "2piece": true
+      },
+      "Puffer Electro": {
+        "priority": 0.30000000000000004,
+        "2piece": true
+      }
+    },
+    "stats": {
+      "Disk 4": {
+        "CRIT DMG": 100,
+        "CRIT Rate": 100
+      },
+      "Disk 5": {
+        "Ether DMG%": 100,
+        "ATK%": 90,
+        "PEN Ratio%": 90
+      },
+      "Disk 6": {
+        "ATK%": 100
+      },
+      "substats": {
+        "CRIT Rate": 100,
+        "CRIT DMG": 100,
+        "ATK%": 90,
+        "PEN": 80,
+        "ATK": 80
+      }
+    }
+  }
 ]
