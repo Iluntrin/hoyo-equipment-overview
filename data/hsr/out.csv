@@ -1,0 +1,236 @@
+Honkai Star Rail - Relic Overview
+last update:	2024-09-21
+data source:	www.prydwen.gg
+generator:	https://github.com/Iluntrin/hoyo-equipment-overview
+
+Info: 
+This file lists all possible substats and stats for each individual relic set.
+The file provides a combined row and rows for each individual character.
+The values demonstrate how important each individual stat is for the given set (the higher the more important).
+The priority column shows how important this set is for each individual character (starting from 0).
+Since this is the single file all characters are listed only in their recommended set.
+The stats shown in the first columns are the desired substats.
+The main stats are shown in later columns and start with the piece (e.g. Body (main stat))
+The number next to the set name shows how many characters are using this set.
+
+
+
+Band of Sizzling Thunder (1)	priority	SPD	CRIT Rate	CRIT DMG	ATK%		Body (main stat)	CRIT Rate	CRIT DMG		Feet (main stat)	SPD	ATK%
+combined:		1.000	0.990	0.990	0.980			1.000	0.999			1.000	0.999
+Arlan	0	1.000	0.990	0.990	0.980			1.000	0.999			1.000	0.999
+
+Broken Keel (7)	priority	SPD	Effect RES%	HP	DEF	DEF%	CRIT DMG	EHR	HP%	ATK%	CRIT Rate		Sphere (main stat)	DEF%	Imaginary DMG	HP%	ATK%	Fire DMG		Rope (main stat)	DEF%	Energy Regen	ATK%
+combined:		0.998	0.980	0.563	0.563	0.424	0.424	0.280	0.279	0.143	0.140			0.713	0.286	0.427	0.284	0.143			0.428	0.857	0.143
+Aventurine	0	0.999	0.969			1.000	0.989				0.979			1.000	1.000						1.000		
+Bronya	0	1.000	0.970	0.980	0.980		0.990							0.990		1.000						1.000	
+March 7th	0	1.000	0.980			0.990		1.000	0.980					1.000							0.999	1.000	
+Sparkle	0	1.000	0.980	0.980	0.980		0.990							0.999		1.000						1.000	
+Tingyun	0	1.000	0.980	0.990	0.990					1.000						0.990	1.000					1.000	
+Trailblazer (Fire)	0	0.990	1.000			0.980		0.960	0.970					1.000				0.999			0.999	1.000	
+Yukong	0	1.000	0.980	0.990	0.990										1.000		0.990					1.000	0.999
+
+Champion of Streetwise Boxing (4)	priority	SPD	CRIT Rate	CRIT DMG	ATK%	Break Effect%		Body (main stat)	CRIT Rate	CRIT DMG		Feet (main stat)	ATK%	SPD
+combined:		1.000	0.992	0.992	0.982	0.495			1.000	0.999			1.000	0.750
+Argenti	0	1.000	0.990	0.990	0.980				1.000	0.999			1.000	0.999
+Clara	0	1.000	1.000	1.000	0.990				1.000	0.999			1.000	
+Sushang	0	1.000	0.989	0.989	0.979	0.990			1.000	0.999			0.999	1.000
+Trailblazer (Physical)	0	1.000	0.989	0.989	0.979	0.990			1.000	0.999			0.999	1.000
+
+Duran, Dynasty of Running Wolves (6)	priority	CRIT Rate	SPD	CRIT DMG	ATK%		Sphere (main stat)	Physical DMG	ATK%	Imaginary DMG	Wind DMG	Quantum DMG	Lightning DMG	Fire DMG	ATK		Rope (main stat)	ATK%	ATK
+combined:		0.997	0.997	0.996	0.986			0.167	0.496	0.167	0.167	0.167	0.167	0.167	0.165			0.667	0.333
+Clara	0	1.000	1.000	1.000	0.990			1.000	0.990									1.000	
+Dr. Ratio	0	0.990	1.000	0.990	0.980				0.999	1.000								1.000	
+Feixiao	0	1.000	1.000	1.000	0.990				0.990		1.000							1.000	
+Jade	0	1.000	0.979	0.999	0.989							1.000						1.000	
+Moze	0	1.000	1.000	0.999	0.989								1.000						1.000
+Topaz & Numby	0	0.990	1.000	0.990	0.980									1.000	0.990				1.000
+
+Eagle of Twilight Line (1)	priority	EHR	SPD	HP	DEF	Break Effect%	Effect RES%		Body (main stat)	EHR		Feet (main stat)	SPD
+combined:		1.000	1.000	0.990	0.990	0.990	0.980			1.000			1.000
+Silver Wolf	0	1.000	1.000	0.990	0.990	0.990	0.980			1.000			1.000
+
+Firmament Frontline: Glamoth (7)	priority	SPD	ATK%	CRIT DMG	CRIT Rate	EHR	Break Effect%	HP%	DEF%		Sphere (main stat)	Fire DMG	ATK%	Lightning DMG	Ice DMG	Wind DMG		Rope (main stat)	ATK%
+combined:		0.999	0.983	0.566	0.563	0.429	0.419	0.139	0.139			0.286	0.994	0.286	0.286	0.143			1.000
+Guinaifen	0	0.990	0.980			1.000	0.970	0.970	0.970			1.000	0.990						1.000
+Hook	0	1.000	0.980	0.990	0.990							1.000	0.990						1.000
+Kafka	0	1.000	0.990			1.000	0.980						0.990	1.000					1.000
+Misha	0	1.000	0.980	0.990	0.990								0.999		1.000				1.000
+Sampo	0	1.000	0.990			1.000	0.980						0.990			1.000			1.000
+Serval	0	1.000	0.980	0.990	0.990								0.999	1.000					1.000
+Yanqing	0	1.000	0.980	0.990	0.970								0.999		1.000				1.000
+
+Fleet of the Ageless (11)	priority	SPD	Effect RES%	HP%	DEF%	ATK%	HP	DEF	Break Effect%		Sphere (main stat)	Fire DMG	HP%	DEF%	ATK%	Physical DMG		Rope (main stat)	Energy Regen	Break Effect%
+combined:		0.999	0.891	0.809	0.805	0.181	0.180	0.180	0.180			0.091	0.727	0.361	0.182	0.090			1.000	0.090
+Asta	0	1.000	0.980				0.990	0.990				1.000	0.999						1.000	
+Bailu	0	1.000	0.980	0.990	0.980								1.000						1.000	
+Fu Xuan	0	1.000	0.989	1.000	0.999								1.000	0.990					1.000	
+Gepard	0	1.000	0.990	0.990	1.000									1.000					1.000	
+Hanya	0	1.000	0.980				0.990	0.990	0.980				1.000	0.990					1.000	
+Huohuo	0	1.000	0.980	0.990	0.980								1.000						1.000	
+Luocha	0	1.000	0.970	0.980	0.980	0.990									1.000				1.000	
+Lynx	0	1.000	0.980	0.990	0.970								1.000						1.000	
+Natasha	0	1.000	0.980	0.990	0.980								1.000						1.000	
+Robin	0	0.999		0.989	0.989	1.000									1.000	0.990			1.000	
+Ruan Mei	0	0.990	0.970	0.980	0.980				1.000				1.000	0.990					1.000	0.990
+
+Forge of the Kalpagni Lantern (3)	priority	SPD	Break Effect%	HP%	DEF%	ATK%	Effect RES%		Sphere (main stat)	ATK%	HP%	DEF%		Rope (main stat)	Break Effect%	Energy Regen
+combined:		1.000	0.993	0.653	0.653	0.327	0.327			0.333	0.667	0.663			0.667	0.663
+Firefly	0	1.000	0.990			0.980				1.000					1.000	
+Gallagher	0	1.000	0.990	0.970	0.970		0.980				1.000	0.999				1.000
+Trailblazer (Imaginary)	0	1.000	1.000	0.990	0.990						1.000	0.990			1.000	0.990
+
+Genius of Brilliant Stars (5)	priority	CRIT Rate	CRIT DMG	ATK%	SPD	Break Effect%		Body (main stat)	CRIT Rate	CRIT DMG		Feet (main stat)	ATK%	SPD
+combined:		0.994	0.994	0.984	0.796	0.198			0.800	0.999			1.000	0.598
+Jade	0	1.000	0.999	0.989	0.979				1.000	0.999			1.000	
+Jingliu	0	0.990	0.990	0.980	1.000					1.000			0.999	1.000
+Qingque	0	0.990	0.990	0.980	1.000				1.000	0.999			1.000	0.990
+Seele	0	1.000	1.000	0.990					1.000	0.999			1.000	
+Xueyi	0	0.989	0.989	0.979	1.000	0.990			1.000	0.999			0.999	1.000
+
+Guard of Wuthering Snow (3)	priority	SPD	Effect RES%	HP	DEF	HP%	EHR	DEF%	CRIT DMG		Body (main stat)	CRIT DMG	HP%	DEF%	EHR		Feet (main stat)	SPD	HP%
+combined:		1.000	0.980	0.657	0.657	0.333	0.333	0.333	0.330			0.333	0.663	0.330	0.333			1.000	0.330
+Bronya	0	1.000	0.970	0.980	0.980				0.990			1.000						1.000	
+Fu Xuan	0	1.000	0.989			1.000		0.999					1.000	0.990				1.000	0.990
+Pela	0	1.000	0.980	0.990	0.990		1.000						0.990		1.000			1.000	
+
+Hunter of Glacial Forest (1)	priority	SPD	CRIT DMG	ATK%	CRIT Rate		Body (main stat)	CRIT DMG		Feet (main stat)	SPD	ATK%
+combined:		1.000	0.990	0.980	0.970			1.000			1.000	0.999
+Yanqing	0	1.000	0.990	0.980	0.970			1.000			1.000	0.999
+
+Inert Salsotto (5)	priority	CRIT Rate	CRIT DMG	ATK%	SPD		Sphere (main stat)	Physical DMG	ATK%	Ice DMG	Fire DMG	Lightning DMG		Rope (main stat)	ATK%	Energy Regen
+combined:		0.998	0.998	0.988	0.796			0.400	0.990	0.200	0.200	0.200			1.000	0.198
+Argenti	0	0.990	0.990	0.980	1.000			1.000	0.990						1.000	
+Herta	0	1.000	1.000	0.990	1.000				0.990	1.000					1.000	
+Himeko	0	1.000	1.000	0.990	1.000				0.990		1.000				1.000	
+Jing Yuan	0	1.000	1.000	0.990	0.980				0.990			1.000			1.000	
+Yunli	0	1.000	1.000	0.990				1.000	0.990						1.000	0.990
+
+Iron Cavalry Against the Scourge (3)	priority	SPD	Break Effect%	ATK%	CRIT Rate	CRIT DMG		Body (main stat)	ATK%	CRIT Rate	CRIT DMG		Feet (main stat)	SPD	ATK%
+combined:		1.000	0.663	0.653	0.330	0.330			0.333	0.333	0.333			1.000	0.333
+Boothill	0	1.000	0.999											1.000	
+Firefly	0	1.000	0.990	0.980					1.000					1.000	
+March 7th • The Hunt	0	1.000		0.980	0.990	0.990				1.000	0.999			1.000	0.999
+
+Izumo Gensei and Takama Divine Realm (1)	priority	SPD	CRIT Rate	CRIT DMG	ATK%		Sphere (main stat)	ATK%	Lightning DMG		Rope (main stat)	ATK%
+combined:		1.000	0.990	0.990	0.980			1.000	0.990			1.000
+Acheron	0	1.000	0.990	0.990	0.980			1.000	0.990			1.000
+
+Knight of Purity Palace (4)	priority	SPD	DEF%	Effect RES%	HP%	EHR	CRIT DMG	CRIT Rate		Body (main stat)	DEF%	CRIT DMG	EHR		Feet (main stat)	SPD	DEF%
+combined:		0.997	0.993	0.985	0.735	0.490	0.247	0.245			1.000	0.250	0.250			1.000	0.499
+Aventurine	0	0.999	1.000	0.969			0.989	0.979			1.000	1.000				1.000	0.999
+Gepard	0	1.000	1.000	0.990	0.990						1.000					1.000	
+March 7th	0	1.000	0.990	0.980	0.980	1.000					0.999		1.000			1.000	
+Trailblazer (Fire)	0	0.990	0.980	1.000	0.970	0.960					1.000					1.000	0.999
+
+Longevous Disciple (3)	priority	SPD	HP%	Effect RES%	DEF%	CRIT Rate	CRIT DMG	HP	DEF		Body (main stat)	CRIT DMG	CRIT Rate	HP%	DEF%		Feet (main stat)	SPD	HP%	ATK%
+combined:		1.000	0.660	0.656	0.333	0.330	0.330	0.330	0.330			0.666	0.663	0.333	0.330			1.000	0.663	0.333
+Blade	0	1.000	0.980			0.990	0.990					1.000	0.990					1.000	0.999	
+Fu Xuan	0	1.000	1.000	0.989	0.999									1.000	0.990			1.000	0.990	
+Yukong	0	1.000		0.980				0.990	0.990			0.999	1.000					1.000		0.999
+
+Messenger Traversing Hackerspace (13)	priority	SPD	Effect RES%	HP	DEF	HP%	DEF%	ATK%	EHR	CRIT DMG	Break Effect%		Body (main stat)	HP%	DEF%	Outgoing Healing	CRIT DMG	EHR	ATK%	CRIT Rate		Feet (main stat)	SPD	ATK%
+combined:		0.999	0.903	0.532	0.532	0.378	0.375	0.228	0.154	0.152	0.152			0.535	0.152	0.385	0.231	0.154	0.077	0.077			1.000	0.077
+Asta	0	1.000	0.980	0.990	0.990									1.000	0.990								1.000	
+Bailu	0	1.000	0.980			0.990	0.980							0.990		1.000							1.000	
+Bronya	0	1.000	0.970	0.980	0.980					0.990							1.000						1.000	
+Gallagher	0	1.000	0.980			0.970	0.970				0.990					1.000							1.000	
+Hanya	0	1.000	0.980	0.990	0.990						0.980			1.000	0.990								1.000	
+Jiaoqiu	0	0.990						0.980	1.000									1.000					1.000	
+Luocha	0	1.000	0.970			0.980	0.980	0.990								1.000							1.000	
+Lynx	0	1.000	0.980			0.990	0.970							0.990		1.000							1.000	
+Natasha	0	1.000	0.980			0.990	0.980							0.990		1.000							1.000	
+Pela	0	1.000	0.980	0.990	0.990				1.000					0.990				1.000					1.000	
+Sparkle	0	1.000	0.980	0.980	0.980					0.990							1.000						1.000	
+Tingyun	0	1.000	0.980	0.990	0.990			1.000						0.990					1.000				1.000	
+Yukong	0	1.000	0.980	0.990	0.990												0.999			1.000			1.000	0.999
+
+Musketeer of Wild Wheat (4)	priority	ATK%	SPD	CRIT DMG	CRIT Rate	HP%	DEF%		Body (main stat)	CRIT DMG	CRIT Rate	ATK		Feet (main stat)	ATK%	SPD
+combined:		0.988	0.750	0.745	0.740	0.247	0.247			0.750	0.500	0.250			1.000	0.995
+Dan Heng • Imbibitor Lunae	0	0.990		1.000	1.000					1.000	0.999				1.000	0.990
+March 7th • The Hunt	0	0.980	1.000	0.990	0.990					0.999	1.000				0.999	1.000
+Robin	0	1.000	0.999			0.989	0.989					1.000			1.000	0.990
+Yanqing	0	0.980	1.000	0.990	0.970					1.000					0.999	1.000
+
+Pan-Cosmic Commercial Enterprise (2)	priority	EHR	SPD	ATK%	CRIT Rate	CRIT DMG	Break Effect%		Sphere (main stat)	Wind DMG	ATK%	Imaginary DMG		Rope (main stat)	ATK%
+combined:		1.000	0.995	0.980	0.495	0.495	0.485			0.500	0.990	0.500			1.000
+Black Swan	0	1.000	0.990	0.980			0.970			1.000	0.990				1.000
+Welt	0	1.000	1.000	0.980	0.990	0.990					0.990	1.000			1.000
+
+Passerby of Wandering Cloud (5)	priority	SPD	HP%	Effect RES%	DEF%	ATK%		Body (main stat)	Outgoing Healing	HP%		Feet (main stat)	SPD
+combined:		1.000	0.988	0.978	0.978	0.198			1.000	0.792			1.000
+Bailu	0	1.000	0.990	0.980	0.980				1.000	0.990			1.000
+Huohuo	0	1.000	0.990	0.980	0.980				1.000	0.990			1.000
+Luocha	0	1.000	0.980	0.970	0.980	0.990			1.000				1.000
+Lynx	0	1.000	0.990	0.980	0.970				1.000	0.990			1.000
+Natasha	0	1.000	0.990	0.980	0.980				1.000	0.990			1.000
+
+Penacony, Land of the Dreams (2)	priority	EHR	SPD	HP	DEF	Effect RES%	Break Effect%		Sphere (main stat)	HP%	DEF%	Quantum DMG		Rope (main stat)	Energy Regen
+combined:		1.000	1.000	0.990	0.990	0.980	0.495			0.995	0.499	0.500			1.000
+Pela	0	1.000	1.000	0.990	0.990	0.980				1.000	0.999				1.000
+Silver Wolf	0	1.000	1.000	0.990	0.990	0.980	0.990			0.990		1.000			1.000
+
+Pioneer Diver of Dead Waters (8)	priority	SPD	CRIT Rate	CRIT DMG	ATK%	EHR		Body (main stat)	CRIT Rate	CRIT DMG	EHR		Feet (main stat)	ATK%	SPD
+combined:		1.000	0.993	0.992	0.982	0.125			1.000	0.874	0.124			0.873	0.874
+Acheron	0	1.000	0.990	0.990	0.980				1.000	0.999				1.000	0.990
+Dan Heng	0	1.000	1.000	1.000	0.990				1.000	0.999				0.999	1.000
+Dr. Ratio	0	1.000	0.990	0.990	0.980				1.000	0.999				0.990	1.000
+Hook	0	1.000	0.990	0.990	0.980				1.000	0.999				0.999	1.000
+Misha	0	1.000	0.990	0.990	0.980				1.000	0.999				0.999	1.000
+Moze	0	1.000	1.000	0.999	0.989				1.000	0.999				1.000	
+Serval	0	1.000	0.990	0.990	0.980				1.000	0.999				0.999	1.000
+Welt	0	1.000	0.990	0.990	0.980	1.000			1.000		0.990				1.000
+
+Prisoner in Deep Confinement (6)	priority	SPD	ATK%	EHR	Break Effect%	HP%	DEF%		Body (main stat)	EHR	ATK%	ATK		Feet (main stat)	SPD	ATK%
+combined:		0.997	0.988	0.833	0.815	0.327	0.327			0.665	0.830	0.167			0.998	0.167
+Black Swan	0	0.990	0.980	1.000	0.970					1.000	0.990				1.000	
+Guinaifen	0	0.990	0.980	1.000	0.970	0.970	0.970			0.990	1.000				1.000	
+Kafka	0	1.000	0.990	1.000	0.980						1.000				1.000	
+Luka	0	1.000	0.989	1.000	0.990					1.000	0.990				1.000	
+Robin	0	0.999	1.000			0.989	0.989					1.000			0.990	1.000
+Sampo	0	1.000	0.990	1.000	0.980					1.000	0.999				1.000	
+
+Rutilant Arena (10)	priority	CRIT Rate	CRIT DMG	ATK%	SPD	Break Effect%	HP%		Sphere (main stat)	Lightning DMG	ATK%	Wind DMG	HP%	Imaginary DMG	Ice DMG	Quantum DMG	Physical DMG		Rope (main stat)	ATK%	HP%	Break Effect%
+combined:		0.993	0.993	0.885	0.800	0.198	0.098			0.100	0.796	0.200	0.100	0.200	0.100	0.200	0.200			0.900	0.100	0.199
+Arlan	0	0.990	0.990	0.980	1.000					1.000	0.990									1.000		
+Blade	0	0.990	0.990		1.000		0.980					1.000	0.999								1.000	
+Dan Heng	0	1.000	1.000	0.990	1.000						0.999	1.000								1.000		
+Dan Heng • Imbibitor Lunae	0	1.000	1.000	0.990							0.990			1.000						1.000		
+Jingliu	0	0.990	0.990	0.980	1.000						0.990				1.000					1.000		
+March 7th • The Hunt	0	0.990	0.990	0.980	1.000						0.999			1.000						1.000		
+Qingque	0	0.990	0.990	0.980	1.000											1.000				1.000		
+Seele	0	1.000	1.000	0.990							0.999					1.000				1.000		
+Sushang	0	0.989	0.989	0.979	1.000	0.990					0.999						1.000			1.000		1.000
+Trailblazer (Physical)	0	0.989	0.989	0.979	1.000	0.990					0.990						1.000			1.000		0.990
+
+Sprightly Vonwacq (1)	priority	EHR	SPD	ATK%		Sphere (main stat)	Fire DMG		Rope (main stat)	Energy Regen
+combined:		1.000	0.990	0.980			1.000			1.000
+Jiaoqiu	0	1.000	0.990	0.980			1.000			1.000
+
+Talia: Kingdom of Banditry (4)	priority	SPD	Break Effect%	ATK%	CRIT Rate	CRIT DMG	EHR		Sphere (main stat)	Physical DMG	ATK%	Imaginary DMG	Quantum DMG		Rope (main stat)	Break Effect%	ATK%
+combined:		1.000	0.745	0.737	0.495	0.495	0.250			0.250	0.747	0.250	0.247			0.750	0.500
+Boothill	0	1.000	0.999													1.000	
+Luka	0	1.000	0.990	0.989			1.000			1.000	0.990					1.000	0.999
+March 7th • The Hunt	0	1.000		0.980	0.990	0.990					0.999	1.000					1.000
+Xueyi	0	1.000	0.990	0.979	0.989	0.989					1.000		0.990			1.000	
+
+The Ashblazing Grand Duke (4)	priority	CRIT Rate	CRIT DMG	SPD	ATK%		Body (main stat)	CRIT Rate	CRIT DMG		Feet (main stat)	ATK%	SPD
+combined:		0.998	0.998	0.995	0.988			1.000	0.999			0.998	0.497
+Herta	0	1.000	1.000	1.000	0.990			1.000	0.999			1.000	0.990
+Himeko	0	1.000	1.000	1.000	0.990			1.000	0.999			1.000	
+Jing Yuan	0	1.000	1.000	0.980	0.990			1.000	0.999			1.000	
+Topaz & Numby	0	0.990	0.990	1.000	0.980			1.000	0.999			0.990	1.000
+
+The Wind-Soaring Valorous (2)	priority	CRIT Rate	CRIT DMG	ATK%	SPD		Body (main stat)	CRIT Rate	CRIT DMG		Feet (main stat)	ATK%	SPD
+combined:		1.000	1.000	0.990	0.500			1.000	0.995			1.000	0.499
+Feixiao	0	1.000	1.000	0.990	1.000			1.000	0.999			1.000	0.999
+Yunli	0	1.000	1.000	0.990				1.000	0.990			1.000	
+
+Thief of Shooting Meteor (1)	priority	SPD	Break Effect%	Effect RES%	HP%	DEF%		Body (main stat)	Outgoing Healing		Feet (main stat)	SPD
+combined:		1.000	0.990	0.980	0.970	0.970			1.000			1.000
+Gallagher	0	1.000	0.990	0.980	0.970	0.970			1.000			1.000
+
+Watchmaker, Master of Dream Machinations (2)	priority	Break Effect%	SPD	HP%	DEF%	Effect RES%		Body (main stat)	HP%	DEF%		Feet (main stat)	SPD
+combined:		1.000	0.995	0.985	0.985	0.485			1.000	0.990			1.000
+Ruan Mei	0	1.000	0.990	0.980	0.980	0.970			1.000	0.990			1.000
+Trailblazer (Imaginary)	0	1.000	1.000	0.990	0.990				1.000	0.990			1.000
+
