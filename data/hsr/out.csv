@@ -145,10 +145,10 @@ Tingyun	0	1.000	0.980	0.990	0.990			1.000						0.990					1.000				1.000
 Yukong	0	1.000	0.980	0.990	0.990												0.999			1.000			1.000	0.999
 
 Musketeer of Wild Wheat (4)	priority	ATK%	SPD	CRIT DMG	CRIT Rate	HP%	DEF%		Body (main stat)	CRIT DMG	CRIT Rate	ATK		Feet (main stat)	ATK%	SPD
-combined:		0.988	0.750	0.745	0.740	0.247	0.247			0.750	0.500	0.250			1.000	0.995
+combined:		0.988	0.750	0.745	0.740	0.247	0.247			0.750	0.500	0.250			1.000	0.748
 Dan Heng • Imbibitor Lunae	0	0.990		1.000	1.000					1.000	0.999				1.000	0.990
 March 7th • The Hunt	0	0.980	1.000	0.990	0.990					0.999	1.000				0.999	1.000
-Robin	0	1.000	0.999			0.989	0.989					1.000			1.000	0.990
+Robin	0	1.000	0.999			0.989	0.989					1.000			1.000	
 Yanqing	0	0.980	1.000	0.990	0.970					1.000					0.999	1.000
 
 Pan-Cosmic Commercial Enterprise (2)	priority	EHR	SPD	ATK%	CRIT Rate	CRIT DMG	Break Effect%		Sphere (main stat)	Wind DMG	ATK%	Imaginary DMG		Rope (main stat)	ATK%
@@ -181,12 +181,12 @@ Serval	0	1.000	0.990	0.990	0.980				1.000	0.999				0.999	1.000
 Welt	0	1.000	0.990	0.990	0.980	1.000			1.000		0.990				1.000
 
 Prisoner in Deep Confinement (6)	priority	SPD	ATK%	EHR	Break Effect%	HP%	DEF%		Body (main stat)	EHR	ATK%	ATK		Feet (main stat)	SPD	ATK%
-combined:		0.997	0.988	0.833	0.815	0.327	0.327			0.665	0.830	0.167			0.998	0.167
+combined:		0.997	0.988	0.833	0.815	0.327	0.327			0.665	0.830	0.167			0.833	0.167
 Black Swan	0	0.990	0.980	1.000	0.970					1.000	0.990				1.000	
 Guinaifen	0	0.990	0.980	1.000	0.970	0.970	0.970			0.990	1.000				1.000	
 Kafka	0	1.000	0.990	1.000	0.980						1.000				1.000	
 Luka	0	1.000	0.989	1.000	0.990					1.000	0.990				1.000	
-Robin	0	0.999	1.000			0.989	0.989					1.000			0.990	1.000
+Robin	0	0.999	1.000			0.989	0.989					1.000				1.000
 Sampo	0	1.000	0.990	1.000	0.980					1.000	0.999				1.000	
 
 Rutilant Arena (10)	priority	CRIT Rate	CRIT DMG	ATK%	SPD	Break Effect%	HP%		Sphere (main stat)	Lightning DMG	ATK%	Wind DMG	HP%	Imaginary DMG	Ice DMG	Quantum DMG	Physical DMG		Rope (main stat)	ATK%	HP%	Break Effect%
