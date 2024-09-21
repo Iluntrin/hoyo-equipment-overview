@@ -179,7 +179,7 @@ def write_stats(sheet, title, data, formats, row, col):
 			cols = xlsxwriter.utility.xl_range(row+1,col,row+num_users, col)
 			visibility_cols = xlsxwriter.utility.xl_range(row+1,visibility_col,row+num_users, visibility_col)
 
-			sheet.write_formula(row, col, "=IF(SUM(" + visibility_cols+")=0,0,(SUM(" + cols + ")/SUM(" + visibility_cols+"))", formats["table_percent"], "")
+			sheet.write_formula(row, col, "=IF(SUM(" + visibility_cols+")=0,0,SUM(" + cols + ")/SUM(" + visibility_cols+"))", formats["table_percent"], "")
 			
 			# hide cell if 0
 			sheet.conditional_format(row, col, row, col, {'type': 'cell', 'criteria': '=','value': 0,'format': formats["table_hide"]})
@@ -423,7 +423,7 @@ if __name__ == '__main__':
 	if(config["equipment_list_file"] == ""):
 		config["equipment_list_file"] = "data/" + config["type"] + "/equipments.json"
 	if(config["output"] == ""):
-		config["output"] = "data/" + config["type"] + "/out.xlsx"
+		config["output"] = "data/" + config["type"] + "/"+config["type"]+".xlsx"
 
 	if(debug):
 		config["renew"] = True
