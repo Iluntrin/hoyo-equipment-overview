@@ -1,0 +1,129 @@
+Chaotic Metal (1)	priority	CRIT Rate	CRIT DMG	ATK%	PEN	ATK		Disk 4 (main stat)	CRIT DMG	CRIT Rate		Disk 5 (main stat)	Ether DMG%	ATK%	PEN Ratio%		Disk 6 (main stat)	ATK%
+combined:		1.000	1.000	0.990	0.980	0.980			1.000	1.000			1.000	0.990	0.990			1.000
+Zhu Yuan	0	1.000	1.000	0.990	0.980	0.980			1.000	1.000			1.000	0.990	0.990			1.000
+
+Fanged Metal (5)	priority	ATK%	PEN	ATK	CRIT Rate	CRIT DMG	Anomaly Proficiency		Disk 4 (main stat)	CRIT Rate	CRIT DMG	Anomaly Proficiency	ATK%		Disk 5 (main stat)	Physical DMG%	ATK%	PEN Ratio%		Disk 6 (main stat)	ATK%	Anomaly Mastery
+combined:		0.990	0.980	0.980	0.600	0.600	0.400			0.600	0.600	0.400	0.198			1.000	0.996	0.396			1.000	0.400
+Corin	0	0.990	0.980	0.980	1.000	1.000				1.000	1.000					0.999	1.000				1.000	
+Jane Doe	0	0.990	0.980	0.980			1.000					1.000				1.000	0.989	0.990			0.999	1.000
+Nekomata	0	0.990	0.980	0.980	1.000	1.000				1.000	1.000					0.999	1.000				1.000	
+Piper	0	0.990	0.980	0.980			1.000					1.000	0.990			1.000	0.990	0.990			1.000	1.000
+Billy	0.3	0.990	0.980	0.980	1.000	1.000				1.000	1.000					1.000	0.999				1.000	
+
+Freedom Blues (12)	priority	PEN	ATK%	ATK	CRIT Rate	CRIT DMG	Anomaly Proficiency	DEF%	DEF		Disk 4 (main stat)	CRIT Rate	CRIT DMG	DEF%	Anomaly Proficiency	ATK%		Disk 5 (main stat)	Electric DMG%	DEF%	Fire DMG%	PEN Ratio%	ATK%	Physical DMG%	Ice DMG%	Ether DMG%		Disk 6 (main stat)	Impact	DEF%	Energy Regen	Anomaly Mastery	ATK%
+combined:		0.981	0.911	0.901	0.499	0.499	0.499	0.083	0.082			0.415	0.332	0.083	0.500	0.582			0.250	0.083	0.167	0.331	0.580	0.167	0.166	0.083			0.250	0.083	0.500	0.333	0.583
+Grace	0.1	0.980	0.990	0.980			1.000								1.000	0.990			1.000			0.990	0.990									1.000	1.000
+Jane Doe	0.1	0.980	0.990	0.980			1.000								1.000							0.990	0.989	1.000								1.000	0.999
+Nicole	0.1	0.990	1.000	0.990			1.000								1.000	1.000							0.990			1.000					1.000		1.000
+Piper	0.1	0.980	0.990	0.980			1.000								1.000	0.990						0.990	0.990	1.000								1.000	1.000
+Anby	0.2	0.980	0.990	0.980	1.000	1.000						1.000	0.999						1.000										1.000				
+Koleda	0.2	0.980	0.990	0.980	1.000	1.000						1.000	0.999								1.000								1.000				
+Lucy	0.2	0.990	1.000	0.990	1.000	1.000						0.990				1.000							1.000								1.000		1.000
+Lycaon	0.2	0.980	0.990	0.980	1.000	1.000						1.000	0.999												1.000				1.000				
+Rina	0.2	0.980	0.990	0.980			1.000								1.000	1.000						1.000									1.000		0.999
+Soukaku	0.2	0.990	1.000	0.990	1.000	1.000						0.990				1.000							1.000		0.990						1.000		1.000
+Seth	1	0.970	1.000	0.980			0.990								0.999	1.000			0.999				1.000								1.000	1.000	
+Ben	1	0.970			0.990	0.990		1.000	0.980				0.990	1.000						1.000	1.000									1.000	1.000		
+
+Hormone Punk (19)	priority	PEN	ATK%	ATK	CRIT Rate	CRIT DMG	Anomaly Proficiency	DEF%	DEF		Disk 4 (main stat)	CRIT Rate	CRIT DMG	DEF%	Anomaly Proficiency	ATK%		Disk 5 (main stat)	Electric DMG%	DEF%	Fire DMG%	Physical DMG%	ATK%	Ice DMG%	PEN Ratio%	Ether DMG%		Disk 6 (main stat)	Impact	ATK%	DEF%	Energy Regen	Anomaly Mastery
+combined:		0.981	0.940	0.930	0.684	0.684	0.315	0.053	0.052			0.631	0.578	0.053	0.316	0.367			0.210	0.053	0.158	0.263	0.680	0.157	0.261	0.105			0.158	0.737	0.053	0.316	0.211
+Lucy	0.1	0.990	1.000	0.990	1.000	1.000						0.990				1.000							1.000							1.000		1.000	
+Seth	0.1	0.970	1.000	0.980			0.990								0.999	1.000			0.999				1.000									1.000	1.000
+Soukaku	0.1	0.990	1.000	0.990	1.000	1.000						0.990				1.000							1.000	0.990						1.000		1.000	
+Anton	0.2	0.980	0.990	0.980	1.000	1.000						1.000	0.999						1.000											1.000			
+Billy	0.2	0.980	0.990	0.980	1.000	1.000						1.000	1.000									1.000	0.999							1.000			
+Corin	0.2	0.980	0.990	0.980	1.000	1.000						1.000	1.000									0.999	1.000							1.000			
+Ellen	0.2	0.980	0.990	0.980	1.000	1.000						1.000	1.000										0.990	1.000						1.000			
+Grace	0.2	0.980	0.990	0.980			1.000								1.000	0.990			1.000				0.990		0.990					1.000			1.000
+Jane Doe	0.2	0.980	0.990	0.980			1.000								1.000							1.000	0.989		0.990					0.999			1.000
+Nekomata	0.2	0.980	0.990	0.980	1.000	1.000						1.000	1.000									0.999	1.000							1.000			
+Nicole	0.2	0.990	1.000	0.990			1.000								1.000	1.000							0.990			1.000				1.000		1.000	
+Piper	0.2	0.980	0.990	0.980			1.000								1.000	0.990						1.000	0.990		0.990					1.000			1.000
+Soldier 11	0.2	0.980	0.990	0.980	1.000	1.000						1.000	1.000								1.000		0.990							1.000			
+Zhu Yuan	0.2	0.980	0.990	0.980	1.000	1.000						1.000	1.000										0.990		0.990	1.000				1.000			
+Rina	0.3	0.980	0.990	0.980			1.000								1.000	1.000									1.000					0.999		1.000	
+Anby	0.5	0.980	0.990	0.980	1.000	1.000						1.000	0.999						1.000										1.000				
+Koleda	0.5	0.980	0.990	0.980	1.000	1.000						1.000	0.999								1.000								1.000				
+Lycaon	0.5	0.980	0.990	0.980	1.000	1.000						1.000	0.999											1.000					1.000				
+Ben	2	0.970			0.990	0.990		1.000	0.980				0.990	1.000						1.000	1.000										1.000	1.000	
+
+Inferno Metal (2)	priority	CRIT Rate	CRIT DMG	PEN	DEF%	ATK%	DEF	ATK		Disk 4 (main stat)	DEF%	CRIT DMG	CRIT Rate		Disk 5 (main stat)	DEF%	Fire DMG%	ATK%		Disk 6 (main stat)	DEF%	Energy Regen	ATK%
+combined:		0.995	0.995	0.975	0.500	0.495	0.490	0.490			0.500	0.995	0.500			0.500	1.000	0.495			0.500	0.500	0.500
+Soldier 11	0	1.000	1.000	0.980		0.990		0.980				1.000	1.000				1.000	0.990					1.000
+Ben	0.3	0.990	0.990	0.970	1.000		0.980				1.000	0.990				1.000	1.000				1.000	1.000	
+
+Polar Metal (4)	priority	CRIT Rate	CRIT DMG	ATK%	PEN	ATK		Disk 4 (main stat)	CRIT Rate	CRIT DMG	ATK%		Disk 5 (main stat)	Physical DMG%	ATK%	Ice DMG%		Disk 6 (main stat)	ATK%	Impact	Energy Regen
+combined:		1.000	1.000	0.993	0.983	0.983			0.998	0.750	0.250			0.250	0.747	0.748			0.750	0.250	0.250
+Ellen	0.3	1.000	1.000	0.990	0.980	0.980			1.000	1.000					0.990	1.000			1.000		
+Lycaon	0.3	1.000	1.000	0.990	0.980	0.980			1.000	0.999						1.000				1.000	
+Soukaku	0.4	1.000	1.000	1.000	0.990	0.990			0.990		1.000				1.000	0.990			1.000		1.000
+Billy	1	1.000	1.000	0.990	0.980	0.980			1.000	1.000				1.000	0.999				1.000		
+
+Puffer Electro (19)	priority	PEN	ATK%	ATK	CRIT Rate	CRIT DMG	Anomaly Proficiency	DEF%	DEF		Disk 4 (main stat)	CRIT Rate	CRIT DMG	DEF%	Anomaly Proficiency	ATK%		Disk 5 (main stat)	Electric DMG%	DEF%	Fire DMG%	Physical DMG%	ATK%	Ice DMG%	PEN Ratio%	Ether DMG%		Disk 6 (main stat)	Impact	ATK%	DEF%	Energy Regen	Anomaly Mastery
+combined:		0.981	0.939	0.930	0.736	0.736	0.263	0.053	0.052			0.683	0.631	0.053	0.263	0.315			0.211	0.053	0.158	0.263	0.628	0.157	0.261	0.105			0.211	0.737	0.053	0.263	0.158
+Billy	0.1	0.980	0.990	0.980	1.000	1.000						1.000	1.000									1.000	0.999							1.000			
+Ellen	0.1	0.980	0.990	0.980	1.000	1.000						1.000	1.000										0.990	1.000						1.000			
+Rina	0.1	0.980	0.990	0.980			1.000								1.000	1.000									1.000					0.999		1.000	
+Ben	0.2	0.970			0.990	0.990		1.000	0.980				0.990	1.000						1.000	1.000										1.000	1.000	
+Anton	0.3	0.980	0.990	0.980	1.000	1.000						1.000	0.999						1.000											1.000			
+Corin	0.3	0.980	0.990	0.980	1.000	1.000						1.000	1.000									0.999	1.000							1.000			
+Grace	0.3	0.980	0.990	0.980			1.000								1.000	0.990			1.000				0.990		0.990					1.000			1.000
+Jane Doe	0.3	0.980	0.990	0.980			1.000								1.000							1.000	0.989		0.990					0.999			1.000
+Lucy	0.3	0.990	1.000	0.990	1.000	1.000						0.990				1.000							1.000							1.000		1.000	
+Nekomata	0.3	0.980	0.990	0.980	1.000	1.000						1.000	1.000									0.999	1.000							1.000			
+Nicole	0.3	0.990	1.000	0.990			1.000								1.000	1.000							0.990			1.000				1.000		1.000	
+Piper	0.3	0.980	0.990	0.980			1.000								1.000	0.990						1.000	0.990		0.990					1.000			1.000
+Qingyi	0.3	0.980	0.990	0.980	1.000	1.000						1.000	0.999						1.000										1.000				
+Soldier 11	0.3	0.980	0.990	0.980	1.000	1.000						1.000	1.000								1.000		0.990							1.000			
+Soukaku	0.3	0.990	1.000	0.990	1.000	1.000						0.990				1.000							1.000	0.990						1.000		1.000	
+Zhu Yuan	0.3	0.980	0.990	0.980	1.000	1.000						1.000	1.000										0.990		0.990	1.000				1.000			
+Anby	0.4	0.980	0.990	0.980	1.000	1.000						1.000	0.999						1.000										1.000				
+Koleda	0.4	0.980	0.990	0.980	1.000	1.000						1.000	0.999								1.000								1.000				
+Lycaon	0.4	0.980	0.990	0.980	1.000	1.000						1.000	0.999											1.000					1.000				
+
+Shockstar Disco (6)	priority	PEN	CRIT Rate	CRIT DMG	ATK%	ATK	DEF%	Anomaly Proficiency	DEF		Disk 4 (main stat)	CRIT Rate	CRIT DMG	DEF%	ATK%	Anomaly Proficiency		Disk 5 (main stat)	Electric DMG%	DEF%	Fire DMG%	Ice DMG%	ATK%		Disk 6 (main stat)	Impact	DEF%	Energy Regen	Anomaly Mastery
+combined:		0.977	0.832	0.832	0.827	0.817	0.167	0.165	0.163			0.667	0.831	0.167	0.167	0.167			0.500	0.167	0.333	0.167	0.167			0.667	0.167	0.333	0.167
+Anby	0	0.980	1.000	1.000	0.990	0.980						1.000	0.999						1.000							1.000			
+Koleda	0	0.980	1.000	1.000	0.990	0.980						1.000	0.999								1.000					1.000			
+Lycaon	0	0.980	1.000	1.000	0.990	0.980						1.000	0.999									1.000				1.000			
+Qingyi	0	0.980	1.000	1.000	0.990	0.980						1.000	0.999						1.000							1.000			
+Seth	0.2	0.970			1.000	0.980		0.990							1.000	0.999			0.999				1.000					1.000	1.000
+Ben	1	0.970	0.990	0.990			1.000		0.980				0.990	1.000						1.000	1.000						1.000	1.000	
+
+Soul Rock (1)	priority	DEF%	CRIT Rate	CRIT DMG	DEF	PEN		Disk 4 (main stat)	DEF%	CRIT DMG		Disk 5 (main stat)	DEF%	Fire DMG%		Disk 6 (main stat)	DEF%	Energy Regen
+combined:		1.000	0.990	0.990	0.980	0.970			1.000	0.990			1.000	1.000			1.000	1.000
+Ben	0.1	1.000	0.990	0.990	0.980	0.970			1.000	0.990			1.000	1.000			1.000	1.000
+
+Swing Jazz (10)	priority	PEN	ATK%	ATK	CRIT Rate	CRIT DMG	Anomaly Proficiency	DEF%	DEF		Disk 4 (main stat)	CRIT Rate	CRIT DMG	DEF%	ATK%	Anomaly Proficiency		Disk 5 (main stat)	Electric DMG%	DEF%	Fire DMG%	ATK%	Ice DMG%	Ether DMG%	PEN Ratio%		Disk 6 (main stat)	Impact	DEF%	Energy Regen	ATK%	Anomaly Mastery
+combined:		0.981	0.895	0.885	0.699	0.699	0.299	0.100	0.098			0.598	0.499	0.100	0.500	0.300			0.300	0.100	0.200	0.399	0.199	0.100	0.100			0.400	0.100	0.600	0.400	0.100
+Ben	0	0.970			0.990	0.990		1.000	0.980				0.990	1.000						1.000	1.000								1.000	1.000		
+Lucy	0	0.990	1.000	0.990	1.000	1.000						0.990			1.000							1.000								1.000	1.000	
+Nicole	0	0.990	1.000	0.990			1.000								1.000	1.000						0.990		1.000						1.000	1.000	
+Rina	0	0.980	0.990	0.980			1.000								1.000	1.000									1.000					1.000	0.999	
+Seth	0	0.970	1.000	0.980			0.990								1.000	0.999			0.999			1.000								1.000		1.000
+Soukaku	0	0.990	1.000	0.990	1.000	1.000						0.990			1.000							1.000	0.990							1.000	1.000	
+Anby	0.1	0.980	0.990	0.980	1.000	1.000						1.000	0.999						1.000									1.000				
+Koleda	0.1	0.980	0.990	0.980	1.000	1.000						1.000	0.999								1.000							1.000				
+Lycaon	0.1	0.980	0.990	0.980	1.000	1.000						1.000	0.999										1.000					1.000				
+Qingyi	0.1	0.980	0.990	0.980	1.000	1.000						1.000	0.999						1.000									1.000				
+
+Thunder Metal (6)	priority	ATK%	PEN	ATK	CRIT Rate	CRIT DMG	Anomaly Proficiency		Disk 4 (main stat)	CRIT Rate	CRIT DMG	Anomaly Proficiency	ATK%		Disk 5 (main stat)	Electric DMG%	PEN Ratio%	ATK%	Fire DMG%		Disk 6 (main stat)	Impact	ATK%	Anomaly Mastery	Energy Regen
+combined:		0.990	0.980	0.980	0.667	0.667	0.333			0.667	0.666	0.333	0.332			0.667	0.332	0.165	0.167			0.500	0.500	0.167	0.167
+Anton	0	0.990	0.980	0.980	1.000	1.000				1.000	0.999					1.000							1.000		
+Grace	0	0.990	0.980	0.980			1.000					1.000	0.990			1.000	0.990	0.990					1.000	1.000	
+Qingyi	0.2	0.990	0.980	0.980	1.000	1.000				1.000	0.999					1.000						1.000			
+Anby	0.3	0.990	0.980	0.980	1.000	1.000				1.000	0.999					1.000						1.000			
+Koleda	0.3	0.990	0.980	0.980	1.000	1.000				1.000	0.999								1.000			1.000			
+Rina	0.4	0.990	0.980	0.980			1.000					1.000	1.000				1.000						0.999		1.000
+
+Woodpecker Electro (8)	priority	CRIT Rate	CRIT DMG	ATK%	PEN	ATK		Disk 4 (main stat)	CRIT Rate	CRIT DMG		Disk 5 (main stat)	Electric DMG%	Physical DMG%	ATK%	Ice DMG%	Fire DMG%	Ether DMG%	PEN Ratio%		Disk 6 (main stat)	ATK%	Impact
+combined:		1.000	1.000	0.990	0.980	0.980			1.000	1.000			0.250	0.375	0.746	0.125	0.125	0.125	0.124			0.875	0.125
+Billy	0	1.000	1.000	0.990	0.980	0.980			1.000	1.000				1.000	0.999							1.000	
+Ellen	0	1.000	1.000	0.990	0.980	0.980			1.000	1.000					0.990	1.000						1.000	
+Anton	0.1	1.000	1.000	0.990	0.980	0.980			1.000	0.999			1.000									1.000	
+Corin	0.1	1.000	1.000	0.990	0.980	0.980			1.000	1.000				0.999	1.000							1.000	
+Nekomata	0.1	1.000	1.000	0.990	0.980	0.980			1.000	1.000				0.999	1.000							1.000	
+Soldier 11	0.1	1.000	1.000	0.990	0.980	0.980			1.000	1.000					0.990		1.000					1.000	
+Zhu Yuan	0.1	1.000	1.000	0.990	0.980	0.980			1.000	1.000					0.990			1.000	0.990			1.000	
+Qingyi	0.4	1.000	1.000	0.990	0.980	0.980			1.000	0.999			1.000										1.000
+
