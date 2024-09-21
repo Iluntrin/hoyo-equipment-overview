@@ -375,7 +375,7 @@ def main():
 if __name__ == '__main__':
 	args = sys.argv[1:]
 
-	if "--help" in args:
+	if "--help" not in args:
 		print("Usage:")
 		print(" python main.py [ARGUMENTS]")
 		print()
@@ -415,8 +415,6 @@ if __name__ == '__main__':
 			config["equipment_list_file"] = arg[arg.find("=")+1:]
 		elif arg.startswith("output="):
 			config["output"] = arg[arg.find("=")+1:]
-
-	config["type"] = "zzz"
 
 	# set the files depending on type (if custom has not been set)
 	if(config["equipment_list_file"] == ""):
