@@ -15,7 +15,7 @@ debug = False
 
 config = {
 	"renew": False,
-	"equipments_per_char": 1,
+	"equipments_per_char": 100,
 	"sort_num_users": False,
 	"equipment_list_file": "",
 	"character_list_file": "",
@@ -114,7 +114,7 @@ def add_stats_to_equipment(equipment_list, equipment_name, stats, character, pri
 				equipment_list[equipment_name]["main_stats"][part]["combined"][k] = main_stats[part][k]
 
 		# individual main stats
-		equipment_list[equipment_name]["main_stats"][part]["stats"][character] = main_stats[part]
+		equipment_list[equipment_name]["main_stats"][part]["stats"][character] = {"stats": main_stats[part], "priority": priority}
 
 
 
@@ -148,12 +148,95 @@ def combine():
 
 	return equipment_list
 
-def write_substats(sheet, name, data, formats, row, col):
-	pass
-def write_mainstats(sheet, name, data, formats, row, col):
-	pass
+def write_stats(sheet, title, data, formats, row, col):
+	num_users = len(data["stats"])
+	sheet.write_string(row, 0, title, formats["table_header"])
+	sheet.write_string(row, 1, "priority", formats["table_header"])
+	col = 2
+
+	# KEYS substats
+	for k in data["keys"]:
+		sheet.write_string(row, col, k, formats["table_header"])
+
+		# if combined value is 0 -> hide the column
+		cell_below = xlsxwriter.utility.xl_rowcol_to_cell(row+1,col)
+		sheet.conditional_format(row, col, row, col, {'type': 'formula', 'criteria': cell_below+'=0','format': formats["table_header_hide"]})
+		col += 1
+
+	row += 1
+
+	# combined substats
+	sheet.write_string(row, 0, "combined", formats["table_side_header"])
+	sheet.write_string(row, 1, "", formats["table"])
+	col = 2
+
+	visibility_col = len(data["keys"])+2
+
+	for k in data["keys"]:
+		if(k in data["combined"]):
+			# write it out and normalize values to be between 0-1
+			# sheet.write(row, col, (data["combined"][k] / 100.0 / num_users), formats["table_percent"])
+			cols = xlsxwriter.utility.xl_range(row+1,col,row+num_users, col)
+			visibility_cols = xlsxwriter.utility.xl_range(row+1,visibility_col,row+num_users, visibility_col)
+			sheet.write_formula(row, col, "=SUM(" + cols + ")/SUM(" + visibility_cols+")", formats["table_percent"], "")
+			
+			# hide cell if 0
+			sheet.conditional_format(row, col, row, col, {'type': 'cell', 'criteria': '=','value': 0,'format': formats["table_hide"]})
+
+			col += 1
+		else:
+			sheet.write_string(row, col, "", formats["table"])
+			col += 1 # no value in column
+	row += 1
+
+	for character in data["stats"]:
+
+		# last column for visibility check
+		name_cell = xlsxwriter.utility.xl_rowcol_to_cell(row,0)
+		prio_cell = xlsxwriter.utility.xl_rowcol_to_cell(row,1)
+		visibility_check_cell = xlsxwriter.utility.xl_rowcol_to_cell(row,visibility_col)
+		formula = "=IF(OR(LOOKUP("+name_cell+",characters!A:A,characters!B:B)=-1, LOOKUP("+name_cell+",characters!A:A,characters!B:B)+0.1>="+prio_cell+"),1,0)"
+		sheet.write_formula(row,visibility_col, formula, formats["invisible"], "")
+
+		# single substats (per character)
+		sheet.write_string(row, 0, character, formats["table_side_header"])
+		sheet.write(row, 1, data["stats"][character]["priority"], formats["table_number"])
+		col = 2 # start with column index 2
+		for k in data["keys"]:
+			if(k in data["stats"][character]["stats"]):
+				# write it out and normalize values to be between 0-1
+
+				name_cell = xlsxwriter.utility.xl_rowcol_to_cell(row,0)
+				prio_cell = xlsxwriter.utility.xl_rowcol_to_cell(row,1)
+
+				value = data["stats"][character]["stats"][k] / 100.0
+
+				# look for name in characters sheet
+				# if b column in characters sheet is -1 -> show the value
+				# if b column in characters sheet is 0-n -> compare the value from characters sheet with prio
+				# if prio-0.1 is below/equal to value in characters sheet -> show value else show 0
+
+				formula = "=IF("+visibility_check_cell+"=1,"+str(value)+",0)"
+				sheet.write_formula(row,col, formula, formats["table_percent"], "")
+
+				# hide cell if 0
+				sheet.conditional_format(row, col, row, col, {'type': 'cell', 'criteria': '=','value': 0,'format': formats["table_hide"]})
+
+				# sheet.write(row, col, (data["stats"][character]["stats"][k] / 100.0), formats["table_percent"])
+				col += 1
+			else:
+				sheet.write_string(row, col, "", formats["table"])
+				col += 1
+
+
+		
+		row += 1
+
 
 def write_xls(equipment_list):
+	with open(config["character_list_file"], 'r') as f:
+		characters = json.load(f)
+
 	if(config["sort_num_users"]):
 		# sort equipment users
 		sorted_equipments = {k: v for k,v in sorted(equipment_list.items(), key=lambda x: len(x[1]["stats"]), reverse=True)}
@@ -170,15 +253,20 @@ def write_xls(equipment_list):
 
 
 	workbook = xlsxwriter.Workbook(config["output"])
-	sheet = workbook.add_worksheet()
+	sheet = workbook.add_worksheet("equipment")
+	char_sheet = workbook.add_worksheet("characters")
 
 	formats = {
 		"header": workbook.add_format({'bold': True,"font_size": 15}),
 		"bold": workbook.add_format({'bold': True}),
 		"table_header": workbook.add_format({'bold': True, "bg_color": "#666666","font_color": "#FFFFFF", 'valign': "center", "border": 1}),
+		"table_header_hide": workbook.add_format({'bold': True, "bg_color": "#666666","font_color": "#666666", 'valign': "center", "border": 1}),
 		"table_side_header": workbook.add_format({'bold': True, "bg_color": "#666666","font_color": "#FFFFFF", "border": 1}),
 		"table_percent": workbook.add_format({'num_format': '0.00%',"bg_color": "#cccccc", "border": 1}),
-		"table": workbook.add_format({"bg_color": "#cccccc", "border": 1})
+		"table": workbook.add_format({"bg_color": "#cccccc", "border": 1}),
+		"table_hide": workbook.add_format({"bg_color": "#cccccc", "font_color": "#cccccc", "border": 1}),
+		"table_number": workbook.add_format({"num_format": "0.#", "bg_color": "#cccccc", "border": 1}),
+		"invisible": workbook.add_format({ "font_color": "#FFFFFF"})
 	}
 
 	row = 0
@@ -191,126 +279,87 @@ def write_xls(equipment_list):
 	sheet.merge_range(3,1,3,6, "https://github.com/Iluntrin/hoyo-equipment-overview")
 
 	if(config["type"] == "hsr"):
+
+
 		sheet.merge_range(0, 0, 0, 4, "Honkai Star Rail - Relic Overview", formats["header"])
-		# empty row
-		sheet.merge_range(5, 0, 5, 12, "Info:", formats["bold"])
-		sheet.merge_range(6, 0, 6, 12, "This file lists all possible substats and stats for each individual relic set.")
-		sheet.merge_range(7, 0, 7, 12, "The file provides a combined row and rows for each individual character.")
-		sheet.merge_range(8, 0, 8, 12, "The values demonstrate how important each individual stat is for the given set (the higher the more important).")
-		sheet.merge_range(9, 0, 9, 12, "The priority column shows how important this set is for each individual character (starting from 0).")
-		sheet.merge_range(10, 0, 10, 12, "The stats shown in the first columns are the desired substats.")
-		sheet.merge_range(11, 0, 11, 12, "The main stats are shown in later columns and start with the piece (e.g. Body (main stat))")
-		sheet.merge_range(12, 0, 12, 12, "The number next to the set name shows how many characters are using this set.")
-		# empty row
-		row = 14
+
+		explanation = '''
+The excel sheet contains multiple table groups. Each table group contains the substats and the main stats of a given relic set. The first data row in each table contains the combined values of each character that uses the set. 
+
+The values are in percentages, with the most important stat being 100%. If a subsequent stat was stated on prydwen to be >= (less or equal) of the previous stat, I subtracted 1% of the previous value. If a subsequent stat was stated to be > (less) important I subtracted 10% from the previous value.
+
+The priority columns start with a priority of 0 (meaning this is the recommended set for the character). This value increases by 1 for each subsequent priority.
+
+You can fine tune which characters you want to show (or how many priorities per character you want to show) on the "characters" tab/sheet. By default all characters have the value -1 next to it. -1 means that the character is shown in every set they can use. By setting this value to -2 you can completely hide this character. By setting the value to 0 only the most recommended sets are shown.(1 shows the 2 most recommended sets and so on). As I don't quite know how google docs works with changes on the sheet you most likely want to download a copy of the sheet to your local computer and change your values there.
+
+Disclaimer: I don't claim that all this data is 100% correct (errors (either by me or by prydwen) can always appear or a future character might use preexisting relics with other stats). Please use your own judgment when trashing relics. I take no responsibility if you trashed a good relic because of the data provided here.
+'''
+
+		sheet.insert_textbox(5, 0, explanation, {"width": 1000, "height": 350})
+
+		row = 25
 
 	if(config["type"] == "zzz"):
 		sheet.merge_range(0, 0, 0, 4, "Zenless Zone Zero - Drive Disk Overview", formats["header"])
 		# empty row
-		sheet.merge_range(5, 0, 5, 12, "Info:", formats["bold"])
-		sheet.merge_range(6, 0, 6, 12, "This file lists all possible substats and stats for each individual drive disk set.")
-		sheet.merge_range(7, 0, 7, 12, "The file provides a combined row and rows for each individual character.")
-		sheet.merge_range(8, 0, 8, 12, "The values demonstrate how important each individual stat is for the given set (the higher the more important).")
-		sheet.merge_range(9, 0, 9, 12, "The priority column shows how important this set is for each individual character (starting from 0).")
-		sheet.merge_range(10, 0, 10, 12, "2 Piece sets start their priority by 0.1 and increase them by increments of 0.1.")
-		sheet.merge_range(11, 0, 11, 12, "The stats shown in the first columns are the desired substats.")
-		sheet.merge_range(12, 0, 12, 12, "The main stats are shown in later columns and start with the piece (e.g. Drive Disk 4 (main stat))")
-		sheet.merge_range(13, 0, 13, 12, "The number next to the set name shows how many characters are using this set.")
-		# empty row
-		row = 15
 
+		explanation = '''
+The excel sheet contains multiple table groups. Each table group contains the substats and the main stats of a given drive disk set. The first data row in each table contains the combined values of each character that uses the set. 
 
+The values are in percentages, with the most important stat being 100%. If a subsequent stat was stated on prydwen to be >= (less or equal) of the previous stat, I subtracted 1% of the previous value. If a subsequent stat was stated to be > (less) important I subtracted 10% from the previous value.
+
+The priority columns start with a priority of 0 (meaning this is the recommended set for the character). This value increases by 1 for each subsequent priority.2 Piece sets start their priority by 0.1 and increase them by increments of 0.1.
+
+You can fine tune which characters you want to show (or how many priorities per character you want to show) on the "characters" tab/sheet. By default all characters have the value -1 next to it. -1 means that the character is shown in every set they can use. By setting this value to -2 you can completely hide this character. By setting the value to 0 only the most recommended sets are shown.(1 shows the 2 most recommended sets and so on). As I don't quite know how google docs works with changes on the sheet you most likely want to download a copy of the sheet to your local computer and change your values there.
+
+Disclaimer: I don't claim that all this data is 100% correct (errors (either by me or by prydwen) can always appear or a future character might use preexisting drive disks with other stats). Please use your own judgment when trashing drive disks. I take no responsibility if you trashed a good drive disk because of the data provided in the excel sheet.
+		'''
+		sheet.insert_textbox(5, 0, explanation, {"width": 1000, "height": 380})
+
+		row = 27
+
+	# write the stats
 	for r in sorted_equipments:
 		num_users = len(sorted_equipments[r]["stats"])
 
+		# equipment name
 		sheet.write_string(row, 0, r + " (" + str(num_users) + ")", formats["table_header"])
-		sheet.write_string(row, 1, "priority", formats["table_header"])
-		col = 2
-
-		# KEYS substats
-		for k in sorted_equipments[r]["keys"]:
-			sheet.write_string(row, col, k, formats["table_header"])
-			col += 1
-
-		# KEYS main stats
-		for part in sorted_equipments[r]["main_stats"]:
-			col += 1 # one additional cell
-
-			sheet.write_string(row, col, part + " (main stat)", formats["table_header"])
-			col += 1
-
-			for k in sorted_equipments[r]["main_stats"][part]["keys"]:
-				sheet.write_string(row, col, k, formats["table_header"])
-				col += 1
-
 		row += 1
 
-		# combined substats
-		sheet.write_string(row, 0, "combined", formats["table_side_header"])
-		sheet.write_string(row, 1, "", formats["table"])
+		# substats
+		write_stats(sheet, "substats", sorted_equipments[r], formats, row, 0)
+		row += num_users + 3 # # 3 = 1 header, 1 combined, 1 empty row
 
-		col = 2 # one column skipped for priority of characters
-		for k in sorted_equipments[r]["keys"]:
-			if(k in sorted_equipments[r]["combined"]):
-				# write it out and normalize values to be between 0-1
-				sheet.write(row, col, (sorted_equipments[r]["combined"][k] / 1000.0 / num_users), formats["table_percent"])
-				col += 1
-			else:
-				sheet.write_string(row, col, "", formats["table"])
-				col += 1 # no value in column
-
-		# combined main stats
-		for part in sorted_equipments[r]["main_stats"]:
-			col += 1 # one additional cell
-			sheet.write_string(row, col, "combined", formats["table_side_header"]) # repeat combined
-			col += 1
-
-			for k in sorted_equipments[r]["main_stats"][part]["keys"]:
-				if(k in sorted_equipments[r]["main_stats"][part]["combined"]):
-					# write it out and normalize values to be between 0-1
-					sheet.write(row, col, (sorted_equipments[r]["main_stats"][part]["combined"][k] / 1000.0 / num_users), formats["table_percent"])
-					col += 1
-				else:
-					sheet.write_string(row, col, "", formats["table"])
-					col += 1 # no value in column
-
-		row += 1
-		
-		for character in sorted_equipments[r]["stats"]:
-			# single substats (per character)
-			sheet.write_string(row, 0, character, formats["table_side_header"])
-			sheet.write_string(row, 1, "%.1g" % sorted_equipments[r]["stats"][character]["priority"], formats["table"])
-			col = 2 # start with column index 2
-			for k in sorted_equipments[r]["keys"]:
-				if(k in sorted_equipments[r]["stats"][character]["stats"]):
-					# write it out and normalize values to be between 0-1
-					sheet.write(row, col, (sorted_equipments[r]["stats"][character]["stats"][k] / 1000.0), formats["table_percent"])
-					col += 1
-				else:
-					sheet.write_string(row, col, "", formats["table"])
-					col += 1
-
-			# single main stats (per character)
-			for part in sorted_equipments[r]["main_stats"]:
-				col += 1 # one additional cell
-				sheet.write_string(row, col, character, formats["table_side_header"]) # repeat character name
-				col += 1
-
-				for k in sorted_equipments[r]["main_stats"][part]["keys"]:
-					if(k in sorted_equipments[r]["main_stats"][part]["stats"][character]):
-						# write it out and normalize values to be between 0-1
-						sheet.write(row, col, (sorted_equipments[r]["main_stats"][part]["stats"][character][k] / 1000.0), formats["table_percent"])
-						col += 1
-					else:
-						sheet.write_string(row, col, "", formats["table"])
-						col += 1
-						
-			row += 1
+		# main stats
+		for part in  sorted_equipments[r]["main_stats"]:
+			write_stats(sheet, part + " (main stat)", sorted_equipments[r]["main_stats"][part], formats, row, 0)
+			row += num_users + 3 # # 3 = 1 header, 1 combined, 1 empty row
 		
 		# rows between sets
 		row += 5
 
 	sheet.autofit()
+
+
+	
+	row = 0
+
+	char_sheet.write_string(0, 4, "Explanation:", formats["bold"])
+	char_sheet.write_string(1, 4, "-1 show all")
+	char_sheet.write_string(2, 4, "-2 do not show anything for character")
+	char_sheet.write_string(3, 4, "0 show only priority 0 for character (=show only recommended sets)")
+	char_sheet.write_string(4, 4, "<n> show only priority 0 to <n> for character")
+
+	for character in characters:
+		char_sheet.write_string(row, 0, character)
+		# -1 show all | 0 show only with prio 0 or below, ... 
+		# -2 do not show character
+		char_sheet.write(row, 1, -1) 
+		row+=1
+
+	char_sheet.autofit()
+
+
 	workbook.close()
 
 
@@ -334,7 +383,7 @@ if __name__ == '__main__':
 		print(" type=<TYPE>\t\t\twhat game would you like to extract")
 		print(" \t\t\t\toptions: hsr, zzz (default: hsr)")
 		print(" renew\t\t\t\treload data from prydwen")
-		print(" num-equipments=<NUM>\t\thow many equipments per character (default: 1)")
+		print(" num-equipments=<NUM>\t\thow many equipments per character (default: 100)")
 		print(" sort-users\t\t\tsort equipment output by number of users (default by equipment name)")
 		print(" characters=<FILE>\t\tgive a custom character list (e.g. data/characters.custom.json)")
 		print(" \t\t\t\tthis can be used to filter out characters you dont want to list")
@@ -367,6 +416,8 @@ if __name__ == '__main__':
 		elif arg.startswith("output="):
 			config["output"] = arg[arg.find("=")+1:]
 
+	config["type"] = "zzz"
+
 	# set the files depending on type (if custom has not been set)
 	if(config["equipment_list_file"] == ""):
 		config["character_list_file"] = "data/" + config["type"] + "/characters.json"
@@ -375,10 +426,7 @@ if __name__ == '__main__':
 	if(config["output"] == ""):
 		config["output"] = "data/" + config["type"] + "/out.xlsx"
 
-
 	if(debug):
 		config["renew"] = True
-
-
 
 	main()

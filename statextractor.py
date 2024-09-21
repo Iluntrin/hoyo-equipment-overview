@@ -69,7 +69,7 @@ class EquipmentStats(object):
 
 		self.stats = {}
 		self.current_stat_key = ""
-		self.current_order = 1000
+		self.current_order = 100
 
 	def set_equipment(self, name, data):
 		name = name.strip()
@@ -88,7 +88,7 @@ class EquipmentStats(object):
 		elif(stat_key in ["Average stats", "Average sub stats"]):
 			self.current_stat_key = ""
 		else:
-			self.current_order = 1000
+			self.current_order = 100
 			self.current_stat_key = stat_key
 			self.stats[self.current_stat_key] = {}
 
