@@ -178,7 +178,8 @@ def write_stats(sheet, title, data, formats, row, col):
 			# sheet.write(row, col, (data["combined"][k] / 100.0 / num_users), formats["table_percent"])
 			cols = xlsxwriter.utility.xl_range(row+1,col,row+num_users, col)
 			visibility_cols = xlsxwriter.utility.xl_range(row+1,visibility_col,row+num_users, visibility_col)
-			sheet.write_formula(row, col, "=SUM(" + cols + ")/SUM(" + visibility_cols+")", formats["table_percent"], "")
+
+			sheet.write_formula(row, col, "=IF(SUM(" + visibility_cols+")=0,0,(SUM(" + cols + ")/SUM(" + visibility_cols+"))", formats["table_percent"], "")
 			
 			# hide cell if 0
 			sheet.conditional_format(row, col, row, col, {'type': 'cell', 'criteria': '=','value': 0,'format': formats["table_hide"]})
@@ -375,7 +376,7 @@ def main():
 if __name__ == '__main__':
 	args = sys.argv[1:]
 
-	if "--help" not in args:
+	if "--help" in args:
 		print("Usage:")
 		print(" python main.py [ARGUMENTS]")
 		print()

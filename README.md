@@ -25,7 +25,7 @@ Arguments:
  				this can be used to filter out characters you dont want to list
  				NOTE: renew doesnt work if you set this
  				use a copy of the characters.json
- equipments=<FILE>			give a custom equipment list (e.g. data/equipments.custom.json)
+ equipments=<FILE>		give a custom equipment list (e.g. data/equipments.custom.json)
  				this can be used to order it specificly or remove/add equipments
  				NOTE: renew doesnt work if you set this
  				use a copy of the equipments.json
