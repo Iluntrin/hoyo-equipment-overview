@@ -3,6 +3,10 @@
     "filter": false,
     "link": "/star-rail/characters/acheron"
   },
+  "Aglaea": {
+    "filter": false,
+    "link": "/star-rail/characters/aglaea"
+  },
   "Argenti": {
     "filter": false,
     "link": "/star-rail/characters/argenti"
@@ -195,29 +199,45 @@
     "filter": false,
     "link": "/star-rail/characters/sparkle"
   },
+  "Sunday": {
+    "filter": false,
+    "link": "/star-rail/characters/sunday"
+  },
   "Sushang": {
     "filter": false,
     "link": "/star-rail/characters/sushang"
+  },
+  "The Herta": {
+    "filter": false,
+    "link": "/star-rail/characters/the-herta"
   },
   "Tingyun": {
     "filter": false,
     "link": "/star-rail/characters/tingyun"
   },
+  "Tingyun \u2022 Fugue": {
+    "filter": false,
+    "link": "/star-rail/characters/tingyun-fugue"
+  },
   "Topaz & Numby": {
     "filter": false,
     "link": "/star-rail/characters/topaz"
   },
-  "Trailblazer (Fire)": {
+  "Trailblazer \u2022 Destruction": {
     "filter": false,
-    "link": "/star-rail/characters/trailblazer-fire"
+    "link": "/star-rail/characters/trailblazer-destruction"
   },
-  "Trailblazer (Imaginary)": {
+  "Trailblazer \u2022 Harmony": {
     "filter": false,
-    "link": "/star-rail/characters/trailblazer-imaginary"
+    "link": "/star-rail/characters/trailblazer-harmony"
   },
-  "Trailblazer (Physical)": {
+  "Trailblazer \u2022 Preservation": {
     "filter": false,
-    "link": "/star-rail/characters/trailblazer-physical"
+    "link": "/star-rail/characters/trailblazer-preservation"
+  },
+  "Trailblazer \u2022 Remembrance": {
+    "filter": false,
+    "link": "/star-rail/characters/trailblazer-remembrance"
   },
   "Welt": {
     "filter": false,

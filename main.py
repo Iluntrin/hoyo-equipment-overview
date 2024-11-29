@@ -381,7 +381,7 @@ if __name__ == '__main__':
 		print(" python main.py [ARGUMENTS]")
 		print()
 		print("Arguments:")
-		print(" type=<TYPE>\t\t\twhat game would you like to extract")
+		print(" <TYPE>\t\t\twhat game would you like to extract")
 		print(" \t\t\t\toptions: hsr, zzz (default: hsr)")
 		print(" renew\t\t\t\treload data from prydwen")
 		print(" num-equipments=<NUM>\t\thow many equipments per character (default: 100)")

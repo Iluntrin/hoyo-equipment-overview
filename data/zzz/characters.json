@@ -35,6 +35,10 @@
     "filter": false,
     "link": "/zenless/characters/grace-howard"
   },
+  "Harumasa": {
+    "filter": false,
+    "link": "/zenless/characters/harumasa"
+  },
   "Jane Doe": {
     "filter": false,
     "link": "/zenless/characters/jane-doe"
@@ -43,6 +47,10 @@
     "filter": false,
     "link": "/zenless/characters/koleda"
   },
+  "Lighter": {
+    "filter": false,
+    "link": "/zenless/characters/lighter"
+  },
   "Lucy": {
     "filter": false,
     "link": "/zenless/characters/lucy"
@@ -50,6 +58,10 @@
   "Lycaon": {
     "filter": false,
     "link": "/zenless/characters/lycaon"
+  },
+  "Miyabi": {
+    "filter": false,
+    "link": "/zenless/characters/miyabi"
   },
   "Nekomata": {
     "filter": false,
@@ -82,6 +94,10 @@
   "Soukaku": {
     "filter": false,
     "link": "/zenless/characters/soukaku"
+  },
+  "Yanagi": {
+    "filter": false,
+    "link": "/zenless/characters/yanagi"
   },
   "Zhu Yuan": {
     "filter": false,

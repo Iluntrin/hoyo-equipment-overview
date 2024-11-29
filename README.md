@@ -16,7 +16,7 @@ source env/bin/activate
 python main.py [ARGUMENTS]
 
 Arguments:
- type=<TYPE>			what game would you like to extract
+ <TYPE>			what game would you like to extract
  				options: hsr, zzz (default: hsr)
  renew				reload data from prydwen
  num-equipments=<NUM>		how many equipments per character (default: 100)
@@ -37,6 +37,6 @@ Arguments:
 Most likely use cases:
 renew prydwen data for hsr/zzz
 ```
-python main.py type=hsr renew
-python main.py type=zzz renew
+python main.py hsr renew
+python main.py zzz renew
 ```

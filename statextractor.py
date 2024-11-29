@@ -53,11 +53,14 @@ sanitized_stats = {
 	"Electric DMG%": "Electric DMG%",
 	"Ether DMG%": "Ether DMG%",
 	"Impact": "Impact",
+	"Impact%": "Impact",
 	"Pen": "PEN",
 	"PEN": "PEN",
 	"PEN Ratio%": "PEN Ratio%",
 	"Anomaly Mastery": "Anomaly Mastery",
 	"Anomaly Proficiency": "Anomaly Proficiency",
+	"Anomaly Profiency": "Anomaly Proficiency",
+
 
 }
 
@@ -129,9 +132,33 @@ class EquipmentStats(object):
 		return stat
 
 	def split_substats(self,attr):
-
-
 		parts = {}
+
+		# look for groups
+		if(attr.find("[") != -1): 
+			# groups are stats defined like the following
+			# [CRIT RATE = CRIT DMG > ATK% > PEN = ATK] OR [Anomaly Profiency > ATK% > PEN > ATK]
+			# we handle them by viewing each [] group on their own
+			# NOTE currently mixing groups with normal stats is not supported
+			while(attr.find("[") != -1):
+				# this stat contains [] groups
+				group_end = attr.find("]")
+				group = attr[attr.find("[")+1:group_end]
+				new_parts = self.split_substats(group)
+				self.current_order = 100 # reset the order
+				for p in new_parts:
+					if(p in parts):
+						if(new_parts[p] > parts[p]):
+							# only safe higher values
+							parts[p] = new_parts[p]
+					else:
+						# add the new part
+						parts[p] = new_parts[p]
+
+				attr = attr[group_end+1:]
+			return parts
+
+		# normal parse the substats code
 		split_positions = self.split_by_order(attr)
 		start_pos = 0
 

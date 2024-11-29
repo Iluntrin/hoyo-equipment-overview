@@ -106,16 +106,20 @@
         "priority": 0.30000000000000004,
         "2piece": true
       },
-      "Shockstar Disco": {
+      "Proto Punk": {
         "priority": 1,
         "2piece": false
       },
+      "Shockstar Disco": {
+        "priority": 1.2000000000000002,
+        "2piece": true
+      },
       "Freedom Blues": {
-        "priority": 1.3000000000000003,
+        "priority": 2.3000000000000003,
         "2piece": true
       },
       "Hormone Punk": {
-        "priority": 1.6000000000000005,
+        "priority": 2.6000000000000005,
         "2piece": true
       }
     },
@@ -159,10 +163,6 @@
       "Fanged Metal": {
         "priority": 0.30000000000000004,
         "2piece": true
-      },
-      "Polar Metal": {
-        "priority": 1.3000000000000003,
-        "2piece": true
       }
     },
     "stats": {
@@ -188,13 +188,94 @@
   },
   {
     "character": "Burnice",
-    "equipment_set": {},
-    "stats": {}
+    "equipment_set": {
+      "Chaos Jazz": {
+        "priority": 0,
+        "2piece": false
+      },
+      "Inferno Metal": {
+        "priority": 0.1,
+        "2piece": true
+      },
+      "Freedom Blues": {
+        "priority": 0.2,
+        "2piece": true
+      },
+      "Hormone Punk": {
+        "priority": 0.30000000000000004,
+        "2piece": true
+      },
+      "Puffer Electro": {
+        "priority": 0.4,
+        "2piece": true
+      },
+      "Swing Jazz": {
+        "priority": 0.5,
+        "2piece": true
+      }
+    },
+    "stats": {
+      "Disk 4": {
+        "Anomaly Proficiency": 100
+      },
+      "Disk 5": {
+        "Fire DMG%": 100,
+        "PEN Ratio%": 99
+      },
+      "Disk 6": {
+        "ATK%": 100,
+        "Anomaly Mastery": 100
+      },
+      "substats": {
+        "Anomaly Proficiency": 100,
+        "ATK%": 90,
+        "PEN": 80,
+        "ATK": 80
+      }
+    }
   },
   {
     "character": "Caesar",
-    "equipment_set": {},
-    "stats": {}
+    "equipment_set": {
+      "Proto Punk": {
+        "priority": 0,
+        "2piece": false
+      },
+      "Swing Jazz": {
+        "priority": 0.1,
+        "2piece": true
+      },
+      "Shockstar Disco": {
+        "priority": 0.2,
+        "2piece": true
+      },
+      "Freedom Blues": {
+        "priority": 1,
+        "2piece": false
+      }
+    },
+    "stats": {
+      "Disk 4": {
+        "CRIT Rate": 100,
+        "Anomaly Proficiency": 100
+      },
+      "Disk 5": {
+        "Physical DMG%": 100,
+        "ATK%": 90,
+        "PEN Ratio%": 90
+      },
+      "Disk 6": {
+        "Impact": 100
+      },
+      "substats": {
+        "CRIT Rate": 100,
+        "CRIT DMG": 100,
+        "ATK%": 90,
+        "PEN": 80,
+        "ATK": 80,
+        "Anomaly Proficiency": 100
+      }
+    }
   },
   {
     "character": "Corin",
@@ -296,6 +377,14 @@
       "Puffer Electro": {
         "priority": 0.30000000000000004,
         "2piece": true
+      },
+      "Chaos Jazz": {
+        "priority": 1,
+        "2piece": false
+      },
+      "2": {
+        "priority": 2,
+        "2piece": false
       }
     },
     "stats": {
@@ -319,6 +408,11 @@
         "ATK": 80
       }
     }
+  },
+  {
+    "character": "Harumasa",
+    "equipment_set": {},
+    "stats": {}
   },
   {
     "character": "Jane Doe",
@@ -410,6 +504,70 @@
     }
   },
   {
+    "character": "Lighter",
+    "equipment_set": {
+      "Shockstar Disco": {
+        "priority": 0,
+        "2piece": false
+      },
+      "Swing Jazz": {
+        "priority": 0.1,
+        "2piece": true
+      },
+      "Inferno Metal": {
+        "priority": 0.2,
+        "2piece": true
+      },
+      "Puffer Electro": {
+        "priority": 0.30000000000000004,
+        "2piece": true
+      },
+      "Hormone Punk": {
+        "priority": 0.4,
+        "2piece": true
+      },
+      "Woodpecker Electro": {
+        "priority": 0.5,
+        "2piece": true
+      },
+      "Chaos Jazz": {
+        "priority": 0.6,
+        "2piece": true
+      },
+      "Freedom Blues": {
+        "priority": 0.7,
+        "2piece": true
+      },
+      "Proto Punk": {
+        "priority": 1,
+        "2piece": false
+      }
+    },
+    "stats": {
+      "Disk 4": {
+        "CRIT Rate": 100,
+        "CRIT DMG": 99,
+        "Anomaly Proficiency": 99
+      },
+      "Disk 5": {
+        "ATK%": 100,
+        "Fire DMG%": 100,
+        "PEN Ratio%": 100
+      },
+      "Disk 6": {
+        "Impact": 100
+      },
+      "substats": {
+        "CRIT Rate": 100,
+        "CRIT DMG": 100,
+        "ATK%": 100,
+        "PEN": 80,
+        "ATK": 90,
+        "Anomaly Proficiency": 100
+      }
+    }
+  },
+  {
     "character": "Lucy",
     "equipment_set": {
       "Swing Jazz": {
@@ -497,6 +655,11 @@
         "ATK": 80
       }
     }
+  },
+  {
+    "character": "Miyabi",
+    "equipment_set": {},
+    "stats": {}
   },
   {
     "character": "Nekomata",
@@ -717,7 +880,7 @@
         "priority": 0,
         "2piece": false
       },
-      "Hormone Punk": {
+      "Hormone Punk/Proto Punk": {
         "priority": 0.1,
         "2piece": true
       },
@@ -725,8 +888,16 @@
         "priority": 0.2,
         "2piece": true
       },
-      "Freedom Blues": {
+      "Proto Punk": {
         "priority": 1,
+        "2piece": false
+      },
+      "Hormone Punk": {
+        "priority": 1.2000000000000002,
+        "2piece": true
+      },
+      "Freedom Blues": {
+        "priority": 2,
         "2piece": false
       }
     },
@@ -835,6 +1006,54 @@
         "CRIT DMG": 100,
         "PEN": 90,
         "ATK": 90
+      }
+    }
+  },
+  {
+    "character": "Yanagi",
+    "equipment_set": {
+      "Chaos Jazz": {
+        "priority": 0,
+        "2piece": false
+      },
+      "Freedom Blues": {
+        "priority": 0.1,
+        "2piece": true
+      },
+      "Thunder Metal": {
+        "priority": 0.2,
+        "2piece": true
+      },
+      "Puffer Electro": {
+        "priority": 0.30000000000000004,
+        "2piece": true
+      },
+      "Hormone Punk": {
+        "priority": 0.4,
+        "2piece": true
+      },
+      "Chaos Jazz / Freedom Blues": {
+        "priority": 1.1,
+        "2piece": true
+      }
+    },
+    "stats": {
+      "Disk 4": {
+        "Anomaly Proficiency": 100
+      },
+      "Disk 5": {
+        "Electric DMG%": 100,
+        "PEN Ratio%": 99
+      },
+      "Disk 6": {
+        "ATK%": 100,
+        "Anomaly Mastery": 100
+      },
+      "substats": {
+        "Anomaly Proficiency": 100,
+        "ATK%": 90,
+        "PEN": 80,
+        "ATK": 80
       }
     }
   },

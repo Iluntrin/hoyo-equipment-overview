@@ -6,11 +6,11 @@
         "priority": 0,
         "ornament": false
       },
-      "Band of Sizzling Thunder": {
+      "Scholar Lost in Erudition": {
         "priority": 1,
         "ornament": false
       },
-      "Musketeer of Wild Wheat": {
+      "Band of Sizzling Thunder": {
         "priority": 2,
         "ornament": false
       },
@@ -18,12 +18,16 @@
         "priority": 0,
         "ornament": true
       },
-      "Space Sealing Station": {
+      "Inert Salsotto": {
         "priority": 1,
         "ornament": true
       },
-      "Inert Salsotto": {
+      "Space Sealing Station": {
         "priority": 2,
+        "ornament": true
+      },
+      "Firmament Frontline: Glamoth": {
+        "priority": 3,
         "ornament": true
       }
     },
@@ -52,14 +56,23 @@
     }
   },
   {
+    "character": "Aglaea",
+    "equipment_set": {},
+    "stats": {}
+  },
+  {
     "character": "Argenti",
     "equipment_set": {
-      "Champion of Streetwise Boxing": {
+      "Scholar Lost in Erudition": {
         "priority": 0,
         "ornament": false
       },
-      "Musketeer of Wild Wheat": {
+      "Champion of Streetwise Boxing": {
         "priority": 1,
+        "ornament": false
+      },
+      "Eagle of Twilight Line": {
+        "priority": 2,
         "ornament": false
       },
       "Inert Salsotto": {
@@ -68,6 +81,10 @@
       },
       "Sigonia, the Unclaimed Desolation": {
         "priority": 1,
+        "ornament": true
+      },
+      "Firmament Frontline: Glamoth": {
+        "priority": 2,
         "ornament": true
       }
     },
@@ -82,7 +99,7 @@
       },
       "Planar Sphere": {
         "Physical DMG": 100,
-        "ATK%": 90
+        "ATK%": 100
       },
       "Link Rope": {
         "ATK%": 100
@@ -98,15 +115,15 @@
   {
     "character": "Arlan",
     "equipment_set": {
-      "Band of Sizzling Thunder": {
+      "Scholar Lost in Erudition": {
         "priority": 0,
         "ornament": false
       },
-      "Longevous Disciple": {
+      "Band of Sizzling Thunder": {
         "priority": 1,
         "ornament": false
       },
-      "Musketeer of Wild Wheat": {
+      "Longevous Disciple": {
         "priority": 2,
         "ornament": false
       },
@@ -154,36 +171,48 @@
   {
     "character": "Asta",
     "equipment_set": {
+      "Dance! Dance! Dance!": {
+        "priority": 0,
+        "ornament": false
+      },
+      "5": {
+        "priority": 0,
+        "ornament": false
+      },
+      ")": {
+        "priority": 0,
+        "ornament": false
+      },
+      "Meshing Cogs": {
+        "priority": 1,
+        "ornament": false
+      },
+      "But the Battle Isn't Over": {
+        "priority": 2,
+        "ornament": false
+      },
+      "1": {
+        "priority": 2,
+        "ornament": false
+      },
+      "Planetary Rendezvous": {
+        "priority": 0,
+        "ornament": false
+      },
       "Messenger Traversing Hackerspace": {
         "priority": 0,
         "ornament": false
       },
-      "Longevous Disciple": {
-        "priority": 1,
-        "ornament": false
-      },
-      "Musketeer of Wild Wheat": {
-        "priority": 2,
+      "Eagle of Twilight Line": {
+        "priority": 0,
         "ornament": false
       },
       "Watchmaker, Master of Dream Machinations": {
-        "priority": 3,
+        "priority": 1,
         "ornament": false
       },
-      "Fleet of the Ageless": {
-        "priority": 0,
-        "ornament": true
-      },
-      "Broken Keel": {
-        "priority": 1,
-        "ornament": true
-      },
-      "Penacony, Land of the Dreams": {
-        "priority": 2,
-        "ornament": true
-      },
       "Sprightly Vonwacq": {
-        "priority": 3,
+        "priority": 0,
         "ornament": true
       }
     },
@@ -213,36 +242,64 @@
   {
     "character": "Aventurine",
     "equipment_set": {
+      "Inherently Unjust Destiny": {
+        "priority": 0,
+        "ornament": false
+      },
+      "1": {
+        "priority": 0,
+        "ornament": false
+      },
+      ")": {
+        "priority": 0,
+        "ornament": false
+      },
+      "Moment of Victory": {
+        "priority": 1,
+        "ornament": false
+      },
+      "Day One of My New Life": {
+        "priority": 2,
+        "ornament": false
+      },
+      "5": {
+        "priority": 2,
+        "ornament": false
+      },
+      "Concert for Two": {
+        "priority": 3,
+        "ornament": false
+      },
+      "Trend of the Universal Market": {
+        "priority": 0,
+        "ornament": false
+      },
+      "1-5": {
+        "priority": 0,
+        "ornament": false
+      },
+      "Landau's Choice": {
+        "priority": 1,
+        "ornament": false
+      },
       "Knight of Purity Palace": {
         "priority": 0,
         "ornament": false
       },
-      "The Ashblazing Grand Duke": {
-        "priority": 1,
-        "ornament": false
-      },
       "Pioneer Diver of Dead Waters": {
-        "priority": 2,
+        "priority": 0,
         "ornament": false
       },
       "Broken Keel": {
         "priority": 0,
         "ornament": true
       },
-      "Fleet of the Ageless": {
-        "priority": 1,
-        "ornament": true
-      },
-      "Penacony, Land of the Dreams": {
-        "priority": 2,
-        "ornament": true
-      },
       "Inert Salsotto": {
-        "priority": 3,
+        "priority": 0,
         "ornament": true
       },
-      "Belobog of the Architects": {
-        "priority": 4,
+      "Duran, Dynasty of Running Wolves": {
+        "priority": 1,
         "ornament": true
       }
     },
@@ -274,28 +331,56 @@
   {
     "character": "Bailu",
     "equipment_set": {
+      "Night of Fright": {
+        "priority": 0,
+        "ornament": false
+      },
+      "1": {
+        "priority": 0,
+        "ornament": false
+      },
+      ")": {
+        "priority": 0,
+        "ornament": false
+      },
+      "Time Waits for No One": {
+        "priority": 1,
+        "ornament": false
+      },
+      "Post-Op Conversation": {
+        "priority": 2,
+        "ornament": false
+      },
+      "5": {
+        "priority": 2,
+        "ornament": false
+      },
+      "Perfect Timing": {
+        "priority": 3,
+        "ornament": false
+      },
+      "Quid Pro Quo": {
+        "priority": 0,
+        "ornament": false
+      },
+      "1-5": {
+        "priority": 0,
+        "ornament": false
+      },
+      "Multiplication": {
+        "priority": 1,
+        "ornament": false
+      },
       "Messenger Traversing Hackerspace": {
         "priority": 0,
         "ornament": false
       },
       "Passerby of Wandering Cloud": {
-        "priority": 0,
+        "priority": 2,
         "ornament": false
       },
       "Fleet of the Ageless": {
         "priority": 0,
-        "ornament": true
-      },
-      "Broken Keel": {
-        "priority": 1,
-        "ornament": true
-      },
-      "Sprightly Vonwacq": {
-        "priority": 2,
-        "ornament": true
-      },
-      "Penacony, Land of the Dreams": {
-        "priority": 3,
         "ornament": true
       }
     },
@@ -383,15 +468,11 @@
         "priority": 0,
         "ornament": false
       },
-      "Pioneer Diver of Dead Waters": {
+      "Scholar Lost in Erudition": {
         "priority": 1,
         "ornament": false
       },
-      "Messenger Traversing Hackerspace": {
-        "priority": 2,
-        "ornament": false
-      },
-      "Eagle of Twilight Line": {
+      "Musketeer of Wild Wheat": {
         "priority": 2,
         "ornament": false
       },
@@ -401,6 +482,10 @@
       },
       "Inert Salsotto": {
         "priority": 1,
+        "ornament": true
+      },
+      "Izumo Gensei and Takama Divine Realm": {
+        "priority": 2,
         "ornament": true
       }
     },
@@ -435,36 +520,20 @@
         "priority": 0,
         "ornament": false
       },
-      "Genius of Brilliant Stars": {
-        "priority": 1,
-        "ornament": false
-      },
       "Thief of Shooting Meteor": {
         "priority": 2,
         "ornament": false
       },
-      "Watchmaker, Master of Dream Machinations": {
+      "Eagle of Twilight Line": {
         "priority": 3,
-        "ornament": false
-      },
-      "Messenger Traversing Hackerspace": {
-        "priority": 4,
-        "ornament": false
-      },
-      "Musketeer of Wild Wheat": {
-        "priority": 5,
         "ornament": false
       },
       "Talia: Kingdom of Banditry": {
         "priority": 0,
         "ornament": true
       },
-      "Firmament Frontline: Glamoth": {
-        "priority": 2,
-        "ornament": true
-      },
-      "Rutilant Arena": {
-        "priority": 4,
+      "Forge of the Kalpagni Lantern": {
+        "priority": 1,
         "ornament": true
       }
     },
@@ -486,24 +555,48 @@
   {
     "character": "Bronya",
     "equipment_set": {
-      "Messenger Traversing Hackerspace": {
+      "But the Battle Isn't Over": {
         "priority": 0,
         "ornament": false
       },
-      "Guard of Wuthering Snow": {
+      "1": {
         "priority": 0,
+        "ornament": false
+      },
+      ")": {
+        "priority": 0,
+        "ornament": false
+      },
+      "Past and Future": {
+        "priority": 1,
+        "ornament": false
+      },
+      "5": {
+        "priority": 1,
+        "ornament": false
+      },
+      "Dance! Dance! Dance!": {
+        "priority": 0,
+        "ornament": false
+      },
+      "Sacerdos' Relived Ordeal": {
+        "priority": 0,
+        "ornament": false
+      },
+      "Messenger Traversing Hackerspace": {
+        "priority": 1,
+        "ornament": false
+      },
+      "Eagle of Twilight Line": {
+        "priority": 1,
         "ornament": false
       },
       "Broken Keel": {
         "priority": 0,
         "ornament": true
       },
-      "Fleet of the Ageless": {
-        "priority": 1,
-        "ornament": true
-      },
-      "Penacony, Land of the Dreams": {
-        "priority": 2,
+      "Sprightly Vonwacq": {
+        "priority": 0,
         "ornament": true
       }
     },
@@ -588,12 +681,8 @@
         "priority": 0,
         "ornament": false
       },
-      "Musketeer of Wild Wheat": {
+      "Scholar Lost in Erudition": {
         "priority": 1,
-        "ornament": false
-      },
-      "Eagle of Twilight Line": {
-        "priority": 2,
         "ornament": false
       },
       "Rutilant Arena": {
@@ -648,7 +737,7 @@
         "priority": 1,
         "ornament": false
       },
-      "Pioneer Diver of Dead Waters": {
+      "Scholar Lost in Erudition": {
         "priority": 2,
         "ornament": false
       },
@@ -695,23 +784,19 @@
         "priority": 0,
         "ornament": false
       },
-      "The Ashblazing Grand Duke": {
+      "Wastelander of Banditry Desert": {
         "priority": 1,
         "ornament": false
       },
-      "Musketeer of Wild Wheat": {
+      "The Ashblazing Grand Duke": {
         "priority": 2,
-        "ornament": false
-      },
-      "Wastelander of Banditry Desert": {
-        "priority": 3,
         "ornament": false
       },
       "Duran, Dynasty of Running Wolves": {
         "priority": 0,
         "ornament": true
       },
-      "Inert Salsotto": {
+      "Izumo Gensei and Takama Divine Realm": {
         "priority": 1,
         "ornament": true
       },
@@ -719,7 +804,7 @@
         "priority": 2,
         "ornament": true
       },
-      "Izumo Gensei and Takama Divine Realm": {
+      "Inert Salsotto": {
         "priority": 3,
         "ornament": true
       }
@@ -757,14 +842,6 @@
       },
       "The Ashblazing Grand Duke": {
         "priority": 1,
-        "ornament": false
-      },
-      "Pioneer Diver of Dead Waters": {
-        "priority": 2,
-        "ornament": false
-      },
-      "Eagle of Twilight Line": {
-        "priority": 3,
         "ornament": false
       },
       "Duran, Dynasty of Running Wolves": {
@@ -811,12 +888,8 @@
         "priority": 0,
         "ornament": false
       },
-      "Genius of Brilliant Stars": {
-        "priority": 1,
-        "ornament": false
-      },
       "Thief of Shooting Meteor": {
-        "priority": 3,
+        "priority": 1,
         "ornament": false
       },
       "Forge of the Kalpagni Lantern": {
@@ -825,10 +898,6 @@
       },
       "Talia: Kingdom of Banditry": {
         "priority": 1,
-        "ornament": true
-      },
-      "Space Sealing Station": {
-        "priority": 2,
         "ornament": true
       }
     },
@@ -855,24 +924,52 @@
   {
     "character": "Fu Xuan",
     "equipment_set": {
+      "She Already Shut Her Eyes": {
+        "priority": 0,
+        "ornament": false
+      },
+      "1": {
+        "priority": 0,
+        "ornament": false
+      },
+      ")": {
+        "priority": 0,
+        "ornament": false
+      },
+      "Moment of Victory": {
+        "priority": 1,
+        "ornament": false
+      },
+      "Texture of Memories": {
+        "priority": 2,
+        "ornament": false
+      },
+      "5": {
+        "priority": 2,
+        "ornament": false
+      },
+      "Day One of My New Life": {
+        "priority": 3,
+        "ornament": false
+      },
+      "Landau's Choice": {
+        "priority": 4,
+        "ornament": false
+      },
+      "Trend of the Universal Market": {
+        "priority": 0,
+        "ornament": false
+      },
+      "1-5": {
+        "priority": 0,
+        "ornament": false
+      },
       "Longevous Disciple": {
         "priority": 0,
         "ornament": false
       },
-      "Guard of Wuthering Snow": {
-        "priority": 0,
-        "ornament": false
-      },
-      "Messenger Traversing Hackerspace": {
-        "priority": 1,
-        "ornament": false
-      },
-      "Fleet of the Ageless": {
-        "priority": 0,
-        "ornament": true
-      },
       "Broken Keel": {
-        "priority": 1,
+        "priority": 0,
         "ornament": true
       }
     },
@@ -903,15 +1000,55 @@
   {
     "character": "Gallagher",
     "equipment_set": {
+      "Quid Pro Quo": {
+        "priority": 0,
+        "ornament": false
+      },
+      "1-5": {
+        "priority": 0,
+        "ornament": false
+      },
+      ")": {
+        "priority": 0,
+        "ornament": false
+      },
+      "Multiplication": {
+        "priority": 1,
+        "ornament": false
+      },
+      "5": {
+        "priority": 1,
+        "ornament": false
+      },
+      "Perfect Timing": {
+        "priority": 2,
+        "ornament": false
+      },
+      "Post-Op Conversation": {
+        "priority": 3,
+        "ornament": false
+      },
+      "Scent Alone Stays True": {
+        "priority": 0,
+        "ornament": false
+      },
+      "1": {
+        "priority": 0,
+        "ornament": false
+      },
+      "What Is Real?": {
+        "priority": 1,
+        "ornament": false
+      },
       "Messenger Traversing Hackerspace": {
         "priority": 0,
         "ornament": false
       },
-      "Thief of Shooting Meteor": {
+      "Iron Cavalry Against the Scourge": {
         "priority": 0,
         "ornament": false
       },
-      "Passerby of Wandering Cloud": {
+      "Thief of Shooting Meteor": {
         "priority": 1,
         "ornament": false
       },
@@ -921,22 +1058,6 @@
       },
       "Talia: Kingdom of Banditry": {
         "priority": 1,
-        "ornament": true
-      },
-      "Fleet of the Ageless": {
-        "priority": 2,
-        "ornament": true
-      },
-      "Broken Keel": {
-        "priority": 3,
-        "ornament": true
-      },
-      "Penacony, Land of the Dreams": {
-        "priority": 4,
-        "ornament": true
-      },
-      "Sprightly Vonwacq": {
-        "priority": 5,
         "ornament": true
       }
     },
@@ -966,24 +1087,48 @@
   {
     "character": "Gepard",
     "equipment_set": {
+      "Moment of Victory": {
+        "priority": 0,
+        "ornament": false
+      },
+      "1": {
+        "priority": 0,
+        "ornament": false
+      },
+      ")": {
+        "priority": 0,
+        "ornament": false
+      },
+      "Day One of My New Life": {
+        "priority": 1,
+        "ornament": false
+      },
+      "5": {
+        "priority": 1,
+        "ornament": false
+      },
+      "Landau's Choice": {
+        "priority": 2,
+        "ornament": false
+      },
+      "Texture of Memories": {
+        "priority": 3,
+        "ornament": false
+      },
+      "Trend of the Universal Market": {
+        "priority": 0,
+        "ornament": false
+      },
+      "1-5": {
+        "priority": 0,
+        "ornament": false
+      },
       "Knight of Purity Palace": {
         "priority": 0,
         "ornament": false
       },
-      "Messenger Traversing Hackerspace": {
-        "priority": 1,
-        "ornament": false
-      },
-      "Fleet of the Ageless": {
-        "priority": 0,
-        "ornament": true
-      },
-      "Broken Keel": {
-        "priority": 1,
-        "ornament": true
-      },
       "Belobog of the Architects": {
-        "priority": 2,
+        "priority": 0,
         "ornament": true
       }
     },
@@ -1011,32 +1156,64 @@
   {
     "character": "Guinaifen",
     "equipment_set": {
+      "Those Many Springs": {
+        "priority": 0,
+        "ornament": false
+      },
+      "1": {
+        "priority": 0,
+        "ornament": false
+      },
+      ")": {
+        "priority": 0,
+        "ornament": false
+      },
+      "Resolution Shines As Pearls of Sweat": {
+        "priority": 1,
+        "ornament": false
+      },
+      "1-5": {
+        "priority": 1,
+        "ornament": false
+      },
+      "Eyes of the Prey": {
+        "priority": 0,
+        "ornament": false
+      },
+      "5": {
+        "priority": 0,
+        "ornament": false
+      },
+      "Solitary Healing": {
+        "priority": 1,
+        "ornament": false
+      },
+      "Messenger Traversing Hackerspace": {
+        "priority": 0,
+        "ornament": false
+      },
       "Prisoner in Deep Confinement": {
         "priority": 0,
         "ornament": false
       },
-      "Firesmith of Lava-Forging": {
+      "Iron Cavalry Against the Scourge": {
         "priority": 1,
         "ornament": false
       },
-      "Musketeer of Wild Wheat": {
-        "priority": 1,
-        "ornament": false
+      "Fleet of the Ageless": {
+        "priority": 0,
+        "ornament": true
       },
       "Firmament Frontline: Glamoth": {
         "priority": 0,
         "ornament": true
       },
-      "Pan-Cosmic Commercial Enterprise": {
+      "Forge of the Kalpagni Lantern": {
+        "priority": 1,
+        "ornament": true
+      },
+      "Sprightly Vonwacq": {
         "priority": 2,
-        "ornament": true
-      },
-      "Space Sealing Station": {
-        "priority": 3,
-        "ornament": true
-      },
-      "Fleet of the Ageless": {
-        "priority": 4,
         "ornament": true
       }
     },
@@ -1068,28 +1245,52 @@
   {
     "character": "Hanya",
     "equipment_set": {
+      "Dance! Dance! Dance!": {
+        "priority": 0,
+        "ornament": false
+      },
+      "5": {
+        "priority": 0,
+        "ornament": false
+      },
+      ")": {
+        "priority": 0,
+        "ornament": false
+      },
+      "Meshing Cogs": {
+        "priority": 1,
+        "ornament": false
+      },
+      "But the Battle Isn't Over": {
+        "priority": 2,
+        "ornament": false
+      },
+      "1": {
+        "priority": 2,
+        "ornament": false
+      },
+      "Planetary Rendezvous": {
+        "priority": 0,
+        "ornament": false
+      },
       "Messenger Traversing Hackerspace": {
         "priority": 0,
         "ornament": false
       },
-      "Longevous Disciple": {
+      "Sacerdos' Relived Ordeal": {
         "priority": 1,
         "ornament": false
       },
-      "Watchmaker, Master of Dream Machinations": {
-        "priority": 2,
+      "Eagle of Twilight Line": {
+        "priority": 0,
         "ornament": false
       },
-      "Fleet of the Ageless": {
+      "Broken Keel": {
         "priority": 0,
         "ornament": true
       },
-      "Broken Keel": {
-        "priority": 1,
-        "ornament": true
-      },
-      "Penacony, Land of the Dreams": {
-        "priority": 2,
+      "Sprightly Vonwacq": {
+        "priority": 0,
         "ornament": true
       }
     },
@@ -1239,8 +1440,12 @@
         "priority": 0,
         "ornament": false
       },
+      "Scholar Lost in Erudition": {
+        "priority": 1,
+        "ornament": false
+      },
       "Firesmith of Lava-Forging": {
-        "priority": 2,
+        "priority": 3,
         "ornament": false
       },
       "Firmament Frontline: Glamoth": {
@@ -1283,6 +1488,50 @@
   {
     "character": "Huohuo",
     "equipment_set": {
+      "Night of Fright": {
+        "priority": 0,
+        "ornament": false
+      },
+      "1": {
+        "priority": 0,
+        "ornament": false
+      },
+      ")": {
+        "priority": 0,
+        "ornament": false
+      },
+      "Post-Op Conversation": {
+        "priority": 1,
+        "ornament": false
+      },
+      "5": {
+        "priority": 1,
+        "ornament": false
+      },
+      "Shared Feeling": {
+        "priority": 2,
+        "ornament": false
+      },
+      "Time Waits for No One": {
+        "priority": 3,
+        "ornament": false
+      },
+      "Hey, Over Here": {
+        "priority": 4,
+        "ornament": false
+      },
+      "Quid Pro Quo": {
+        "priority": 0,
+        "ornament": false
+      },
+      "1-5": {
+        "priority": 0,
+        "ornament": false
+      },
+      "Multiplication": {
+        "priority": 1,
+        "ornament": false
+      },
       "Passerby of Wandering Cloud": {
         "priority": 0,
         "ornament": false
@@ -1291,24 +1540,12 @@
         "priority": 1,
         "ornament": false
       },
-      "Longevous Disciple": {
-        "priority": 2,
-        "ornament": false
-      },
       "Fleet of the Ageless": {
         "priority": 0,
         "ornament": true
       },
-      "Broken Keel": {
-        "priority": 1,
-        "ornament": true
-      },
-      "Penacony, Land of the Dreams": {
-        "priority": 2,
-        "ornament": true
-      },
       "Sprightly Vonwacq": {
-        "priority": 3,
+        "priority": 0,
         "ornament": true
       }
     },
@@ -1345,11 +1582,15 @@
         "priority": 1,
         "ornament": false
       },
-      "Musketeer of Wild Wheat": {
-        "priority": 4,
+      "The Wind-Soaring Valorous": {
+        "priority": 2,
         "ornament": false
       },
-      "Duran, Dynasty of Running Wolves": {
+      "Scholar Lost in Erudition": {
+        "priority": 3,
+        "ornament": false
+      },
+      "Izumo Gensei and Takama Divine Realm": {
         "priority": 0,
         "ornament": true
       },
@@ -1357,7 +1598,7 @@
         "priority": 1,
         "ornament": true
       },
-      "Izumo Gensei and Takama Divine Realm": {
+      "Duran, Dynasty of Running Wolves": {
         "priority": 2,
         "ornament": true
       },
@@ -1391,36 +1632,60 @@
   {
     "character": "Jiaoqiu",
     "equipment_set": {
-      "Messenger Traversing Hackerspace": {
+      "Those Many Springs": {
         "priority": 0,
         "ornament": false
       },
-      "Prisoner in Deep Confinement": {
+      "1": {
+        "priority": 0,
+        "ornament": false
+      },
+      ")": {
+        "priority": 0,
+        "ornament": false
+      },
+      "Eyes of the Prey": {
+        "priority": 1,
+        "ornament": false
+      },
+      "5": {
+        "priority": 1,
+        "ornament": false
+      },
+      "Resolution Shines As Pearls of Sweat": {
+        "priority": 2,
+        "ornament": false
+      },
+      "1-5": {
+        "priority": 2,
+        "ornament": false
+      },
+      "Before the Tutorial Mission Starts": {
+        "priority": 0,
+        "ornament": false
+      },
+      "Solitary Healing": {
         "priority": 1,
         "ornament": false
       },
       "Eagle of Twilight Line": {
-        "priority": 2,
+        "priority": 0,
+        "ornament": false
+      },
+      "Messenger Traversing Hackerspace": {
+        "priority": 1,
+        "ornament": false
+      },
+      "Prisoner in Deep Confinement": {
+        "priority": 0,
         "ornament": false
       },
       "Sprightly Vonwacq": {
         "priority": 0,
         "ornament": true
       },
-      "Fleet of the Ageless": {
-        "priority": 1,
-        "ornament": true
-      },
-      "Broken Keel": {
-        "priority": 2,
-        "ornament": true
-      },
       "Pan-Cosmic Commercial Enterprise": {
-        "priority": 3,
-        "ornament": true
-      },
-      "Firmament Frontline: Glamoth": {
-        "priority": 4,
+        "priority": 0,
         "ornament": true
       }
     },
@@ -1494,20 +1759,16 @@
   {
     "character": "Jingliu",
     "equipment_set": {
-      "Genius of Brilliant Stars": {
+      "Scholar Lost in Erudition": {
         "priority": 0,
         "ornament": false
       },
-      "Hunter of Glacial Forest": {
+      "Genius of Brilliant Stars": {
         "priority": 1,
         "ornament": false
       },
-      "Messenger Traversing Hackerspace": {
+      "Hunter of Glacial Forest": {
         "priority": 2,
-        "ornament": false
-      },
-      "Musketeer of Wild Wheat": {
-        "priority": 3,
         "ornament": false
       },
       "Rutilant Arena": {
@@ -1518,11 +1779,11 @@
         "priority": 1,
         "ornament": true
       },
-      "Inert Salsotto": {
+      "Space Sealing Station": {
         "priority": 2,
         "ornament": true
       },
-      "Space Sealing Station": {
+      "Inert Salsotto": {
         "priority": 3,
         "ornament": true
       }
@@ -1598,8 +1859,80 @@
   },
   {
     "character": "Lingsha",
-    "equipment_set": {},
-    "stats": {}
+    "equipment_set": {
+      "Scent Alone Stays True": {
+        "priority": 0,
+        "ornament": false
+      },
+      "1": {
+        "priority": 0,
+        "ornament": false
+      },
+      ")": {
+        "priority": 0,
+        "ornament": false
+      },
+      "What Is Real?": {
+        "priority": 1,
+        "ornament": false
+      },
+      "5": {
+        "priority": 1,
+        "ornament": false
+      },
+      "Quid Pro Quo": {
+        "priority": 0,
+        "ornament": false
+      },
+      "1-5": {
+        "priority": 0,
+        "ornament": false
+      },
+      "Post-Op Conversation": {
+        "priority": 1,
+        "ornament": false
+      },
+      "Iron Cavalry Against the Scourge": {
+        "priority": 0,
+        "ornament": false
+      },
+      "Thief of Shooting Meteor": {
+        "priority": 1,
+        "ornament": false
+      },
+      "Passerby of Wandering Cloud": {
+        "priority": 0,
+        "ornament": false
+      },
+      "Forge of the Kalpagni Lantern": {
+        "priority": 0,
+        "ornament": true
+      },
+      "Talia: Kingdom of Banditry": {
+        "priority": 1,
+        "ornament": true
+      }
+    },
+    "stats": {
+      "Body": {
+        "Outgoing Healing": 100
+      },
+      "Feet": {
+        "SPD": 100
+      },
+      "Planar Sphere": {
+        "ATK%": 100
+      },
+      "Link Rope": {
+        "Energy Regen": 100,
+        "Break Effect%": 100
+      },
+      "substats": {
+        "SPD": 100,
+        "BREAK%": 90,
+        "ATK%": 89
+      }
+    }
   },
   {
     "character": "Luka",
@@ -1664,11 +1997,43 @@
   {
     "character": "Luocha",
     "equipment_set": {
-      "Messenger Traversing Hackerspace": {
+      "Echoes of the Coffin": {
         "priority": 0,
         "ornament": false
       },
-      "Passerby of Wandering Cloud": {
+      "1": {
+        "priority": 0,
+        "ornament": false
+      },
+      ")": {
+        "priority": 0,
+        "ornament": false
+      },
+      "Perfect Timing": {
+        "priority": 1,
+        "ornament": false
+      },
+      "5": {
+        "priority": 1,
+        "ornament": false
+      },
+      "Multiplication": {
+        "priority": 2,
+        "ornament": false
+      },
+      "Post-Op Conversation": {
+        "priority": 3,
+        "ornament": false
+      },
+      "Quid Pro Quo": {
+        "priority": 0,
+        "ornament": false
+      },
+      "1-5": {
+        "priority": 0,
+        "ornament": false
+      },
+      "Messenger Traversing Hackerspace": {
         "priority": 0,
         "ornament": false
       },
@@ -1676,21 +2041,9 @@
         "priority": 1,
         "ornament": false
       },
-      "Fleet of the Ageless": {
-        "priority": 0,
-        "ornament": true
-      },
-      "Broken Keel": {
-        "priority": 1,
-        "ornament": true
-      },
-      "Sprightly Vonwacq": {
+      "Passerby of Wandering Cloud": {
         "priority": 2,
-        "ornament": true
-      },
-      "Penacony, Land of the Dreams": {
-        "priority": 3,
-        "ornament": true
+        "ornament": false
       }
     },
     "stats": {
@@ -1718,32 +2071,60 @@
   {
     "character": "Lynx",
     "equipment_set": {
+      "Night of Fright": {
+        "priority": 0,
+        "ornament": false
+      },
+      "1": {
+        "priority": 0,
+        "ornament": false
+      },
+      ")": {
+        "priority": 0,
+        "ornament": false
+      },
+      "Time Waits for No One": {
+        "priority": 1,
+        "ornament": false
+      },
+      "Post-Op Conversation": {
+        "priority": 2,
+        "ornament": false
+      },
+      "5": {
+        "priority": 2,
+        "ornament": false
+      },
+      "Perfect Timing": {
+        "priority": 3,
+        "ornament": false
+      },
+      "Quid Pro Quo": {
+        "priority": 0,
+        "ornament": false
+      },
+      "1-5": {
+        "priority": 0,
+        "ornament": false
+      },
+      "Multiplication": {
+        "priority": 1,
+        "ornament": false
+      },
       "Messenger Traversing Hackerspace": {
         "priority": 0,
         "ornament": false
       },
       "Passerby of Wandering Cloud": {
-        "priority": 0,
+        "priority": 2,
         "ornament": false
       },
-      "Longevous Disciple": {
-        "priority": 1,
+      "Sacerdos' Relived Ordeal": {
+        "priority": 0,
         "ornament": false
       },
       "Fleet of the Ageless": {
         "priority": 0,
-        "ornament": true
-      },
-      "Broken Keel": {
-        "priority": 1,
-        "ornament": true
-      },
-      "Sprightly Vonwacq": {
-        "priority": 2,
-        "ornament": true
-      },
-      "Penacony, Land of the Dreams": {
-        "priority": 3,
         "ornament": true
       }
     },
@@ -1772,24 +2153,48 @@
   {
     "character": "March 7th",
     "equipment_set": {
+      "Day One of My New Life": {
+        "priority": 0,
+        "ornament": false
+      },
+      "5": {
+        "priority": 0,
+        "ornament": false
+      },
+      ")": {
+        "priority": 0,
+        "ornament": false
+      },
+      "Texture of Memories": {
+        "priority": 1,
+        "ornament": false
+      },
+      "Moment of Victory": {
+        "priority": 0,
+        "ornament": false
+      },
+      "1": {
+        "priority": 0,
+        "ornament": false
+      },
+      "Landau's Choice": {
+        "priority": 1,
+        "ornament": false
+      },
+      "Trend of the Universal Market": {
+        "priority": 2,
+        "ornament": false
+      },
+      "1-5": {
+        "priority": 2,
+        "ornament": false
+      },
       "Knight of Purity Palace": {
         "priority": 0,
         "ornament": false
       },
-      "Messenger Traversing Hackerspace": {
-        "priority": 1,
-        "ornament": false
-      },
-      "Broken Keel": {
+      "Sprightly Vonwacq": {
         "priority": 0,
-        "ornament": true
-      },
-      "Fleet of the Ageless": {
-        "priority": 1,
-        "ornament": true
-      },
-      "Belobog of the Architects": {
-        "priority": 2,
         "ornament": true
       }
     },
@@ -1904,16 +2309,12 @@
         "priority": 2,
         "ornament": false
       },
-      "Firmament Frontline: Glamoth": {
+      "Inert Salsotto": {
         "priority": 0,
         "ornament": true
       },
-      "Rutilant Arena": {
+      "Firmament Frontline: Glamoth": {
         "priority": 1,
-        "ornament": true
-      },
-      "Inert Salsotto": {
-        "priority": 2,
         "ornament": true
       }
     },
@@ -1950,10 +2351,6 @@
       },
       "The Ashblazing Grand Duke": {
         "priority": 1,
-        "ornament": false
-      },
-      "Band of Sizzling Thunder": {
-        "priority": 3,
         "ornament": false
       },
       "Duran, Dynasty of Running Wolves": {
@@ -1994,32 +2391,56 @@
   {
     "character": "Natasha",
     "equipment_set": {
+      "Night of Fright": {
+        "priority": 0,
+        "ornament": false
+      },
+      "1": {
+        "priority": 0,
+        "ornament": false
+      },
+      ")": {
+        "priority": 0,
+        "ornament": false
+      },
+      "Time Waits for No One": {
+        "priority": 1,
+        "ornament": false
+      },
+      "Post-Op Conversation": {
+        "priority": 2,
+        "ornament": false
+      },
+      "5": {
+        "priority": 2,
+        "ornament": false
+      },
+      "Perfect Timing": {
+        "priority": 3,
+        "ornament": false
+      },
+      "Quid Pro Quo": {
+        "priority": 0,
+        "ornament": false
+      },
+      "1-5": {
+        "priority": 0,
+        "ornament": false
+      },
+      "Multiplication": {
+        "priority": 1,
+        "ornament": false
+      },
       "Messenger Traversing Hackerspace": {
         "priority": 0,
         "ornament": false
       },
       "Passerby of Wandering Cloud": {
-        "priority": 0,
-        "ornament": false
-      },
-      "Longevous Disciple": {
-        "priority": 1,
+        "priority": 2,
         "ornament": false
       },
       "Fleet of the Ageless": {
         "priority": 0,
-        "ornament": true
-      },
-      "Broken Keel": {
-        "priority": 1,
-        "ornament": true
-      },
-      "Sprightly Vonwacq": {
-        "priority": 2,
-        "ornament": true
-      },
-      "Penacony, Land of the Dreams": {
-        "priority": 3,
         "ornament": true
       }
     },
@@ -2048,36 +2469,40 @@
   {
     "character": "Pela",
     "equipment_set": {
-      "Messenger Traversing Hackerspace": {
+      "Resolution Shines As Pearls of Sweat": {
         "priority": 0,
         "ornament": false
       },
-      "Guard of Wuthering Snow": {
+      "1-5": {
         "priority": 0,
         "ornament": false
       },
-      "Longevous Disciple": {
-        "priority": 1,
+      ")": {
+        "priority": 0,
+        "ornament": false
+      },
+      "Before the Tutorial Mission Starts": {
+        "priority": 0,
+        "ornament": false
+      },
+      "5": {
+        "priority": 0,
         "ornament": false
       },
       "Eagle of Twilight Line": {
-        "priority": 2,
+        "priority": 0,
         "ornament": false
       },
-      "Musketeer of Wild Wheat": {
-        "priority": 3,
+      "Messenger Traversing Hackerspace": {
+        "priority": 1,
         "ornament": false
       },
-      "Penacony, Land of the Dreams": {
+      "Broken Keel": {
         "priority": 0,
         "ornament": true
       },
-      "Broken Keel": {
-        "priority": 1,
-        "ornament": true
-      },
-      "Fleet of the Ageless": {
-        "priority": 2,
+      "Sprightly Vonwacq": {
+        "priority": 0,
         "ornament": true
       }
     },
@@ -2116,11 +2541,15 @@
         "priority": 1,
         "ornament": false
       },
+      "Scholar Lost in Erudition": {
+        "priority": 2,
+        "ornament": false
+      },
       "Rutilant Arena": {
         "priority": 0,
         "ornament": true
       },
-      "Space Sealing Station": {
+      "Firmament Frontline: Glamoth": {
         "priority": 1,
         "ornament": true
       },
@@ -2154,46 +2583,90 @@
   },
   {
     "character": "Rappa",
-    "equipment_set": {},
-    "stats": {}
+    "equipment_set": {
+      "Iron Cavalry Against the Scourge": {
+        "priority": 0,
+        "ornament": false
+      },
+      "Thief of Shooting Meteor": {
+        "priority": 1,
+        "ornament": false
+      },
+      "Eagle of Twilight Line": {
+        "priority": 3,
+        "ornament": false
+      },
+      "Talia: Kingdom of Banditry": {
+        "priority": 0,
+        "ornament": true
+      },
+      "Forge of the Kalpagni Lantern": {
+        "priority": 1,
+        "ornament": true
+      }
+    },
+    "stats": {
+      "Body": {
+        "ATK%": 100
+      },
+      "Feet": {
+        "SPD": 100
+      },
+      "Planar Sphere": {
+        "ATK%": 100
+      },
+      "Link Rope": {
+        "Break Effect%": 100,
+        "Energy Regen": 99
+      },
+      "substats": {
+        "SPD": 100,
+        "Break Effect%": 90,
+        "ATK%": 80
+      }
+    }
   },
   {
     "character": "Robin",
     "equipment_set": {
+      "Flowing Nightglow": {
+        "priority": 0,
+        "ornament": false
+      },
+      "1": {
+        "priority": 0,
+        "ornament": false
+      },
+      ")": {
+        "priority": 0,
+        "ornament": false
+      },
+      "For Tomorrow's Journey": {
+        "priority": 1,
+        "ornament": false
+      },
+      "5": {
+        "priority": 1,
+        "ornament": false
+      },
+      "But the Battle Isn't Over": {
+        "priority": 2,
+        "ornament": false
+      },
+      "Meshing Cogs": {
+        "priority": 0,
+        "ornament": false
+      },
+      "Poised to Bloom": {
+        "priority": 1,
+        "ornament": false
+      },
       "Musketeer of Wild Wheat": {
         "priority": 0,
         "ornament": false
       },
-      "Prisoner in Deep Confinement": {
-        "priority": 0,
-        "ornament": false
-      },
-      "Messenger Traversing Hackerspace": {
-        "priority": 1,
-        "ornament": false
-      },
-      "Champion of Streetwise Boxing": {
-        "priority": 2,
-        "ornament": false
-      },
-      "Fleet of the Ageless": {
-        "priority": 0,
-        "ornament": true
-      },
       "Sprightly Vonwacq": {
-        "priority": 1,
-        "ornament": true
-      },
-      "Penacony, Land of the Dreams": {
-        "priority": 2,
-        "ornament": true
-      },
-      "Broken Keel": {
-        "priority": 3,
-        "ornament": true
-      },
-      "Space Sealing Station": {
-        "priority": 4,
+        "priority": 0,
         "ornament": true
       }
     },
@@ -2222,6 +2695,34 @@
   {
     "character": "Ruan Mei",
     "equipment_set": {
+      "Past Self in Mirror": {
+        "priority": 0,
+        "ornament": false
+      },
+      "1": {
+        "priority": 0,
+        "ornament": false
+      },
+      ")": {
+        "priority": 0,
+        "ornament": false
+      },
+      "Memories of the Past": {
+        "priority": 1,
+        "ornament": false
+      },
+      "5": {
+        "priority": 1,
+        "ornament": false
+      },
+      "Meshing Cogs": {
+        "priority": 2,
+        "ornament": false
+      },
+      "Dance! Dance! Dance!": {
+        "priority": 0,
+        "ornament": false
+      },
       "Watchmaker, Master of Dream Machinations": {
         "priority": 0,
         "ornament": false
@@ -2234,20 +2735,12 @@
         "priority": 2,
         "ornament": false
       },
-      "Fleet of the Ageless": {
+      "Sprightly Vonwacq": {
         "priority": 0,
         "ornament": true
       },
-      "Broken Keel": {
-        "priority": 1,
-        "ornament": true
-      },
-      "Penacony, Land of the Dreams": {
-        "priority": 2,
-        "ornament": true
-      },
       "Talia: Kingdom of Banditry": {
-        "priority": 3,
+        "priority": 0,
         "ornament": true
       }
     },
@@ -2334,7 +2827,7 @@
         "priority": 0,
         "ornament": false
       },
-      "Musketeer of Wild Wheat": {
+      "Scholar Lost in Erudition": {
         "priority": 1,
         "ornament": false
       },
@@ -2346,12 +2839,8 @@
         "priority": 1,
         "ornament": true
       },
-      "Space Sealing Station": {
-        "priority": 2,
-        "ornament": true
-      },
       "Inert Salsotto": {
-        "priority": 3,
+        "priority": 2,
         "ornament": true
       }
     },
@@ -2432,36 +2921,56 @@
   {
     "character": "Silver Wolf",
     "equipment_set": {
-      "Eagle of Twilight Line": {
+      "Before the Tutorial Mission Starts": {
         "priority": 0,
+        "ornament": false
+      },
+      "5": {
+        "priority": 0,
+        "ornament": false
+      },
+      ")": {
+        "priority": 0,
+        "ornament": false
+      },
+      "Incessant Rain": {
+        "priority": 1,
+        "ornament": false
+      },
+      "1": {
+        "priority": 1,
+        "ornament": false
+      },
+      "Resolution Shines As Pearls of Sweat": {
+        "priority": 2,
+        "ornament": false
+      },
+      "1-5": {
+        "priority": 2,
         "ornament": false
       },
       "Messenger Traversing Hackerspace": {
-        "priority": 1,
+        "priority": 0,
         "ornament": false
       },
       "Genius of Brilliant Stars": {
+        "priority": 0,
+        "ornament": false
+      },
+      "Eagle of Twilight Line": {
         "priority": 1,
         "ornament": false
       },
-      "Musketeer of Wild Wheat": {
-        "priority": 2,
-        "ornament": false
-      },
-      "Penacony, Land of the Dreams": {
+      "Broken Keel": {
         "priority": 0,
         "ornament": true
       },
-      "Broken Keel": {
+      "Pan-Cosmic Commercial Enterprise": {
+        "priority": 0,
+        "ornament": true
+      },
+      "Sprightly Vonwacq": {
         "priority": 1,
-        "ornament": true
-      },
-      "Fleet of the Ageless": {
-        "priority": 2,
-        "ornament": true
-      },
-      "Talia: Kingdom of Banditry": {
-        "priority": 3,
         "ornament": true
       }
     },
@@ -2492,32 +3001,52 @@
   {
     "character": "Sparkle",
     "equipment_set": {
-      "Messenger Traversing Hackerspace": {
+      "Earthly Escapade": {
         "priority": 0,
         "ornament": false
       },
-      "Guard of Wuthering Snow": {
+      "1": {
+        "priority": 0,
+        "ornament": false
+      },
+      ")": {
+        "priority": 0,
+        "ornament": false
+      },
+      "But the Battle Isn't Over": {
         "priority": 1,
         "ornament": false
       },
-      "Longevous Disciple": {
+      "Past and Future": {
         "priority": 2,
         "ornament": false
       },
+      "5": {
+        "priority": 2,
+        "ornament": false
+      },
+      "Dance! Dance! Dance!": {
+        "priority": 0,
+        "ornament": false
+      },
+      "Sacerdos' Relived Ordeal": {
+        "priority": 0,
+        "ornament": false
+      },
+      "Messenger Traversing Hackerspace": {
+        "priority": 1,
+        "ornament": false
+      },
       "Eagle of Twilight Line": {
-        "priority": 3,
+        "priority": 0,
         "ornament": false
       },
       "Broken Keel": {
         "priority": 0,
         "ornament": true
       },
-      "Fleet of the Ageless": {
-        "priority": 1,
-        "ornament": true
-      },
-      "Penacony, Land of the Dreams": {
-        "priority": 2,
+      "Sprightly Vonwacq": {
+        "priority": 0,
         "ornament": true
       }
     },
@@ -2543,6 +3072,11 @@
         "Effect RES%": 80
       }
     }
+  },
+  {
+    "character": "Sunday",
+    "equipment_set": {},
+    "stats": {}
   },
   {
     "character": "Sushang",
@@ -2603,34 +3137,59 @@
     }
   },
   {
+    "character": "The Herta",
+    "equipment_set": {},
+    "stats": {}
+  },
+  {
     "character": "Tingyun",
     "equipment_set": {
-      "Messenger Traversing Hackerspace": {
+      "Dance! Dance! Dance!": {
         "priority": 0,
+        "ornament": false
+      },
+      "5": {
+        "priority": 0,
+        "ornament": false
+      },
+      ")": {
+        "priority": 0,
+        "ornament": false
+      },
+      "Meshing Cogs": {
+        "priority": 1,
+        "ornament": false
+      },
+      "But the Battle Isn't Over": {
+        "priority": 2,
+        "ornament": false
+      },
+      "1": {
+        "priority": 2,
+        "ornament": false
+      },
+      "Planetary Rendezvous": {
+        "priority": 0,
+        "ornament": false
+      },
+      "Sacerdos' Relived Ordeal": {
+        "priority": 0,
+        "ornament": false
+      },
+      "Messenger Traversing Hackerspace": {
+        "priority": 1,
         "ornament": false
       },
       "Musketeer of Wild Wheat": {
-        "priority": 1,
-        "ornament": false
-      },
-      "Guard of Wuthering Snow": {
-        "priority": 2,
-        "ornament": false
-      },
-      "Watchmaker, Master of Dream Machinations": {
         "priority": 3,
         "ornament": false
       },
-      "Broken Keel": {
+      "Eagle of Twilight Line": {
         "priority": 0,
-        "ornament": true
+        "ornament": false
       },
-      "Penacony, Land of the Dreams": {
-        "priority": 1,
-        "ornament": true
-      },
-      "Fleet of the Ageless": {
-        "priority": 2,
+      "Sprightly Vonwacq": {
+        "priority": 0,
         "ornament": true
       }
     },
@@ -2659,6 +3218,11 @@
     }
   },
   {
+    "character": "Tingyun \u2022 Fugue",
+    "equipment_set": {},
+    "stats": {}
+  },
+  {
     "character": "Topaz & Numby",
     "equipment_set": {
       "The Ashblazing Grand Duke": {
@@ -2669,27 +3233,19 @@
         "priority": 1,
         "ornament": false
       },
-      "Musketeer of Wild Wheat": {
-        "priority": 3,
-        "ornament": false
-      },
-      "Firesmith of Lava-Forging": {
-        "priority": 4,
-        "ornament": false
-      },
       "Duran, Dynasty of Running Wolves": {
         "priority": 0,
         "ornament": true
       },
-      "Izumo Gensei and Takama Divine Realm": {
+      "The Wondrous BananAmusement Park": {
         "priority": 1,
         "ornament": true
       },
-      "Inert Salsotto": {
+      "Izumo Gensei and Takama Divine Realm": {
         "priority": 2,
         "ornament": true
       },
-      "The Wondrous BananAmusement Park": {
+      "Inert Salsotto": {
         "priority": 3,
         "ornament": true
       }
@@ -2705,10 +3261,10 @@
       },
       "Planar Sphere": {
         "Fire DMG": 100,
-        "ATK": 90
+        "ATK%": 90
       },
       "Link Rope": {
-        "ATK": 100
+        "ATK%": 100
       },
       "substats": {
         "SPD": 100,
@@ -2719,108 +3275,7 @@
     }
   },
   {
-    "character": "Trailblazer (Fire)",
-    "equipment_set": {
-      "Knight of Purity Palace": {
-        "priority": 0,
-        "ornament": false
-      },
-      "Messenger Traversing Hackerspace": {
-        "priority": 1,
-        "ornament": false
-      },
-      "Broken Keel": {
-        "priority": 0,
-        "ornament": true
-      },
-      "Fleet of the Ageless": {
-        "priority": 1,
-        "ornament": true
-      }
-    },
-    "stats": {
-      "Body": {
-        "DEF%": 100
-      },
-      "Feet": {
-        "SPD": 100,
-        "DEF%": 99
-      },
-      "Planar Sphere": {
-        "DEF%": 100,
-        "Fire DMG": 99
-      },
-      "Link Rope": {
-        "Energy Regen": 100,
-        "DEF%": 99
-      },
-      "substats": {
-        "Effect RES%": 100,
-        "SPD": 90,
-        "DEF%": 80,
-        "HP%": 70,
-        "EHR": 60
-      }
-    }
-  },
-  {
-    "character": "Trailblazer (Imaginary)",
-    "equipment_set": {
-      "Watchmaker, Master of Dream Machinations": {
-        "priority": 0,
-        "ornament": false
-      },
-      "Thief of Shooting Meteor": {
-        "priority": 1,
-        "ornament": false
-      },
-      "Messenger Traversing Hackerspace": {
-        "priority": 1,
-        "ornament": false
-      },
-      "Forge of the Kalpagni Lantern": {
-        "priority": 0,
-        "ornament": true
-      },
-      "Talia: Kingdom of Banditry": {
-        "priority": 1,
-        "ornament": true
-      },
-      "Sprightly Vonwacq": {
-        "priority": 2,
-        "ornament": true
-      },
-      "Penacony, Land of the Dreams": {
-        "priority": 3,
-        "ornament": true
-      }
-    },
-    "stats": {
-      "Body": {
-        "HP%": 100,
-        "DEF%": 90
-      },
-      "Feet": {
-        "SPD": 100
-      },
-      "Planar Sphere": {
-        "HP%": 100,
-        "DEF%": 90
-      },
-      "Link Rope": {
-        "Break Effect%": 100,
-        "Energy Regen": 90
-      },
-      "substats": {
-        "SPD": 100,
-        "Break Effect%": 100,
-        "HP%": 90,
-        "DEF%": 90
-      }
-    }
-  },
-  {
-    "character": "Trailblazer (Physical)",
+    "character": "Trailblazer \u2022 Destruction",
     "equipment_set": {
       "Champion of Streetwise Boxing": {
         "priority": 0,
@@ -2872,6 +3327,160 @@
         "ATK%": 79
       }
     }
+  },
+  {
+    "character": "Trailblazer \u2022 Harmony",
+    "equipment_set": {
+      "Past Self in Mirror": {
+        "priority": 0,
+        "ornament": false
+      },
+      "1": {
+        "priority": 0,
+        "ornament": false
+      },
+      ")": {
+        "priority": 0,
+        "ornament": false
+      },
+      "Memories of the Past": {
+        "priority": 1,
+        "ornament": false
+      },
+      "5": {
+        "priority": 1,
+        "ornament": false
+      },
+      "Meshing Cogs": {
+        "priority": 2,
+        "ornament": false
+      },
+      "Dance! Dance! Dance!": {
+        "priority": 0,
+        "ornament": false
+      },
+      "Watchmaker, Master of Dream Machinations": {
+        "priority": 0,
+        "ornament": false
+      },
+      "Thief of Shooting Meteor": {
+        "priority": 1,
+        "ornament": false
+      },
+      "Eagle of Twilight Line": {
+        "priority": 0,
+        "ornament": false
+      },
+      "Talia: Kingdom of Banditry": {
+        "priority": 0,
+        "ornament": true
+      },
+      "Forge of the Kalpagni Lantern": {
+        "priority": 0,
+        "ornament": true
+      },
+      "Sprightly Vonwacq": {
+        "priority": 1,
+        "ornament": true
+      }
+    },
+    "stats": {
+      "Body": {
+        "HP%": 100,
+        "DEF%": 90
+      },
+      "Feet": {
+        "SPD": 100
+      },
+      "Planar Sphere": {
+        "HP%": 100,
+        "DEF%": 90
+      },
+      "Link Rope": {
+        "Break Effect%": 100,
+        "Energy Regen": 90
+      },
+      "substats": {
+        "SPD": 100,
+        "Break Effect%": 100,
+        "HP%": 90,
+        "DEF%": 90
+      }
+    }
+  },
+  {
+    "character": "Trailblazer \u2022 Preservation",
+    "equipment_set": {
+      "Moment of Victory": {
+        "priority": 0,
+        "ornament": false
+      },
+      "1": {
+        "priority": 0,
+        "ornament": false
+      },
+      ")": {
+        "priority": 0,
+        "ornament": false
+      },
+      "Landau's Choice": {
+        "priority": 1,
+        "ornament": false
+      },
+      "5": {
+        "priority": 1,
+        "ornament": false
+      },
+      "Texture of Memories": {
+        "priority": 2,
+        "ornament": false
+      },
+      "Day One of My New Life": {
+        "priority": 3,
+        "ornament": false
+      },
+      "Trend of the Universal Market": {
+        "priority": 0,
+        "ornament": false
+      },
+      "1-5": {
+        "priority": 0,
+        "ornament": false
+      },
+      "Knight of Purity Palace": {
+        "priority": 0,
+        "ornament": false
+      }
+    },
+    "stats": {
+      "Body": {
+        "DEF%": 100
+      },
+      "Feet": {
+        "SPD": 100,
+        "DEF%": 99
+      },
+      "Planar Sphere": {
+        "DEF%": 100,
+        "Fire DMG": 99
+      },
+      "Link Rope": {
+        "Energy Regen": 100,
+        "DEF%": 99
+      },
+      "substats": {
+        "Effect RES%": 100,
+        "SPD": 90,
+        "DEF%": 80,
+        "HP%": 70,
+        "EHR": 60
+      }
+    }
+  },
+  {
+    "character": "Trailblazer \u2022 Remembrance",
+    "equipment_set": {},
+    "stats": {}
   },
   {
     "character": "Welt",
@@ -3001,16 +3610,12 @@
   {
     "character": "Yanqing",
     "equipment_set": {
+      "Scholar Lost in Erudition": {
+        "priority": 0,
+        "ornament": false
+      },
       "Hunter of Glacial Forest": {
-        "priority": 0,
-        "ornament": false
-      },
-      "Musketeer of Wild Wheat": {
-        "priority": 0,
-        "ornament": false
-      },
-      "Pioneer Diver of Dead Waters": {
-        "priority": 2,
+        "priority": 1,
         "ornament": false
       },
       "Firmament Frontline: Glamoth": {
@@ -3023,10 +3628,6 @@
       },
       "Space Sealing Station": {
         "priority": 2,
-        "ornament": true
-      },
-      "Inert Salsotto": {
-        "priority": 3,
         "ornament": true
       }
     },
@@ -3056,28 +3657,44 @@
   {
     "character": "Yukong",
     "equipment_set": {
-      "Messenger Traversing Hackerspace": {
+      "Memories of the Past": {
         "priority": 0,
         "ornament": false
       },
-      "Longevous Disciple": {
+      "5": {
         "priority": 0,
         "ornament": false
       },
-      "Guard of Wuthering Snow": {
+      ")": {
+        "priority": 0,
+        "ornament": false
+      },
+      "But the Battle Isn't Over": {
         "priority": 1,
         "ornament": false
       },
-      "Musketeer of Wild Wheat": {
+      "1": {
+        "priority": 1,
+        "ornament": false
+      },
+      "Meshing Cogs": {
         "priority": 2,
+        "ornament": false
+      },
+      "Planetary Rendezvous": {
+        "priority": 0,
+        "ornament": false
+      },
+      "Messenger Traversing Hackerspace": {
+        "priority": 0,
         "ornament": false
       },
       "Broken Keel": {
         "priority": 0,
         "ornament": true
       },
-      "Fleet of the Ageless": {
-        "priority": 1,
+      "Inert Salsotto": {
+        "priority": 0,
         "ornament": true
       }
     },
@@ -3115,14 +3732,6 @@
       },
       "The Ashblazing Grand Duke": {
         "priority": 1,
-        "ornament": false
-      },
-      "Champion of Streetwise Boxing": {
-        "priority": 2,
-        "ornament": false
-      },
-      "Musketeer of Wild Wheat": {
-        "priority": 3,
         "ornament": false
       },
       "Inert Salsotto": {
