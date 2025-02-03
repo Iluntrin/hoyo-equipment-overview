@@ -16,6 +16,7 @@ sanitized_stats = {
 	"ATK%": "ATK%",
 	"ATK": "ATK",
 	"FLAT ATK": "ATK",
+	"Flat ATK": "ATK",
 	"HP%": "HP%",
 	"HP": "HP",
 	"DEF%": "DEF%",
@@ -28,6 +29,7 @@ sanitized_stats = {
 	"Break Effect" : "Break Effect%",
 	"BREAK EFFECT%" : "Break Effect%",
 	"Break Effect %" : "Break Effect%",
+	"BREAK%" : "Break Effect%",
 	"Energy Regen Rate" : "Energy Regen",
 	"Energy Regen" : "Energy Regen",
 	"Energy Regen%" : "Energy Regen",
@@ -64,6 +66,78 @@ sanitized_stats = {
 
 }
 
+
+allowed_equipment_names = [
+
+#hsr
+"Pioneer Diver of Dead Waters", 
+"Scholar Lost in Erudition", 
+"Band of Sizzling Thunder", 
+"Izumo Gensei and Takama Divine Realm", 
+"Inert Salsotto", 
+"Space Sealing Station", 
+"Firmament Frontline: Glamoth", 
+"Champion of Streetwise Boxing", 
+"Eagle of Twilight Line", 
+"Sigonia, the Unclaimed Desolation", 
+"Longevous Disciple", 
+"Rutilant Arena", 
+"Messenger Traversing Hackerspace", 
+"Watchmaker, Master of Dream Machinations", 
+"Sprightly Vonwacq", 
+"Knight of Purity Palace", 
+"Broken Keel", 
+"Duran, Dynasty of Running Wolves", 
+"Passerby of Wandering Cloud", 
+"Fleet of the Ageless", 
+"Prisoner in Deep Confinement", 
+"Musketeer of Wild Wheat", 
+"Pan-Cosmic Commercial Enterprise", 
+"Iron Cavalry Against the Scourge", 
+"Thief of Shooting Meteor", 
+"Talia: Kingdom of Banditry", 
+"Forge of the Kalpagni Lantern", 
+"Sacerdos' Relived Ordeal", 
+"Poet of Mourning Collapse", 
+"Wastelander of Banditry Desert", 
+"The Ashblazing Grand Duke", 
+"The Wind-Soaring Valorous", 
+"Belobog of the Architects", 
+"Hunter of Glacial Forest", 
+"Firesmith of Lava-Forging", 
+"Genius of Brilliant Stars", 
+"The Wondrous BananAmusement Park", 
+"Lushaka, the Sunken Seas", 
+"Hero of Triumphant Song", 
+"Celestial Differentiator", 
+"Guard of Wuthering Snow", 
+"Penacony, Land of the Dreams", 
+
+
+
+#zzz
+"Shockstar Disco",
+"Swing Jazz",
+"Freedom Blues",
+"Thunder Metal",
+"Puffer Electro",
+"Hormone Punk",
+"Woodpecker Electro",
+"Astral Voice",
+"Soul Rock",
+"Inferno Metal",
+"Proto Punk",
+"Fanged Metal",
+"Chaos Jazz",
+"Polar Metal",
+"Branch & Blade Song",
+"Chaotic Metal",
+
+
+]
+	
+
+
 class EquipmentStats(object):
 	def __init__(self, character):
 		self.character = character
@@ -74,13 +148,37 @@ class EquipmentStats(object):
 		self.current_stat_key = ""
 		self.current_order = 100
 
+	def set_allowed_equipment(self, name, data):
+
+		# if(name not in allowed_equipment_names):
+		# 	print("new equipment name: ", name) # has to be placed into allowed_equipments_names
+		# else:
+			self.equipment_set[name] = data
+
+
 	def set_equipment(self, name, data):
+		# print(name)
+
 		name = name.strip()
-		if(name == "" or name.startswith("(") or name == "4" or name == "-PC)"): # filter out errors
+		if(name == "" or name.startswith("(") or name == "4" or name == "2" or name == "-PC)"): # filter out errors
 			return
 
-		if(name not in self.equipment_set): # make sure that equipment doesnt already exist
-			self.equipment_set[name] = data
+		if("/" in name):
+			name = name.split("/")
+			if(name[0].strip() not in self.equipment_set):
+				self.set_allowed_equipment(name[0].strip(), data)
+			if(name[1].strip() not in self.equipment_set):
+				self.set_allowed_equipment(name[1].strip(), data)
+
+		elif(" or " in name):
+			name = name.split("or")
+			if(name[0].strip() not in self.equipment_set):
+				self.set_allowed_equipment(name[0].strip(), data)
+			if(name[1].strip() not in self.equipment_set):
+				self.set_allowed_equipment(name[1].strip(), data)
+
+		elif(name not in self.equipment_set): # make sure that equipment doesnt already exist
+			self.set_allowed_equipment(name, data)
 		
 
 	def set_stat_key(self,stat_key):
@@ -215,11 +313,14 @@ class HSREquipmentParser(HTMLParser):
 			"main_stat": -1,
 			"order": -1,
 			"substats": -1,
+			"build-relics":-1,
+			"content-header":-1,
 			"set": -1,
 			"set_specific": -1,
 			"set_ornaments": -1
 		}
 
+		self.parsing_set = False
 		self.set_priority = -1
 		self.set_2piece = False
 
@@ -264,20 +365,25 @@ class HSREquipmentParser(HTMLParser):
 					self.stats.set_stat_key("substats")
 
 				if(html_classes != None and "build-relics" in html_classes):
-					self.parsing_structure["set"] = 1
+					self.parsing_structure["build-relics"] = 1
+
 					self.set_ornament = False
 					self.set_priority = -1 # reset priority
 
-				if(self.parsing_structure["set"] > 0 and html_classes != None and "single-cone" in html_classes):
+				if(self.parsing_structure["build-relics"] > 0 and html_classes != None and "content-header" in html_classes):
+					self.parsing_structure["content-header"] = 1
+
+
+				if(self.parsing_set and html_classes != None and "single-cone" in html_classes):
 					self.set_priority += 1
 
 		if(self.tab == 2): # we only want to look at build and teams tab
 			if(tag == "button"):
-				if(self.parsing_structure["set"] > 0):
+				if(self.parsing_set):
 					self.parsing_structure["set_specific"] = 1
 
 			if(tag == "h6"):
-				if(self.parsing_structure["set"] > 0):
+				if(self.parsing_set):
 					self.parsing_structure["set_ornaments"] = 1
 					self.set_priority = -1 # reset priority
 
@@ -289,9 +395,20 @@ class HSREquipmentParser(HTMLParser):
 		
 		if(tag == "script"):
 			self.parsing_scripts = False
+
+		if(self.parsing_structure["build-relics"] <= 0):
+			self.parsing_set = False
 		
 	def handle_data(self, data):
 		if(not self.parsing_scripts):
+			if(self.parsing_structure["content-header"] > 0):
+				if("Best Relics" in data):
+					self.parsing_set = True
+					self.set_ornament = False
+					self.set_priority = -1 # reset priority
+				else:
+					self.parsing_set = False				
+
 			if(self.parsing_structure["stats_header"] > 0):
 				self.stats.set_stat_key(data)
 			if(self.parsing_structure["main_stat"] > 0):

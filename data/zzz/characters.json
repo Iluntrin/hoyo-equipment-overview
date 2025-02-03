@@ -3,9 +3,17 @@
     "filter": false,
     "link": "/zenless/characters/anby-demara"
   },
+  "Anby: Silver Soldier": {
+    "filter": false,
+    "link": "/zenless/characters/anby-demara-silver-soldier"
+  },
   "Anton": {
     "filter": false,
     "link": "/zenless/characters/anton"
+  },
+  "Astra Yao": {
+    "filter": false,
+    "link": "/zenless/characters/astra-yao"
   },
   "Ben": {
     "filter": false,
@@ -30,6 +38,10 @@
   "Ellen": {
     "filter": false,
     "link": "/zenless/characters/ellen"
+  },
+  "Evelyn": {
+    "filter": false,
+    "link": "/zenless/characters/evelyn"
   },
   "Grace": {
     "filter": false,
@@ -75,6 +87,10 @@
     "filter": false,
     "link": "/zenless/characters/piper"
   },
+  "Pulchra": {
+    "filter": false,
+    "link": "/zenless/characters/pulchra"
+  },
   "Qingyi": {
     "filter": false,
     "link": "/zenless/characters/qingyi"
@@ -94,6 +110,10 @@
   "Soukaku": {
     "filter": false,
     "link": "/zenless/characters/soukaku"
+  },
+  "Trigger": {
+    "filter": false,
+    "link": "/zenless/characters/trigger"
   },
   "Yanagi": {
     "filter": false,

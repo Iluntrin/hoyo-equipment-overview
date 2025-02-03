@@ -48,6 +48,11 @@
     }
   },
   {
+    "character": "Anby: Silver Soldier",
+    "equipment_set": {},
+    "stats": {}
+  },
+  {
     "character": "Anton",
     "equipment_set": {
       "Thunder Metal": {
@@ -84,6 +89,43 @@
         "ATK%": 90,
         "PEN": 80,
         "ATK": 80
+      }
+    }
+  },
+  {
+    "character": "Astra Yao",
+    "equipment_set": {
+      "Astral Voice": {
+        "priority": 0,
+        "2piece": false
+      },
+      "Swing Jazz": {
+        "priority": 0.1,
+        "2piece": true
+      },
+      "Hormone Punk": {
+        "priority": 0.2,
+        "2piece": true
+      }
+    },
+    "stats": {
+      "Disk 4": {
+        "ATK%": 100
+      },
+      "Disk 5": {
+        "ATK%": 100
+      },
+      "Disk 6": {
+        "Energy Regen": 100,
+        "ATK%": 100
+      },
+      "substats": {
+        "ATK%": 100,
+        "ATK": 90,
+        "CRIT Rate": 80,
+        "CRIT DMG": 80,
+        "PEN": 70,
+        "Anomaly Proficiency": 80
       }
     }
   },
@@ -360,6 +402,11 @@
     }
   },
   {
+    "character": "Evelyn",
+    "equipment_set": {},
+    "stats": {}
+  },
+  {
     "character": "Grace",
     "equipment_set": {
       "Thunder Metal": {
@@ -380,10 +427,6 @@
       },
       "Chaos Jazz": {
         "priority": 1,
-        "2piece": false
-      },
-      "2": {
-        "priority": 2,
         "2piece": false
       }
     },
@@ -411,8 +454,52 @@
   },
   {
     "character": "Harumasa",
-    "equipment_set": {},
-    "stats": {}
+    "equipment_set": {
+      "Thunder Metal": {
+        "priority": 0,
+        "2piece": false
+      },
+      "Woodpecker Electro": {
+        "priority": 0.1,
+        "2piece": true
+      },
+      "Hormone Punk": {
+        "priority": 0.2,
+        "2piece": true
+      },
+      "Astral Voice": {
+        "priority": 0.2,
+        "2piece": true
+      },
+      "Branch & Blade Song": {
+        "priority": 0.30000000000000004,
+        "2piece": true
+      },
+      "Puffer Electro": {
+        "priority": 0.4,
+        "2piece": true
+      }
+    },
+    "stats": {
+      "Disk 4": {
+        "CRIT DMG": 100,
+        "CRIT Rate": 99
+      },
+      "Disk 5": {
+        "Electric DMG%": 100,
+        "ATK%": 99
+      },
+      "Disk 6": {
+        "ATK%": 100
+      },
+      "substats": {
+        "CRIT DMG": 100,
+        "CRIT Rate": 100,
+        "ATK%": 100,
+        "PEN": 90,
+        "ATK": 90
+      }
+    }
   },
   {
     "character": "Jane Doe",
@@ -570,11 +657,11 @@
   {
     "character": "Lucy",
     "equipment_set": {
-      "Swing Jazz": {
+      "Astral Voice": {
         "priority": 0,
         "2piece": false
       },
-      "Hormone Punk": {
+      "Swing Jazz": {
         "priority": 0.1,
         "2piece": true
       },
@@ -582,8 +669,16 @@
         "priority": 0.2,
         "2piece": true
       },
+      "Chaos Jazz": {
+        "priority": 0.2,
+        "2piece": true
+      },
+      "Hormone Punk": {
+        "priority": 1.1,
+        "2piece": true
+      },
       "Puffer Electro": {
-        "priority": 0.30000000000000004,
+        "priority": 1.3000000000000003,
         "2piece": true
       }
     },
@@ -658,8 +753,53 @@
   },
   {
     "character": "Miyabi",
-    "equipment_set": {},
-    "stats": {}
+    "equipment_set": {
+      "Branch & Blade Song": {
+        "priority": 0,
+        "2piece": false
+      },
+      "Polar Metal": {
+        "priority": 0.1,
+        "2piece": true
+      },
+      "Hormone Punk": {
+        "priority": 0.2,
+        "2piece": true
+      },
+      "Astral Voice": {
+        "priority": 0.2,
+        "2piece": true
+      },
+      "Puffer Electro": {
+        "priority": 0.30000000000000004,
+        "2piece": true
+      },
+      "Woodpecker Electro": {
+        "priority": 0.4,
+        "2piece": true
+      }
+    },
+    "stats": {
+      "Disk 4": {
+        "CRIT Rate": 100,
+        "ATK%": 99
+      },
+      "Disk 5": {
+        "Ice DMG%": 100,
+        "ATK%": 100
+      },
+      "Disk 6": {
+        "ATK%": 100
+      },
+      "substats": {
+        "CRIT Rate": 100,
+        "CRIT DMG": 99,
+        "ATK%": 99,
+        "Anomaly Proficiency": 89,
+        "ATK": 89,
+        "PEN": 89
+      }
+    }
   },
   {
     "character": "Nekomata",
@@ -705,20 +845,28 @@
   {
     "character": "Nicole",
     "equipment_set": {
-      "Swing Jazz": {
+      "Astral Voice": {
         "priority": 0,
         "2piece": false
       },
-      "Freedom Blues": {
+      "Swing Jazz": {
         "priority": 0.1,
         "2piece": true
       },
-      "Hormone Punk": {
+      "Freedom Blues": {
         "priority": 0.2,
         "2piece": true
       },
+      "Chaos Jazz": {
+        "priority": 0.2,
+        "2piece": true
+      },
+      "Hormone Punk": {
+        "priority": 1.2000000000000002,
+        "2piece": true
+      },
       "Puffer Electro": {
-        "priority": 0.30000000000000004,
+        "priority": 1.3000000000000003,
         "2piece": true
       }
     },
@@ -786,6 +934,11 @@
     }
   },
   {
+    "character": "Pulchra",
+    "equipment_set": {},
+    "stats": {}
+  },
+  {
     "character": "Qingyi",
     "equipment_set": {
       "Shockstar Disco": {
@@ -832,11 +985,11 @@
   {
     "character": "Rina",
     "equipment_set": {
-      "Swing Jazz": {
+      "Astral Voice": {
         "priority": 0,
         "2piece": false
       },
-      "Puffer Electro": {
+      "Swing Jazz": {
         "priority": 0.1,
         "2piece": true
       },
@@ -844,12 +997,20 @@
         "priority": 0.2,
         "2piece": true
       },
+      "Chaos Jazz": {
+        "priority": 0.2,
+        "2piece": true
+      },
+      "Puffer Electro": {
+        "priority": 1.1,
+        "2piece": true
+      },
       "Hormone Punk": {
-        "priority": 0.30000000000000004,
+        "priority": 1.3000000000000003,
         "2piece": true
       },
       "Thunder Metal": {
-        "priority": 0.4,
+        "priority": 1.4000000000000004,
         "2piece": true
       }
     },
@@ -876,29 +1037,33 @@
   {
     "character": "Seth",
     "equipment_set": {
-      "Swing Jazz": {
+      "Astral Voice": {
         "priority": 0,
         "2piece": false
       },
-      "Hormone Punk/Proto Punk": {
+      "Swing Jazz": {
         "priority": 0.1,
         "2piece": true
       },
-      "Shockstar Disco": {
+      "Freedom Blues": {
         "priority": 0.2,
         "2piece": true
       },
-      "Proto Punk": {
-        "priority": 1,
-        "2piece": false
-      },
-      "Hormone Punk": {
-        "priority": 1.2000000000000002,
+      "Chaos Jazz": {
+        "priority": 0.2,
         "2piece": true
       },
-      "Freedom Blues": {
-        "priority": 2,
-        "2piece": false
+      "Hormone Punk": {
+        "priority": 1.1,
+        "2piece": true
+      },
+      "Proto Punk": {
+        "priority": 1.1,
+        "2piece": true
+      },
+      "Shockstar Disco": {
+        "priority": 1.2000000000000002,
+        "2piece": true
       }
     },
     "stats": {
@@ -966,15 +1131,19 @@
   {
     "character": "Soukaku",
     "equipment_set": {
-      "Swing Jazz": {
+      "Astral Voice": {
         "priority": 0,
         "2piece": false
       },
-      "Hormone Punk": {
+      "Swing Jazz": {
         "priority": 0.1,
         "2piece": true
       },
       "Freedom Blues": {
+        "priority": 0.2,
+        "2piece": true
+      },
+      "Chaos Jazz": {
         "priority": 0.2,
         "2piece": true
       },
@@ -984,6 +1153,10 @@
       },
       "Polar Metal": {
         "priority": 0.4,
+        "2piece": true
+      },
+      "Hormone Punk": {
+        "priority": 1.1,
         "2piece": true
       }
     },
@@ -1010,6 +1183,11 @@
     }
   },
   {
+    "character": "Trigger",
+    "equipment_set": {},
+    "stats": {}
+  },
+  {
     "character": "Yanagi",
     "equipment_set": {
       "Chaos Jazz": {
@@ -1030,10 +1208,6 @@
       },
       "Hormone Punk": {
         "priority": 0.4,
-        "2piece": true
-      },
-      "Chaos Jazz / Freedom Blues": {
-        "priority": 1.1,
         "2piece": true
       }
     },

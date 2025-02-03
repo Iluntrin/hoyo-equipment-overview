@@ -34,6 +34,8 @@ def load_character_list():
 
 	parser = CharacterListParser()
 
+	# print(url)
+
 	if(debug):
 		curl.curlCall(url, callBack=parser.feed, abbortIfSaved=True, saveFile=True)
 	else:
@@ -70,8 +72,30 @@ def load_equipments_per_character():
 			break;
 			# pass
 		# else:
+
 		# timeout to prevent possible ddos prevention
 		time.sleep(1)
+
+	# print(equipments)
+
+	# debug output -> show all equipments so that we can compare them to our list
+	unique_equipments = {}
+	for e in equipments:
+		if("equipment_set" not in e):
+			print(e["character"])
+		for e2 in e["equipment_set"]:
+			# print(e2)
+			if(e2 not in unique_equipments):
+				unique_equipments[e2] = []
+			unique_equipments[e2].append(e["character"])
+
+	# print(unique_equipments)
+
+	for e in unique_equipments:
+		print(e)
+		# print(unique_equipments[e])
+		
+
 
 	with open(config["equipment_list_file"], 'w') as f:
 		json.dump(equipments, f, indent=2)

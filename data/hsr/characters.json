@@ -155,6 +155,10 @@
     "filter": false,
     "link": "/star-rail/characters/moze"
   },
+  "Mydei": {
+    "filter": false,
+    "link": "/star-rail/characters/mydei"
+  },
   "Natasha": {
     "filter": false,
     "link": "/star-rail/characters/natasha"
@@ -238,6 +242,10 @@
   "Trailblazer \u2022 Remembrance": {
     "filter": false,
     "link": "/star-rail/characters/trailblazer-remembrance"
+  },
+  "Tribbie": {
+    "filter": false,
+    "link": "/star-rail/characters/tribbie"
   },
   "Welt": {
     "filter": false,
